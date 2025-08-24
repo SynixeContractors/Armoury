@@ -28,6 +28,12 @@ dlc = [
     "rf",
 ]
 
+[ef]
+extends = "default"
+dlc = [
+    "ef",
+]
+
 [aegis]
 extends = "default"
 workshop = [
