@@ -99,7 +99,7 @@ class CBA_556x45_STANAG_2D_XL {
         QCLASS(150Rnd_556x45_Ball_Drum),
         QCLASS(150Rnd_556x45_Ball_Tracer_Drum),
         QCLASS(150Rnd_556x45_EPR_Drum),
-	QCLASS(150Rnd_556x45_AP_Drum)
+        QCLASS(150Rnd_556x45_AP_Drum)
     };
 };
 
@@ -108,7 +108,7 @@ class CBA_556x45_MINIMI {
         QCLASS(200Rnd_556x45_Ball_Belt),
         QCLASS(200Rnd_556x45_Ball_Tracer_Belt),
         QCLASS(200Rnd_556x45_EPR_Belt),
-	QCLASS(200Rnd_556x45_AP_Belt)
+        QCLASS(200Rnd_556x45_AP_Belt)
     };
 };
 

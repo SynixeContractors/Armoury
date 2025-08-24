@@ -44,7 +44,7 @@ class CfgMagazineWells {
             QCLASS(100Rnd_762x51_Ball_Belt_SA77),
             QCLASS(100Rnd_762x51_Ball_Tracer_Belt_SA77),
             QCLASS(100Rnd_762x51_EPR_Belt_SA77),
-	    QCLASS(100Rnd_762x51_AP_Belt_SA77)
+            QCLASS(100Rnd_762x51_AP_Belt_SA77)
         };
     };
 };
