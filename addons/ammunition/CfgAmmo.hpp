@@ -299,7 +299,7 @@ class CfgAmmo {
         caliber = 2.6;
         hit = 17;
     };
-    class CLASS(408C_AP): CLASS(408C_AP) {
+    class CLASS(408C_AP): CLASS(408C_EPR) {
         caliber = 3.1;
         hit = 18;
     };
