@@ -284,3 +284,18 @@ class CBA_762x54R_LINKS {
         QCLASS(150Rnd_762x54r_EPR_Belt)
     };
 };
+class CBA_338NM_LINKS {
+    ADDON[] = {
+        QCLASS(130Rnd_338NM_Ball),
+        QCLASS(130Rnd_338NM_Ball_Tracer),
+        QCLASS(130Rnd_338NM_EPR),
+        QCLASS(130Rnd_338NM_AP)
+    };
+};
+class MAR10_338 { // ace uses basegame magwell?
+    ADDON[] = {
+        QCLASS(10Rnd_338LM_EPR),
+        QCLASS(10Rnd_338LM_AP)
+    };
+};
+
