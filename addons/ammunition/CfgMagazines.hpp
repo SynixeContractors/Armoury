@@ -27,6 +27,7 @@ class CfgMagazines {
     class 130Rnd_338_Mag;
     class 10Rnd_338_Mag;
     class 7Rnd_408_Mag;
+    class 150Rnd_93x64_Mag;
 
     // Handgun baseclasses
     class 16Rnd_9x21_Mag;
@@ -47,5 +48,6 @@ class CfgMagazines {
     #include "bi\338NM.hpp"
     #include "bi\338LM.hpp"
     #include "bi\408CT.hpp"
+    #include "bi\93x64.hpp"
     #include "bi\vehicle.hpp"
 };
