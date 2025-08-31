@@ -298,4 +298,10 @@ class MAR10_338 { // ace uses basegame magwell?
         QCLASS(10Rnd_338LM_AP)
     };
 };
+class CBA_408CT_Inter {
+    ADDON[] = {
+        QCLASS(7Rnd_408C_EPR),
+        QCLASS(7Rnd_408C_AP)
+    };
+};
 

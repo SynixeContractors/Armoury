@@ -8,7 +8,7 @@ class CLASS(10Rnd_338LM_EPR): 10Rnd_338_Mag {
     descriptionShort = ".338NM EPR";
 };
 class CLASS(10Rnd_338LM_AP): CLASS(10Rnd_338LM_EPR) {
-    ammo = QCLASS(338LM_EPR);
+    ammo = QCLASS(338LM_AP);
     displayName = ".338NM 10Rnd (AP)";
     displayNameShort = "AP";
     descriptionShort = ".338NM AP";

@@ -26,17 +26,3 @@ class CLASS(130Rnd_338NM_AP): CLASS(130Rnd_338NM_EPR) {
     displayNameShort = "AP TE4";
     descriptionShort = ".338NM EPR Tracer Every 4";
 };
-
-class CLASS(10Rnd_338LM_EPR): 10Rnd_338_Mag {
-    ammo = QCLASS(338LM_EPR);
-    displayName = ".338NM 10Rnd (EPR)";
-    displayNameShort = "EPR";
-    descriptionShort = ".338NM EPR";
-};
-class CLASS(10Rnd_338LM_AP): CLASS(10Rnd_338LM_EPR) {
-    ammo = QCLASS(338LM_EPR);
-    displayName = ".338NM 10Rnd (AP)";
-    displayNameShort = "AP";
-    descriptionShort = ".338NM AP";
-};
-
