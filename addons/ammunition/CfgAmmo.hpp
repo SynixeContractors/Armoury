@@ -23,6 +23,9 @@ class CfgAmmo {
     class B_93x64_Ball; // 9.3x64
     class B_338_NM_Ball; // 338 NM
     class ACE_408_Ball; // 408 Cheyanne
+    class B_127x99_Ball; //.50 BMG
+    class B_127x108_Ball; //12.7 Soviet
+    class B_127x108_APDS;
 
     // 12G
     class CLASS(12g_Pellets_Submunition): B_12Gauge_Pellets_Submunition {
@@ -318,6 +321,31 @@ class CfgAmmo {
         caliber = 2.7;
         hit = 14.9;
     };
+    //12.7x99 BMG
+    class CLASS(127x99_Ball): B_127x99_Ball {
+        MACRO_TRACERS;
+        caliber = 2;
+        hit = 20;
+    };
+    class CLASS(127x99_AP): CLASS(127x99_Ball) {
+        caliber = 8;
+    };
+    //12.7x108 Soviet
+    class CLASS(127x108_Ball): B_127x108_Ball {
+        MACRO_TRACERS;
+        caliber = 2;
+        hit = 20;
+    };
+    class CLASS(127x108_AP): CLASS(127x108_Ball) {
+        caliber = 8;
+    };
+    class CLASS(127x108_APDS): B_127x108_APDS {
+        MACRO_TRACERS;
+        caliber = 10;
+        hit = 18;
+    };
+
+
 
     // 5.7x28mm
     class CLASS(57x28_Ball): B_570x28_Ball {
