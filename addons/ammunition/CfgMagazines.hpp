@@ -29,6 +29,7 @@ class CfgMagazines {
     class 7Rnd_408_Mag;
     class 150Rnd_93x64_Mag;
     class 5Rnd_127x108_Mag;
+    class 10Rnd_93x64_DMR_05_Mag;
 
     // Handgun baseclasses
     class 16Rnd_9x21_Mag;

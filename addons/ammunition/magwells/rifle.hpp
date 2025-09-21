@@ -320,5 +320,12 @@ class CBA_50BMG_AS50 {
     };
 };
 
+class Cyrus_93 {
+    ADDON[] = {
+      QCLASS(10Rnd_93x64_EPR),
+      QCLASS(10Rnd_93x64_AP)
+    };
+};
+
 
 
