@@ -2,6 +2,7 @@
 
 // Noreen Bad News ULR Mags
 class CLASS(10Rnd_338LM_EPR): 10Rnd_338_Mag {
+    MACRO_SCOPE;
     ammo = QCLASS(338LM_EPR);
     displayName = ".338NM 10Rnd (EPR)";
     displayNameShort = "EPR";
