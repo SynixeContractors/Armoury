@@ -2,6 +2,7 @@
 
 // LWWMG belts
 class CLASS(130Rnd_338NM_Ball): 130Rnd_338_Mag {
+    MACRO_SCOPE;
     ammo = QCLASS(338NM_Ball);
     displayName = ".338NM 130Rnd Belt (TE4) (Ball)";
     displayNameShort = "Ball TE4";

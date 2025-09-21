@@ -3,6 +3,7 @@
 // HK121 belts
 // base game mag is 120 rounds even tho it says 150
 class CLASS(120Rnd_93x64_Ball): 150Rnd_93x64_Mag {
+    MACRO_SCOPE;
     ammo = QCLASS(93x64_Ball);
     displayName = "9.3x64 120Rnd Belt (TE4) (Ball)";
     displayNameShort = "Ball TE4";
