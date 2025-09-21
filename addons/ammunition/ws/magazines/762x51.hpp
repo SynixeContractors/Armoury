@@ -27,6 +27,36 @@ class CLASS(20Rnd_762x51_AP_SLR): CLASS(20Rnd_762x51_Ball_SLR) {
     displayNameShort = "AP";
     descriptionShort = "7.62x51mm AP Reload Tracer";
 };
+// 30rd WS FAL
+class CLASS(30Rnd_762x51_Ball_SLR): 30Rnd_762x51_slr_lxWS {
+    MACRO_SCOPE;
+    ammo = QCLASS(762x51_Ball);
+    displayName = "7.62mm 30Rnd SLR (Ball)";
+    displayNameShort = "Ball";
+    descriptionShort = "7.62x51mm Ball Reload Tracer";
+    lastRoundsTracer = 2;
+    tracersEvery = 4;
+    mass = 16;
+};
+class CLASS(30Rnd_762x51_Ball_Tracer_SLR): CLASS(30Rnd_762x51_Ball_SLR) {
+    displayName = "7.62mm 30Rnd SLR [T] (Ball)";
+    displayNameShort = "Ball Tracer";
+    descriptionShort = "7.62x51mm Ball Tracer";
+    tracersEvery = 1;
+};
+class CLASS(30Rnd_762x51_EPR_SLR): CLASS(30Rnd_762x51_Ball_SLR) {
+    ammo = QCLASS(762x51_EPR);
+    displayName = "7.62mm 30Rnd SLR (EPR)";
+    displayNameShort = "EPR";
+    descriptionShort = "7.62x51mm EPR Reload Tracer";
+};
+class CLASS(30Rnd_762x51_AP_SLR): CLASS(30Rnd_762x51_Ball_SLR) {
+    ammo = QCLASS(762x51_AP);
+    displayName = "7.62mm 30Rnd SLR (AP)";
+    displayNameShort = "AP";
+    descriptionShort = "7.62x51mm AP Reload Tracer";
+};
+
 
 // Western Sahara Belt
 class CLASS(100Rnd_762x51_Ball_Belt_SA77): 100Rnd_762x51_S77_Yellow_lxWS {

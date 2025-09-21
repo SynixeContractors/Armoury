@@ -36,7 +36,11 @@ class CfgMagazineWells {
             QCLASS(20Rnd_762x51_Ball_SLR),
             QCLASS(20Rnd_762x51_Ball_Tracer_SLR),
             QCLASS(20Rnd_762x51_EPR_SLR),
-            QCLASS(20Rnd_762x51_AP_SLR)
+            QCLASS(20Rnd_762x51_AP_SLR),
+            QCLASS(30Rnd_762x51_Ball_SLR),
+            QCLASS(30Rnd_762x51_Ball_Tracer_SLR),
+            QCLASS(30Rnd_762x51_EPR_SLR),
+            QCLASS(30Rnd_762x51_AP_SLR)
         };
     };
     class CBA_762x51_LINKS {
