@@ -57,7 +57,6 @@ class CLASS(30Rnd_762x51_AP_SLR): CLASS(30Rnd_762x51_Ball_SLR) {
     descriptionShort = "7.62x51mm AP Reload Tracer";
 };
 
-
 // Western Sahara Belt
 class CLASS(100Rnd_762x51_Ball_Belt_SA77): 100Rnd_762x51_S77_Yellow_lxWS {
     MACRO_SCOPE;
