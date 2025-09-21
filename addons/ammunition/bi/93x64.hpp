@@ -28,3 +28,21 @@ class CLASS(120Rnd_93x64_AP): CLASS(120Rnd_93x64_EPR) {
     descriptionShort = "9.3x64 AP Tracer Every 4";
 };
 
+
+// Cyrus mags
+
+class CLASS(10Rnd_93x64_EPR): 10Rnd_93x64_DMR_05_Mag {
+    MACRO_SCOPE;
+    ammo = QCLASS(93x64_EPR);
+    lastRoundsTracer = 2;
+    displayName = "9.3x64 10Rnd (EPR)";
+    displayNameShort = "EPR";
+    descriptionShort = "9.3x64 EPR";
+};
+class CLASS(10Rnd_93x64_AP): CLASS(10Rnd_93x64_EPR) {
+    ammo = QCLASS(93x64_AP);
+    displayName = "9.3x64 10Rnd (AP)";
+    displayNameShort = "AP";
+    descriptionShort = "9.3x64 AP";
+};
+
