@@ -20,4 +20,3 @@ class CLASS(5Rnd_127x108_APDS): CLASS(5Rnd_127x108_Ball) {
     descriptionShort = "12.7mm SLAP";
 };
 
-

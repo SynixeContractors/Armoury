@@ -276,7 +276,6 @@ class CfgAmmo {
         caliber = 2.6;
         hit = 14.9;
     };
-
     // 338 Norma Magnum (twice energy of 7.62)
     class CLASS(338NM_Ball): B_338_NM_Ball {
         MACRO_TRACERS;
@@ -306,7 +305,6 @@ class CfgAmmo {
         caliber = 3.1;
         hit = 18;
     };
-
     // 9.3x64 Brenneke (slightly more then 300WM)
     class CLASS(93x64_Ball): B_93x64_Ball {
         MACRO_TRACERS;
@@ -344,8 +342,6 @@ class CfgAmmo {
         caliber = 10;
         hit = 18;
     };
-
-
 
     // 5.7x28mm
     class CLASS(57x28_Ball): B_570x28_Ball {
