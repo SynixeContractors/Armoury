@@ -308,24 +308,21 @@ class CBA_93x64_LINKS {
     ADDON[] = {
         QCLASS(120Rnd_93x64_Ball),
         QCLASS(120Rnd_93x64_Ball_Tracer),
-	QCLASS(120Rnd_93x64_EPR),
+        QCLASS(120Rnd_93x64_EPR),
         QCLASS(120Rnd_93x64_AP)
     };
 };
 class CBA_50BMG_AS50 {
     ADDON[] = {
         QCLASS(5Rnd_127x108_Ball),
-	QCLASS(5Rnd_127x108_AP),
-	QCLASS(5Rnd_127x108_APDS)
+        QCLASS(5Rnd_127x108_AP),
+        QCLASS(5Rnd_127x108_APDS)
     };
 };
 
 class Cyrus_93 {
     ADDON[] = {
-      QCLASS(10Rnd_93x64_EPR),
-      QCLASS(10Rnd_93x64_AP)
+        QCLASS(10Rnd_93x64_EPR),
+        QCLASS(10Rnd_93x64_AP)
     };
 };
-
-
-
