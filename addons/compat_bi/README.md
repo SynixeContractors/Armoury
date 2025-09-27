@@ -1,5 +1,4 @@
-# Compat RF
+# Compat BI
 
-- Tweaks and compatibility for Reaction Forces.
-- Removes Thermal from the PSRL-1 PWS Optic
-- Adds PSRL-1 & Munitions to the Launcher supply box (tacgt_supplies)
+- Add JR for MSBS Grot
+- Add JR for F2000 (removed by Aegis)
