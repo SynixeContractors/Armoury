@@ -9,9 +9,9 @@ class CfgPatches {
         requiredAddons[] = {
             "tacgt_main",
             "A3_Weapons_F",
-	    "A3_Weapons_F_Exp",
-	    "cba_jr",
-	    "A3_Weapons_F_Enoch"
+            "A3_Weapons_F_Exp",
+            "cba_jr",
+            "A3_Weapons_F_Enoch"
         };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
