@@ -8,10 +8,11 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "tacgt_main",
-            "cba_jr"
+            "cba_jr",
+            "data_f_lxWS_Loadorder"
         };
         author = ECSTRING(main,Author);
-        authors[] = {"thisconnect"};
+        authors[] = {"Philippe Connect"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
