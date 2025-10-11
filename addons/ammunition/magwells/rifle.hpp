@@ -272,3 +272,45 @@ class CBA_762x54R_LINKS {
         QCLASS(150Rnd_762x54r_EPR_Belt)
     };
 };
+class CBA_338NM_LINKS {
+    ADDON[] = {
+        QCLASS(130Rnd_338NM_Ball),
+        QCLASS(130Rnd_338NM_Ball_Tracer),
+        QCLASS(130Rnd_338NM_EPR),
+        QCLASS(130Rnd_338NM_AP)
+    };
+};
+class MAR10_338 { // ace uses basegame magwell?
+    ADDON[] = {
+        QCLASS(10Rnd_338LM_EPR),
+        QCLASS(10Rnd_338LM_AP)
+    };
+};
+class CBA_408CT_Inter {
+    ADDON[] = {
+        QCLASS(7Rnd_408C_EPR),
+        QCLASS(7Rnd_408C_AP)
+    };
+};
+class CBA_93x64_LINKS {
+    ADDON[] = {
+        QCLASS(120Rnd_93x64_Ball),
+        QCLASS(120Rnd_93x64_Ball_Tracer),
+        QCLASS(120Rnd_93x64_EPR),
+        QCLASS(120Rnd_93x64_AP)
+    };
+};
+class CBA_50BMG_AS50 {
+    ADDON[] = {
+        QCLASS(5Rnd_127x108_Ball),
+        QCLASS(5Rnd_127x108_AP),
+        QCLASS(5Rnd_127x108_APDS)
+    };
+};
+
+class Cyrus_93 {
+    ADDON[] = {
+        QCLASS(10Rnd_93x64_EPR),
+        QCLASS(10Rnd_93x64_AP)
+    };
+};
