@@ -4,66 +4,77 @@ class CLASS(2Rnd_P_000): 2Rnd_12Gauge_Pellets {
     displayNameShort = "#00 Magnum";
     descriptionShort = "#00 Magnum Shells";
     ammo = QCLASS(P_12G_000);
-    mass = 0.6;
-};
-
-// 8Rnd M1014
-class CLASS(8Rnd_P_000): CA_Magazine {
-    author = ECSTRING(main,Author);
-    scope = 2;
-    displayName = "8Rnd M1014 (Magnum)";
-    displayNameShort = "#00 Magnum";
-    descriptionShort = "#00 Magnum";
-    ammo = QCLASS(P_12G_000);
-    count = 8;
+    mass = 2;
     initSpeed = 385;
-    picture = "\CUP\Weapons\CUP_Weapons_Ammunition\data\ui\m_12gauge_ca.paa";
-    mass = 8;
-    reloadaction = "CUP_GestureReloadM1014_8Rnd";
 };
 
-class CLASS(8Rnd_S_AP20): CA_Magazine {
-    MACRO_SCOPE;
+class CLASS(2Rnd_S_AP20): CLASS(2Rnd_P_000) {
     ammo = QCLASS(S_12G_AP20);
-    displayName = "8Rnd M1014 (Slug)";
+    displayName = "2Rnd (Slug)";
     displayNameShort = "AP-20";
     descriptionShort = "AP-20 Slug";
-    count = 8;
-    picture = "\a3\Weapons_F_Enoch\MagazineProxies\data\UI\icon_2rnd_12gauge_slugs_CA.paa";
-    mass = 8;
-    reloadaction = "CUP_GestureReloadM1014_8Rnd";
 };
 
-class CLASS(8Rnd_Smoke_M1014): CLASS(8Rnd_S_AP20) {
+class CLASS(2Rnd_Smoke): CLASS(2Rnd_S_AP20) {
     ammo = "B_12gauge_Smoke_Cartridge_lxWS";
-    displayName = "8Rnd M1014 (Smoke)";
+    displayName = "2Rnd (Smoke)";
     displayNameShort = "Smoke Screen";
     descriptionShort = "Smoke Shell";
 };
 
-// 6Rnd M1014
-class CLASS(6Rnd_P_000): CLASS(8Rnd_P_000) {
-    displayName = "6Rnd M1014 (Magnum)";
+// 4Rnd
+class CLASS(4Rnd_P_000): CLASS(2Rnd_P_000) {
+    displayName = "4Rnd (Magnum)";
     displayNameShort = "#00 Magnum";
     descriptionShort = "#00 Magnum Shells";
+    count = 4;
+    mass = 4;
+};
+
+class CLASS(4Rnd_S_AP20): CLASS(2Rnd_S_AP20) {
+    displayName = "4Rnd (Slug)";
+};
+
+class CLASS(4Rnd_Smoke): CLASS(2Rnd_Smoke) {
+    displayName = "4Rnd (Smoke)";
+};
+
+// 6Rnd
+class CLASS(6Rnd_P_000): CLASS(4Rnd_P_000) {
+    displayName = "6Rnd (Magnum)";
     count = 6;
     mass = 6;
 };
 
-class CLASS(6Rnd_S_AP20): CLASS(8Rnd_S_AP20) {
-    displayName = "6Rnd M1014 (Slug)";
-    displayNameShort = "AP-20";
-    descriptionShort = "AP-20 Slug Round";
+class CLASS(6Rnd_S_AP20): CLASS(4Rnd_P_000) {
+    displayName = "6Rnd (Slug)";
     count = 6;
     mass = 6;
 };
 
-class CLASS(6Rnd_Smoke_M1014): CLASS(8Rnd_Smoke_M1014) {
-    displayName = "6Rnd M1014 (Smoke)";
-    displayNameShort = "Smoke Screen";
-    descriptionShort = "Smoke Shell";
+class CLASS(6Rnd_Smoke): CLASS(4Rnd_Smoke) {
+    displayName = "6Rnd (Smoke)";
     count = 6;
     mass = 6;
+};
+
+// 8Rnd
+class CLASS(8Rnd_P_000): CLASS(6Rnd_P_000) {
+    displayName = "8Rnd (Magnum)";
+    count = 8;
+    mass = 8;
+};
+
+class CLASS(8Rnd_S_AP20): CLASS(6Rnd_S_AP20) {
+    displayName = "8Rnd (Slug)";
+    count = 8;
+    mass = 8;
+};
+
+class CLASS(8Rnd_Smoke): CLASS(6Rnd_Smoke) {
+    displayName = "8Rnd (Smoke)";
+    count = 8;
+    mass = 8;
 };
 
 // 6Rnd MSBS GROT

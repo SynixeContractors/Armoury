@@ -1,6 +1,5 @@
 class CfgMagazines {
     // Baseclasses
-    class CA_Magazine;
     class 2Rnd_12Gauge_Pellets;
     class 6Rnd_12Gauge_Pellets;
     class 6Rnd_12Gauge_Slug;

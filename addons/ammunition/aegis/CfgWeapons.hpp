@@ -63,4 +63,20 @@ class CfgWeapons {
     class hgun_Mk26_F: Pistol_Base_F {
         magazineWell[] += {"CBA_127x33_Mk26"};
     };
+
+    // M4 SSAS
+    class Rifle_Short_Base_F;
+    class sgun_M4_F: Rifle_Short_Base_F {
+        magazineWell[] += {"CBA_12g_2rnds", "CBA_12g_6rnds", "CBA_12g_8rnds"};
+    };
+
+    // Bulldog
+    class sgun_KSG_F: Rifle_Short_Base_F {
+        magazineWell[] += {"CBA_12g_2rnds", "CBA_12g_6rnds", "CBA_12g_8rnds"};
+    };
+
+    // BK-153
+    class sgun_Mp153_black_F: Rifle_Short_Base_F {
+        magazineWell[] += {"CBA_12g_2rnds", "CBA_12g_6rnds", "CBA_12g_8rnds"};
+    };
 };

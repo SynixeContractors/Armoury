@@ -35,7 +35,7 @@ dlc = [
 ]
 
 [aegis]
-extends = "default"
+extends = "ws"
 workshop = [
     "2538332070", # Aegis - Development
 ]
