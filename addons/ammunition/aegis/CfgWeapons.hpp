@@ -81,5 +81,9 @@ class CfgWeapons {
     //MP7
     class SMG_04_base_F: Rifle_Base_F {
         magazineWell[] += {"CBA_46x30_MP7"};
-    };  
+    };
+    //SVD (same mags as VS121)
+    class Aegis_srifle_SVD_base_f: Rifle_Base_F {
+        magazineWell[] += {"CBA_762x54R_SVD"};
+    };
 };
