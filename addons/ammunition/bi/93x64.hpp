@@ -29,7 +29,6 @@ class CLASS(120Rnd_93x64_AP): CLASS(120Rnd_93x64_EPR) {
     descriptionShort = "9.3x64 AP Tracer Every 4";
 };
 
-
 // Cyrus mags
 
 class CLASS(10Rnd_93x64_EPR): 10Rnd_93x64_DMR_05_Mag {
@@ -46,4 +45,3 @@ class CLASS(10Rnd_93x64_AP): CLASS(10Rnd_93x64_EPR) {
     displayNameShort = "AP";
     descriptionShort = "9.3x64 AP";
 };
-
