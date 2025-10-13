@@ -7,4 +7,5 @@ class CfgMagazines {
     #include "magazines\57x28.hpp"
     #include "magazines\762x51.hpp"
     #include "magazines\9x21.hpp"
+    #include "magazines\9x19.hpp"
 };

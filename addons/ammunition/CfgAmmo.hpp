@@ -86,6 +86,11 @@ class CfgAmmo {
         hit = 9.5;
     };
 
+    // 9x21mm about same as 9x19
+    class CLASS(9x21_Ball): CLASS(9x19_Ball) {};
+    class CLASS(9x21_EPR): CLASS(9x19_EPR) {};
+    class CLASS(9x21_AP): CLASS(9x19_AP) {};
+
     // 5.45x39mm
     class CLASS(545x39_Ball): B_545x39_Ball_F {
         aiAmmoUsageFlags = 192;
