@@ -50,4 +50,12 @@ class CfgMagazineWells {
             QCLASS(7Rnd_127x33_Ball)
         };
     };
+    class Aegis_FNMAG {
+        ADDON[] = {
+            QCLASS(200Rnd_762x51_Ball_FNMAG_Aegis),
+            QCLASS(200Rnd_762x51_Ball_Tracer_FNMAG_Aegis),
+            QCLASS(200Rnd_762x51_EPR_FNMAG_Aegis),
+            QCLASS(200Rnd_762x51_AP_FNMAG_Aegis),
+        };
+    };
 };
