@@ -35,6 +35,8 @@ class CfgMagazines {
     class 16Rnd_9x21_Mag;
     class 11Rnd_45ACP_Mag;
     class 9Rnd_45ACP_Mag;
+    class 6Rnd_45ACP_Cylinder;
+    class 10Rnd_9x21_Mag;
 
     #include "bi\12g.hpp"
     #include "bi\45ACP.hpp"
@@ -47,6 +49,7 @@ class CfgMagazines {
     #include "bi\762x51.hpp"
     #include "bi\762x54r.hpp"
     #include "bi\9x19.hpp"
+    #include "bi\9x18.hpp"
     #include "bi\338NM.hpp"
     #include "bi\338LM.hpp"
     #include "bi\408CT.hpp"

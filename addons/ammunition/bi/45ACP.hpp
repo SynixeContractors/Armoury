@@ -41,3 +41,11 @@ class CLASS(25Rnd_45ACP_EPR): CLASS(25Rnd_45ACP_Ball) {
     displayNameShort = "EPR";
     descriptionShort = ".45ACP EPR Reload Tracer";
 };
+class CLASS(6Rnd_45ACP_Ball_Cylinder): 6Rnd_45ACP_Cylinder {
+    MACRO_SCOPE;
+    ammo = QCLASS(45ACP_Ball);
+    descriptionShort = ".45ACP Ball";
+    displayName = ".45ACP 6Rnd Cylinder (Ball)";
+    lastRoundsTracer = 2;
+    tracersEvery = 4;
+};
