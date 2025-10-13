@@ -1,7 +1,7 @@
 class CfgWeapons {
     class Rifle_Base_F;
 
-    // AKM74
+    // AK-74
     class arifle_AKM_F;
     class Aegis_arifle_AKM74_F: arifle_AKM_F {
         magazineWell[] += {"CBA_545x39_AK"};
@@ -63,7 +63,6 @@ class CfgWeapons {
     class hgun_Mk26_F: Pistol_Base_F {
         magazineWell[] += {"CBA_127x33_Mk26"};
     };
-
     // M4 SSAS
     class Rifle_Short_Base_F;
     class sgun_M4_F: Rifle_Short_Base_F {
@@ -79,4 +78,8 @@ class CfgWeapons {
     class sgun_Mp153_black_F: Rifle_Short_Base_F {
         magazineWell[] += {"CBA_12g_2rnds", "CBA_12g_6rnds", "CBA_12g_8rnds"};
     };
+    //MP7
+    class SMG_04_base_F: Rifle_Base_F {
+        magazineWell[] += {"CBA_46x30_MP7"};
+    };  
 };

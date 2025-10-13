@@ -42,7 +42,14 @@ class CfgMagazineWells {
     };
     class CBA_57x28_RP57 {
         ADDON[] = {
+            QCLASS(20Rnd_57x28_Ball),
             QCLASS(10Rnd_57x28_Ball)
+        };
+    };
+    class CBA_46x30_MP7 {
+        ADDON[] = {
+            QCLASS(20Rnd_46x30_AP),
+            QCLASS(40Rnd_46x30_AP)
         };
     };
     class CBA_127x33_Mk26 {

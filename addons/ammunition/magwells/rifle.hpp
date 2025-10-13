@@ -105,6 +105,22 @@ class CBA_580x42_TYPE95_XL {
         QCLASS(100Rnd_58x42_EPR)
     };
 };
+// this is because Aegis is kinda annoying with base weapons not being inherited for NCAR15
+class CTAR_580x42 {
+    ADDON[] = {
+        QCLASS(30Rnd_58x42_Ball),
+        QCLASS(30Rnd_58x42_Ball_Tracer),
+        QCLASS(30Rnd_58x42_EPR),
+        QCLASS(30Rnd_58x42_AP)
+    };
+};
+class CTAR_580x42_Large {
+    ADDON[] = {
+        QCLASS(100Rnd_58x42_Ball),
+        QCLASS(100Rnd_58x42_Ball_Tracer),
+        QCLASS(100Rnd_58x42_EPR)
+    };
+};
 
 class CBA_556x45_STANAG_2D_XL {
     ADDON[] = {
