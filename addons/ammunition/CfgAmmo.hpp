@@ -91,7 +91,7 @@ class CfgAmmo {
     class CLASS(9x21_EPR): CLASS(9x19_EPR) {};
     class CLASS(9x21_AP): CLASS(9x19_AP) {};
 
-    // 9x18mm (Makarov) weaker then 9x19
+    // 9x18mm (Makarov) weaker than 9x19
     class CLASS(9x18_Ball): CLASS(9x19_Ball) {
         hit = 7;
     };
