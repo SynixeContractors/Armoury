@@ -30,7 +30,6 @@ class CLASS(120Rnd_93x64_AP): CLASS(120Rnd_93x64_EPR) {
 };
 
 // Cyrus mags
-
 class CLASS(10Rnd_93x64_EPR): 10Rnd_93x64_DMR_05_Mag {
     MACRO_SCOPE;
     ammo = QCLASS(93x64_EPR);
