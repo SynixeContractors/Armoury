@@ -1,5 +1,6 @@
 class CfgAmmo {
     class B_127x55_RF;
+    //FIXME: port the RF round fully into our ammo presets
     class CLASS(127x55_AP): B_127x55_RF {
         aiAmmoUsageFlags = 192;
         MACRO_TRACERS;

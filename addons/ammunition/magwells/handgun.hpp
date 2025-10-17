@@ -21,3 +21,13 @@ class CBA_45ACP_1911 {
         QCLASS(8Rnd_45ACP_C1911_Ball)
     };
 };
+class Cylinder_45ACP {
+    ADDON[] = {
+        QCLASS(6Rnd_45ACP_Ball_Cylinder)
+    };
+};
+class CBA_9x18_PM {
+    ADDON[] = {
+        QCLASS(10Rnd_9x18_Ball)
+    };
+};

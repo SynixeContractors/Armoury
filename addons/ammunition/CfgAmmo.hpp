@@ -20,6 +20,12 @@ class CfgAmmo {
     class B_762x51_Ball; // 7.62x51
     class B_762x54_Ball; // 7.62x54R
     class B_570x28_Ball; // 5.7x28
+    class B_93x64_Ball; // 9.3x64
+    class B_338_NM_Ball; // 338 NM
+    class ACE_408_Ball; // 408 Cheyanne
+    class B_127x99_Ball; //.50 BMG
+    class B_127x108_Ball; //12.7 Soviet
+    class B_127x108_APDS;
 
     // 12G
     class CLASS(12g_Pellets_Submunition): B_12Gauge_Pellets_Submunition {
@@ -78,6 +84,16 @@ class CfgAmmo {
     class CLASS(9x19_AP): CLASS(9x19_EPR) {
         caliber = 1.3;
         hit = 9.5;
+    };
+
+    // 9x21mm about same as 9x19
+    class CLASS(9x21_Ball): CLASS(9x19_Ball) {};
+    class CLASS(9x21_EPR): CLASS(9x19_EPR) {};
+    class CLASS(9x21_AP): CLASS(9x19_AP) {};
+
+    // 9x18mm (Makarov) weaker than 9x19
+    class CLASS(9x18_Ball): CLASS(9x19_Ball) {
+        hit = 7;
     };
 
     // 5.45x39mm
@@ -269,6 +285,70 @@ class CfgAmmo {
     class CLASS(300WM_AP): CLASS(300WM_EPR) {
         caliber = 2.6;
         hit = 14.9;
+    };
+    // 338 Norma Magnum (twice energy of 7.62)
+    class CLASS(338NM_Ball): B_338_NM_Ball {
+        MACRO_TRACERS;
+        caliber = 0.5;
+        hit = 15;
+    };
+    class CLASS(338NM_EPR): CLASS(338NM_Ball) {
+        caliber = 2.5;
+        hit = 16;
+    };
+    class CLASS(338NM_AP): CLASS(338NM_EPR) {
+        caliber = 3;
+        hit = 16;
+    };
+    // 338 Lapua Magnum (same-ish round no ball)
+    class CLASS(338LM_EPR): CLASS(338NM_EPR) {};
+    class CLASS(338LM_AP): CLASS(338NM_AP) {};
+    // 408 Cheyenne Tactical
+    class CLASS(408C_EPR): ACE_408_Ball {
+        MACRO_TRACERS;
+        caliber = 2.6;
+        hit = 17;
+    };
+    class CLASS(408C_AP): CLASS(408C_EPR) {
+        caliber = 3.1;
+        hit = 18;
+    };
+    // 9.3x64 Brenneke (slightly more then 300WM)
+    class CLASS(93x64_Ball): B_93x64_Ball {
+        MACRO_TRACERS;
+        caliber = 0.4;
+        hit = 14;
+    };
+    class CLASS(93x64_EPR): CLASS(93x64_Ball) {
+        caliber = 2.3;
+        hit = 14.5;
+    };
+    class CLASS(93x64_AP): CLASS(93x64_EPR) {
+        caliber = 2.7;
+        hit = 14.9;
+    };
+    //12.7x99 BMG
+    class CLASS(127x99_Ball): B_127x99_Ball {
+        MACRO_TRACERS;
+        caliber = 2;
+        hit = 20;
+    };
+    class CLASS(127x99_AP): CLASS(127x99_Ball) {
+        caliber = 8;
+    };
+    //12.7x108 Soviet
+    class CLASS(127x108_Ball): B_127x108_Ball {
+        MACRO_TRACERS;
+        caliber = 2;
+        hit = 20;
+    };
+    class CLASS(127x108_AP): CLASS(127x108_Ball) {
+        caliber = 8;
+    };
+    class CLASS(127x108_APDS): B_127x108_APDS {
+        MACRO_TRACERS;
+        caliber = 10;
+        hit = 18;
     };
 
     // 5.7x28mm

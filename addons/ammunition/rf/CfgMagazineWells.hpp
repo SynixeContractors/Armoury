@@ -80,9 +80,20 @@ class CfgMagazineWells {
             QCLASS(65Rnd_9x19_Ball_Mag_RF)
         };
     };
+    class CBA_9x21_G17 {
+        ADDON[] = {
+            QCLASS(17Rnd_9x19_Ball_Mag_RF),
+        };
+    };
     class Pistol_DEagle_RF {
         ADDON[] = {
             QCLASS(7Rnd_50AE_Ball_Mag_RF)
+        };
+    };
+    //FIXME: port the RF round fully into our ammo presets
+    class ASP1_127x54 {
+        ADDON[] = {
+            QCLASS(10Rnd_127x55_AP_Mag)
         };
     };
 };

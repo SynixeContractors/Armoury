@@ -42,12 +42,39 @@ class CfgMagazineWells {
     };
     class CBA_57x28_RP57 {
         ADDON[] = {
+            QCLASS(20Rnd_57x28_Ball),
             QCLASS(10Rnd_57x28_Ball)
+        };
+    };
+    class CBA_46x30_MP7 {
+        ADDON[] = {
+            QCLASS(20Rnd_46x30_AP),
+            QCLASS(40Rnd_46x30_AP)
         };
     };
     class CBA_127x33_Mk26 {
         ADDON[] = {
             QCLASS(7Rnd_127x33_Ball)
+        };
+    };
+    class Aegis_FNMAG {
+        ADDON[] = {
+            QCLASS(200Rnd_762x51_Ball_FNMAG_Aegis),
+            QCLASS(200Rnd_762x51_Ball_Tracer_FNMAG_Aegis),
+            QCLASS(200Rnd_762x51_EPR_FNMAG_Aegis),
+            QCLASS(200Rnd_762x51_AP_FNMAG_Aegis),
+        };
+    };
+    class Aegis_SMG_Gepard_9x21 {
+        ADDON[] = {
+            QCLASS(20Rnd_9x21_Ball_PPL_Aegis),
+            QCLASS(20Rnd_9x21_Ball_Tracer_PPL_Aegis),
+            QCLASS(20Rnd_9x21_EPR_PPL_Aegis),
+            QCLASS(20Rnd_9x21_AP_PPL_Aegis),
+            QCLASS(40Rnd_9x21_Ball_PPL_Aegis),
+            QCLASS(40Rnd_9x21_Ball_Tracer_PPL_Aegis),
+            QCLASS(40Rnd_9x21_EPR_PPL_Aegis),
+            QCLASS(40Rnd_9x21_AP_PPL_Aegis),
         };
     };
 };

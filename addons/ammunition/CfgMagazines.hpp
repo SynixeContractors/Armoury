@@ -24,11 +24,19 @@ class CfgMagazines {
     class 20Rnd_762x51_Mag;
     class 150Rnd_762x54_Box;
     class 10Rnd_762x54_Mag;
+    class 130Rnd_338_Mag;
+    class 10Rnd_338_Mag;
+    class 7Rnd_408_Mag;
+    class 150Rnd_93x64_Mag;
+    class 5Rnd_127x108_Mag;
+    class 10Rnd_93x64_DMR_05_Mag;
 
     // Handgun baseclasses
     class 16Rnd_9x21_Mag;
     class 11Rnd_45ACP_Mag;
     class 9Rnd_45ACP_Mag;
+    class 6Rnd_45ACP_Cylinder;
+    class 10Rnd_9x21_Mag;
 
     #include "bi\12g.hpp"
     #include "bi\45ACP.hpp"
@@ -41,5 +49,11 @@ class CfgMagazines {
     #include "bi\762x51.hpp"
     #include "bi\762x54r.hpp"
     #include "bi\9x19.hpp"
+    #include "bi\9x18.hpp"
+    #include "bi\338NM.hpp"
+    #include "bi\338LM.hpp"
+    #include "bi\408CT.hpp"
+    #include "bi\93x64.hpp"
+    #include "bi\127x108.hpp"
     #include "bi\vehicle.hpp"
 };

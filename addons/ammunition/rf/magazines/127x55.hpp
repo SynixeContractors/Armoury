@@ -59,3 +59,15 @@ class CLASS(20Rnd_127x55_AP_Mag_wood_RF): 20Rnd_127x55_Mag_wood_RF {
     tracersEvery = 4;
     mass = 16;
 };
+
+// ASP-1 Kir
+//FIXME: port the RF round fully into our ammo presets
+class CLASS(10Rnd_127x55_AP_Mag): 10Rnd_127x54_Mag {
+    MACRO_SCOPE;
+    ammo = QCLASS(127x55_AP);
+    displayName = "12.7mm 10Rnd Kir (AP)";
+    displayNameShort = "AP";
+    descriptionShort = "12.7x55mm AP Reload Tracer";
+    lastRoundsTracer = 4;
+    tracersEvery = 4;
+};
