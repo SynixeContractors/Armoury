@@ -25,7 +25,6 @@ class CfgMagazines {
     class 150Rnd_762x54_Box;
     class 10Rnd_762x54_Mag;
     class 130Rnd_338_Mag;
-    class 10Rnd_338_Mag;
     class 7Rnd_408_Mag;
     class 150Rnd_93x64_Mag;
     class 5Rnd_127x108_Mag;
@@ -51,7 +50,6 @@ class CfgMagazines {
     #include "bi\9x19.hpp"
     #include "bi\9x18.hpp"
     #include "bi\338NM.hpp"
-    #include "bi\338LM.hpp"
     #include "bi\408CT.hpp"
     #include "bi\93x64.hpp"
     #include "bi\127x108.hpp"

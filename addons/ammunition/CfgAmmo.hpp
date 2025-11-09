@@ -300,9 +300,6 @@ class CfgAmmo {
         caliber = 3;
         hit = 16;
     };
-    // 338 Lapua Magnum (same-ish round no ball)
-    class CLASS(338LM_EPR): CLASS(338NM_EPR) {};
-    class CLASS(338LM_AP): CLASS(338NM_AP) {};
     // 408 Cheyenne Tactical
     class CLASS(408C_EPR): ACE_408_Ball {
         MACRO_TRACERS;
