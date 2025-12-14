@@ -1,0 +1,28 @@
+class CfgWeapons {
+    class ItemCore;
+    class VestItem;
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_assaulter_aor1_aor1,Belt Assaulter (AOR1));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_assaulter_aor2_aor2,Belt Assaulter (AOR2));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_assaulter_blk_blk,Belt Assaulter (BLK));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_assaulter_cb_cb,Belt Assaulter (CB));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_assaulter_khk_khk,Belt Assaulter (KHK));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_assaulter_mc_mc,Belt Assaulter (MC));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_assaulter_mcar_mcar,Belt Assaulter (MCAR));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_assaulter_mcb_mcb,Belt Assaulter (MCB));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_assaulter_mct_mct,Belt Assaulter (MCT));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_assaulter_rgr_rgr,Belt Assaulter (RGR));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_assaulter_tan_tan,Belt Assaulter (TAN));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_assaulter_wht_wht,Belt Assaulter (WHT));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_hgunner_aor1_aor1,Belt Gunner (AOR1));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_hgunner_aor2_aor2,Belt Gunner (AOR2));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_hgunner_blk_blk,Belt Gunner (BLK));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_hgunner_cb_cb,Belt Gunner (CB));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_hgunner_khk_khk,Belt Gunner (KHK));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_hgunner_mc_mc,Belt Gunner (MC));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_hgunner_mcar_mcar,Belt Gunner (MCAR));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_hgunner_mcb_mcb,Belt Gunner (MCB));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_hgunner_mct_mct,Belt Gunner (MCT));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_hgunner_rgr_rgr,Belt Gunner (RGR));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_hgunner_tan_tan,Belt Gunner (TAN));
+    UNDERCOVER(ItemCore,VestItem,milgp_v_battle_belt_hgunner_wht_wht,Belt Gunner (WHT));
+};
