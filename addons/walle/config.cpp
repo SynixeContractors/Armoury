@@ -12,8 +12,8 @@ class CfgPatches {
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "tacgt_main",
-            "tacgt_ammunition"
+            "synixe_armoury_main",
+            "synixe_armoury_ammunition"
         };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);

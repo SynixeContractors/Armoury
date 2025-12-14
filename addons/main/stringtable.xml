@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="TACGT">
+<Project name="Synixe_Armoury">
     <Package name="Main">
-        <Key ID="STR_TACGT_Main_Author">
+        <Key ID="STR_Synixe_Armoury_Main_Author">
             <English>Synixe Contractors</English>
         </Key>
-        <Key ID="STR_TACGT_Main_Name">
+        <Key ID="STR_Synixe_Armoury_Main_Name">
             <English>Synixe Armoury</English>
         </Key>
-        <Key ID="STR_TACGT_Main_URL">
+        <Key ID="STR_Synixe_Armoury_Main_URL">
             <English>https://github.com/SynixeContractors/Armoury</English>
         </Key>
     </Package>

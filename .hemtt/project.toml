@@ -1,6 +1,6 @@
 name = "Synixe Armoury"
-prefix = "tacgt"
-mainprefix = "x"
+prefix = "synixe_armoury"
+mainprefix = "s"
 author = "Synixe Contractors & Theseus Incorporated"
 
 [files]

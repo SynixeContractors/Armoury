@@ -1,7 +1,7 @@
 #define COMPONENT vehicles
 #define COMPONENT_BEAUTIFIED Vehicles
-#include "\x\tacgt\addons\main\script_mod.hpp"
-#include "\x\tacgt\addons\main\script_macros.hpp"
+#include "\s\synixe_armoury\addons\main\script_mod.hpp"
+#include "\s\synixe_armoury\addons\main\script_macros.hpp"
 
 #define BOAT_UPGRADE_MACRO \
     ace_cargo_space = 1; \

@@ -7,8 +7,8 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "tacgt_main",
-            "tacgt_ammunition",
+            "synixe_armoury_main",
+            "synixe_armoury_ammunition",
             "data_f_lxWS_Loadorder",
         };
         skipWhenMissingDependencies = 1;

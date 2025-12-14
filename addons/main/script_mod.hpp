@@ -1,5 +1,5 @@
-#define MAINPREFIX x
-#define PREFIX tacgt
+#define MAINPREFIX s
+#define PREFIX synixe_armoury
 #define SUBPREFIX addons
 
 #include "script_version.hpp"

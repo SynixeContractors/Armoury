@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "tacgt_main",
+            "synixe_armoury_main",
             "RF_Weapons_Launchers_PSRL1"
         };
         skipWhenMissingDependencies = 1;

@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "tacgt_main",
+            "synixe_armoury_main",
             "ace_ballistics"
         };
         author = ECSTRING(main,Author);

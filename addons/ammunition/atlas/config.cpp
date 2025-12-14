@@ -7,8 +7,8 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "tacgt_main",
-            "tacgt_ammunition",
+            "synixe_armoury_main",
+            "synixe_armoury_ammunition",
             "A3_Atlas_Weapons_F_Atlas",
             "A3_Atlas_Weapons_F_Atlas_Rifles_AUG",
             "A3_Atlas_Weapons_F_Atlas_Rifles_FAMAS",

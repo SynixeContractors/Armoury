@@ -7,8 +7,8 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "tacgt_main",
-            "tacgt_ammunition",
+            "synixe_armoury_main",
+            "synixe_armoury_ammunition",
             "Weapons_F_JCA_UMP_SMGs_UMP"
         };
         skipWhenMissingDependencies = 1;
