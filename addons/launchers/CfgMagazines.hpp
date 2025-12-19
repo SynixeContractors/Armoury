@@ -5,4 +5,8 @@ class CfgMagazines {
         displayName = "Stinger LOAL";
         displayNameShort = "MANPADS";
     };
+    class CLASS(NSAM_LOAL): CLASS(Stinger_LOAL) {
+    //just for shop difference
+    };
+
 };
