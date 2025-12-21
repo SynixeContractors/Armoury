@@ -1,13 +1,17 @@
-class asdg_OpticRail;
-class asdg_MuzzleSlot_65;
-class asdg_MuzzleSlot_556;
-class asdg_FrontSideRail;
-class asdg_OpticRail1913;
-class asdg_UnderSlot;
 class WeaponSlotsInfo;
+class asdg_FrontSideRail;
+class asdg_MuzzleSlot_545R;
+class asdg_MuzzleSlot_556;
+class asdg_MuzzleSlot_65;
+class asdg_OpticRail1913;
+class asdg_OpticRail1913_short;
+class asdg_OpticRail;
+class asdg_UnderSlot;
+class asdg_PistolUnderRail;
 
 class CfgWeapons {
     class Rifle_Base_F;
+    #include "CfgWeapons_aegis.hpp"
     //F2000 (Mk20) JR compat
     // i have no idea why i cant do the same thing as MSBS
     class mk20_base_F : Rifle_Base_F {
