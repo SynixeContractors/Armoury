@@ -11,7 +11,6 @@ class asdg_PistolUnderRail;
 
 class CfgWeapons {
     class Rifle_Base_F;
-    #include "CfgWeapons_aegis.hpp"
     //F2000 (Mk20) JR compat
     // i have no idea why i cant do the same thing as MSBS
     class mk20_base_F: Rifle_Base_F {
