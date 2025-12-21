@@ -1,0 +1,20 @@
+#include "script_component.hpp"
+
+class CfgPatches {
+    class ADDON {
+        name = COMPONENT_NAME;
+        units[] = {};
+        weapons[] = {};
+        requiredVersion = REQUIRED_VERSION;
+        requiredAddons[] = {
+            "synixe_armoury_main",
+	    "Weapons_F_lxWS_Rifles"
+        };
+        skipWhenMissingDependencies = 1;
+        author = ECSTRING(main,Author);
+        url = ECSTRING(main,URL);
+        VERSION_CONFIG;
+    };
+};
+
+#include "CfgWeapons.hpp"
