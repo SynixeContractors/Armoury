@@ -45,48 +45,112 @@ class CfgMagazines {
     class CLASS(SmokeShell_Training): SmokeShell {
         displayName = "M83T Smoke Grenade (White)";
         displayNameShort = "White (Training)";
-        ammo = QCLASS(SmokeShell_Training_Ammo);
+        ammo = QCLASS(SmokeShell_Training);
     };
 
     class SmokeShellGreen;
     class CLASS(SmokeShellGreen_Training): SmokeShellGreen {
         displayName = "M18T Smoke Grenade (Green)";
         displayNameShort = "Green (Training)";
-        ammo = QCLASS(SmokeShellGreen_Training_Ammo);
+        ammo = QCLASS(SmokeShellGreen_Training);
     };
 
     class SmokeShellRed;
     class CLASS(SmokeShellRed_Training): SmokeShellRed {
         displayName = "M18T Smoke Grenade (Red)";
         displayNameShort = "Red (Training)";
-        ammo = QCLASS(SmokeShellRed_Training_Ammo);
+        ammo = QCLASS(SmokeShellRed_Training);
     };
 
     class SmokeShellYellow;
     class CLASS(SmokeShellYellow_Training): SmokeShellYellow {
         displayName = "M18T Smoke Grenade (Yellow)";
         displayNameShort = "Yellow (Training)";
-        ammo = QCLASS(SmokeShellYellow_Training_Ammo);
+        ammo = QCLASS(SmokeShellYellow_Training);
     };
 
     class SmokeShellPurple;
     class CLASS(SmokeShellPurple_Training): SmokeShellPurple {
         displayName = "M18T Smoke Grenade (Purple)";
         displayNameShort = "Purple (Training)";
-        ammo = QCLASS(SmokeShellPurple_Training_Ammo);
+        ammo = QCLASS(SmokeShellPurple_Training);
     };
 
     class SmokeShellBlue;
     class CLASS(SmokeShellBlue_Training): SmokeShellBlue {
         displayName = "M18T Smoke Grenade (Blue)";
         displayNameShort = "Blue (Training)";
-        ammo = QCLASS(SmokeShellBlue_Training_Ammo);
+        ammo = QCLASS(SmokeShellBlue_Training);
     };
 
     class SmokeShellOrange;
     class CLASS(SmokeShellOrange_Training): SmokeShellOrange {
         displayName = "M18T Smoke Grenade (Orange)";
         displayNameShort = "Orange (Training)";
-        ammo = QCLASS(SmokeShellOrange_Training_Ammo);
+        ammo = QCLASS(SmokeShellOrange_Training);
+    };
+
+    class 1Rnd_HE_Grenade_shell;
+    class 1Rnd_Smoke_Grenade_shell: 1Rnd_HE_Grenade_shell {
+        displayName = "M715 Smoke (White)";
+    };
+    class CLASS(1Rnd_Smoke_Grenade_shell_Training): 1Rnd_Smoke_Grenade_shell {
+        displayName = "M715T Smoke (White)";
+        displayNameShort = "White (Training)";
+        ammo = QCLASS(SmokeShell_Training);
+    };
+
+    class 1Rnd_SmokeGreen_Grenade_shell: 1Rnd_Smoke_Grenade_shell {
+        displayName = "M720 Smoke (Green)";
+    };
+    class CLASS(1Rnd_SmokeGreen_Grenade_shell_Training): 1Rnd_SmokeGreen_Grenade_shell {
+        displayName = "M720T Smoke (Green)";
+        displayNameShort = "Green (Training)";
+        ammo = QCLASS(G_40mm_SmokeGreen_Training);
+    };
+
+    class 1Rnd_SmokeRed_Grenade_shell: 1Rnd_Smoke_Grenade_shell {
+        displayName = "M720 Smoke (Red)";
+    };
+    class CLASS(1Rnd_SmokeRed_Grenade_shell_Training): 1Rnd_SmokeRed_Grenade_shell {
+        displayName = "M720T Smoke (Red)";
+        displayNameShort = "Red (Training)";
+        ammo = QCLASS(G_40mm_SmokeRed_Training);
+    };
+
+    class 1Rnd_SmokeYellow_Grenade_shell: 1Rnd_Smoke_Grenade_shell {
+        displayName = "M720 Smoke (Yellow)";
+    };
+    class CLASS(1Rnd_SmokeYellow_Grenade_shell_Training): 1Rnd_SmokeYellow_Grenade_shell {
+        displayName = "M720T Smoke (Yellow)";
+        displayNameShort = "Yellow (Training)";
+        ammo = QCLASS(G_40mm_SmokeYellow_Training);
+    };
+
+    class 1Rnd_SmokePurple_Grenade_shell: 1Rnd_Smoke_Grenade_shell {
+        displayName = "M720 Smoke (Purple)";
+    };
+    class CLASS(1Rnd_SmokePurple_Grenade_shell_Training): 1Rnd_SmokePurple_Grenade_shell {
+        displayName = "M720T Smoke (Purple)";
+        displayNameShort = "Purple (Training)";
+        ammo = QCLASS(G_40mm_SmokePurple_Training);
+    };
+
+    class 1Rnd_SmokeBlue_Grenade_shell: 1Rnd_Smoke_Grenade_shell {
+        displayName = "M720 Smoke (Blue)";
+    };
+    class CLASS(1Rnd_SmokeBlue_Grenade_shell_Training): 1Rnd_SmokeBlue_Grenade_shell {
+        displayName = "M720T Smoke (Blue)";
+        displayNameShort = "Blue (Training)";
+        ammo = QCLASS(G_40mm_SmokeBlue_Training);
+    };
+
+    class 1Rnd_SmokeOrange_Grenade_shell: 1Rnd_Smoke_Grenade_shell {
+        displayName = "M720 Smoke (Orange)";
+    };
+    class CLASS(1Rnd_SmokeOrange_Grenade_shell_Training): 1Rnd_SmokeOrange_Grenade_shell {
+        displayName = "M720T Smoke (Orange)";
+        displayNameShort = "Orange (Training)";
+        ammo = QCLASS(G_40mm_SmokeOrange_Training);
     };
 };

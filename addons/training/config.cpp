@@ -30,6 +30,7 @@ class CfgPatches {
 };
 
 #include "CfgAmmo.hpp"
-#include "CfgVehicles.hpp"
 #include "CfgMagazines.hpp"
+#include "CfgMagazineWells.hpp"
+#include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"

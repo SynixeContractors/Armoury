@@ -60,37 +60,60 @@ class CfgAmmo {
     };
 
     class SmokeShell;
-    class CLASS(SmokeShell_Training_Ammo): SmokeShell {
-        timeToLive = 5;
+    class CLASS(SmokeShell_Training): SmokeShell {
+        timeToLive = 10;
     };
-
     class SmokeShellRed;
-    class CLASS(SmokeShellRed_Training_Ammo): SmokeShellRed {
-        timeToLive = 5;
+    class CLASS(SmokeShellRed_Training): SmokeShellRed {
+        timeToLive = 10;
     };
-
     class SmokeShellGreen;
-    class CLASS(SmokeShellGreen_Training_Ammo): SmokeShellGreen {
-        timeToLive = 5;
+    class CLASS(SmokeShellGreen_Training): SmokeShellGreen {
+        timeToLive = 10;
     };
-
     class SmokeShellYellow;
-    class CLASS(SmokeShellYellow_Training_Ammo): SmokeShellYellow {
-        timeToLive = 5;
+    class CLASS(SmokeShellYellow_Training): SmokeShellYellow {
+        timeToLive = 10;
     };
-
     class SmokeShellPurple;
-    class CLASS(SmokeShellPurple_Training_Ammo): SmokeShellPurple {
-        timeToLive = 5;
+    class CLASS(SmokeShellPurple_Training): SmokeShellPurple {
+        timeToLive = 10;
     };
-
     class SmokeShellBlue;
-    class CLASS(SmokeShellBlue_Training_Ammo): SmokeShellBlue {
-        timeToLive = 5;
+    class CLASS(SmokeShellBlue_Training): SmokeShellBlue {
+        timeToLive = 10;
+    };
+    class SmokeShellOrange;
+    class CLASS(SmokeShellOrange_Training): SmokeShellOrange {
+        timeToLive = 10;
     };
 
-    class SmokeShellOrange;
-    class CLASS(SmokeShellOrange_Training_Ammo): SmokeShellOrange {
-        timeToLive = 5;
+    class G_40mm_Smoke;
+    class CLASS(G_40mm_Smoke_Training): G_40mm_Smoke {
+        timeToLive = 20;
+    };
+    class G_40mm_SmokeRed;
+    class CLASS(G_40mm_SmokeRed_Training): G_40mm_SmokeRed {
+        timeToLive = 20;
+    };
+    class G_40mm_SmokeGreen;
+    class CLASS(G_40mm_SmokeGreen_Training): G_40mm_SmokeGreen {
+        timeToLive = 20;
+    };
+    class G_40mm_SmokeYellow;
+    class CLASS(G_40mm_SmokeYellow_Training): G_40mm_SmokeYellow {
+        timeToLive = 20;
+    };
+    class G_40mm_SmokePurple;
+    class CLASS(G_40mm_SmokePurple_Training): G_40mm_SmokePurple {
+        timeToLive = 20;
+    };
+    class G_40mm_SmokeBlue;
+    class CLASS(G_40mm_SmokeBlue_Training): G_40mm_SmokeBlue {
+        timeToLive = 20;
+    };
+    class G_40mm_SmokeOrange;
+    class CLASS(G_40mm_SmokeOrange_Training): G_40mm_SmokeOrange {
+        timeToLive = 20;
     };
 };
