@@ -128,6 +128,4 @@ class CfgWeapons {
       class UnderBarrelSlot {};
     };
   };
-  // opfor
-  //class Opf_arifle_SKS_F;
 };
