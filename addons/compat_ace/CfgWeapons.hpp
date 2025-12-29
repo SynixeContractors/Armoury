@@ -11,6 +11,11 @@ class CfgWeapons {
     ACE_barrelTwist = 228.6; //1 in 12in
     ACE_barrelLength = 488.0;
   };
+  class Atlas_Arifle_Famas_M203_base;
+  class Atlas_arifle_famasF1_GL_F: Atlas_Arifle_Famas_M203_base {
+    ACE_barrelTwist = 228.6; //1 in 12in
+    ACE_barrelLength = 488.0;
+  };
   class arifle_XMS_Base_lxWS;
   class arifle_XMS_M_lxWS: arifle_XMS_Base_lxWS {
     ACE_barrelLength = 450.0;
