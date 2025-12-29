@@ -54,10 +54,12 @@ class CfgWeapons {
     ACE_barrelLength = 508.0;
   };
   class GM6_base_F: Rifle_Long_Base_F {
-    ACE_barrelLength = 730; //copied from ace which applies it on weapon not base
+    //copied from ace which applies it on weapon not base
+    ACE_barrelLength = 730;
     ACE_barrelTwist = 381;
   };
   class Aegis_MMG_FNMAG_Base: Rifle_Long_Base_F {
+    ACE_barrelTwist = 305; // like m14?
     ACE_barrelLength = 630.0;
   };
   class Aegis_MMG_FNMAG_240_F: Aegis_MMG_FNMAG_Base {
@@ -90,13 +92,11 @@ class CfgWeapons {
     ACE_barrelLength = 114.0;
   };
   class hgun_Mk26_F: Pistol_Base_F {
-    //fixme
-    ACE_barrelTwist = 0; //???
-    ACE_barrelLength = 125.0;
+    ACE_barrelTwist = 482; // copied from .50 DE
+    ACE_barrelLength = 152.0;
   };
   class Aegis_hgun_Pistol_R57_F: Pistol_Base_F {
-    //fixme
-    ACE_barrelTwist = 0; //???
+    ACE_barrelTwist = 152; //like MP7
     ACE_barrelLength = 125.0;
   };
 };
