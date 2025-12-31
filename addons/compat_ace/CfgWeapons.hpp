@@ -11,9 +11,4 @@ class CfgWeapons {
   class sgun_HunterShotgun_01_sawedoff_base_F: sgun_HunterShotgun_01_base_F {
     ACE_barrelLength = 300.0; // guess
   };
-  // class GL_XM25_F;
-  class Opf_arifle_SKS_base_F: Rifle_Base_F {
-    ACE_barrelTwist = 240.0; //like AK?
-    ACE_barrelLength = 521.0;
-  };
 };
