@@ -11,12 +11,16 @@ class CfgWeapons {
       baseWeapon = QCLASS(launch_NSAM_F);
       canLock = 0;
       displayName = "NSAM";
+      descriptionShort = "Next Generation Surface to Air Missile";
       modes[] = {"Single"};
       model = "\z\ace\addons\dragon\models\ace_m47_magazine.p3d";
       modelOptics = "";
       // Potentially add different texture
       picture = "\z\ace\addons\dragon\data\m47_dragon_item_ca.paa";
       UiPicture = "\A3\Weapons_F\Data\UI\icon_aa_CA.paa";
+      class WeaponSlotsInfo: WeaponSlotsInfo {
+        mass = 50;
+      };
     };
     class CLASS(launch_NSAM_ready_F): CLASS(launch_NSAM_F) {
       scope = 1;
@@ -35,7 +39,7 @@ class CfgWeapons {
       descriptionShort = "empty";
       weaponPoolAvailable = 0;
       class WeaponSlotsInfo: WeaponSlotsInfo {
-        mass = 100;
+        mass = 45;
       };
     };
 };
