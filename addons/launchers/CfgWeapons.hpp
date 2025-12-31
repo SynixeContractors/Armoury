@@ -12,14 +12,11 @@ class CfgWeapons {
       canLock = 0;
       displayName = "NSAM";
       modes[] = {"Single"};
-      //FIXME: add different icon and external texture
-      picture = "\A3\weapons_f\launchers\nlaw\data\UI\gear_nlaw_ca.paa";
-      UiPicture = "\A3\Weapons_F\Data\UI\icon_at_CA.paa";
-      hiddenSelectionsTextures[] = {
-        QPATHTOF(data\nlaw_co.paa),
-        QPATHTOF(data\nlaw_co.paa),
-        QPATHTOF(data\nlaw_co.paa),
-      };
+      model = "\z\ace\addons\dragon\models\ace_m47_magazine.p3d";
+      modelOptics = "";
+      // Potentially add different texture
+      picture = "\z\ace\addons\dragon\data\m47_dragon_item_ca.paa";
+      UiPicture = "\A3\Weapons_F\Data\UI\icon_aa_CA.paa";
     };
     class CLASS(launch_NSAM_ready_F): CLASS(launch_NSAM_F) {
       scope = 1;

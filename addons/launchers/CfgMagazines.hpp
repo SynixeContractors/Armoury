@@ -8,5 +8,4 @@ class CfgMagazines {
     class CLASS(NSAM_LOAL): CLASS(Stinger_LOAL) {
     //just for shop difference
     };
-
 };
