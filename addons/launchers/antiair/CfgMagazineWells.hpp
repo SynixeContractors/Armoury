@@ -14,4 +14,9 @@ class CfgMagazineWells {
             QCLASS(Stinger_LOAL),
         };
     };
+    class Titan_Long {
+        ADDON[] += {
+            QCLASS(Stinger_LOBL),
+        };
+    };
 };

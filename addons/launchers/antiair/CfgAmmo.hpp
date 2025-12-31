@@ -8,6 +8,10 @@ class CLASS(missileguidance_type_Stinger_LOAL): ace_missileguidance_type_Stinger
     yawRate = 90;
     seekLastTargetPos = 1;
 };
+class CLASS(missileguidance_type_Stinger_LOBL): CLASS(missileguidance_type_Stinger_LOAL) {
+    seekerLockModes[] = {"LOBL","LOBL"};
+    defaultSeekerLockMode = "LOBL";
+};
 class CfgAmmo {
     class ace_missile_manpad_stinger;
     class CLASS(M_Stinger_LOAL): ace_missile_manpad_stinger {
@@ -15,6 +19,11 @@ class CfgAmmo {
 	thrustTime = 4.5; // twice the time to match
 	deflecting = 1; // thrust vectoring so LOAL doesnt make it miss _all_the_time_
         class ace_missileguidance: CLASS(missileguidance_type_Stinger_LOAL) {
+            enabled = 1;
+        };
+    };
+    class CLASS(M_Stinger_LOBL): CLASS(M_Stinger_LOAL) {
+        class ace_missileguidance: CLASS(missileguidance_type_Stinger_LOBL) {
             enabled = 1;
         };
     };
