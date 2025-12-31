@@ -12,6 +12,7 @@ class CfgWeapons {
       displayname = "NSAM";
       descriptionShort = "Next Generation Surface to Air Missile";
       modes[] = {"Single"};
+      magazineReloadTime = 0;
       //find a different model and/or retexture
       modelOptics = "\z\ace\addons\javelin\data\reticle_titan.p3d";
       model = "\A3\weapons_F\launchers\nlaw\nlaw_F.p3d";
