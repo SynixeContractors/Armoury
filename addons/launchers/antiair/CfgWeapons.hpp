@@ -18,6 +18,8 @@ class CfgWeapons {
       model = "\A3\weapons_F\launchers\nlaw\nlaw_F.p3d";
       picture = "\A3\weapons_f\launchers\nlaw\data\UI\gear_nlaw_ca.paa";
       UiPicture = "\A3\Weapons_F\Data\UI\icon_at_CA.paa";
+      magazines[] = {};
+      magazineWell[] = {};
       class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 50;
       };
