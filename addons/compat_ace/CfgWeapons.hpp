@@ -7,7 +7,6 @@ class CfgWeapons {
     ACE_barrelLength = 450.0;
   };
   class sgun_HunterShotgun_01_base_F: Rifle_Long_Base_F {
-    ACE_barrelTwist = SHOTGUN_BARREL_TWIST;
     ACE_barrelLength = 700.0;
   };
   class sgun_HunterShotgun_01_sawedoff_base_F: sgun_HunterShotgun_01_base_F {

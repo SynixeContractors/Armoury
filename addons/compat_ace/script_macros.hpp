@@ -1,1 +1,0 @@
-#define SHOTGUN_BARREL_TWIST 812.8
