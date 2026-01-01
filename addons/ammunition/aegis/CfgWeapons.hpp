@@ -86,4 +86,7 @@ class CfgWeapons {
     class Aegis_srifle_SVD_base_f: Rifle_Base_F {
         magazineWell[] += {"CBA_762x54R_SVD"};
     };
+    class GL_M32_F: Rifle_Base_F {
+        magazineWell[] += {"CBA_40mm_M203_6rnds","CBA_40mm_M203"};
+    };
 };
