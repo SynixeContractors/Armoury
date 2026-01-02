@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-	  "synixe_armoury_main",
+          "synixe_armoury_main",
         };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);

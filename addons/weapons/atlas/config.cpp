@@ -8,6 +8,9 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "synixe_armoury_main",
+            "A3_Aegis_Weapons_F_Aegis_Rifles_AK12",
+            "A3_Weapons_F_Exp_Rifles_AK12",
+            "A3_Atlas_Weapons_F_Atlas_Rifles_NCAR15"
         };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);

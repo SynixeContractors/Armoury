@@ -8,6 +8,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "synixe_armoury_main",
+            "Weapons_F_lxWS_Rifles"
         };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
