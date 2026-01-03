@@ -219,12 +219,6 @@ class CBA_762x39_AK {
         QCLASS(30Rnd_762x39_Ball_Tracer_Metal),
         QCLASS(30Rnd_762x39_EPR_Metal),
         QCLASS(30Rnd_762x39_AP_Metal),
-        QCLASS(75Rnd_762x39_Ball_Drum),
-        QCLASS(75Rnd_762x39_Ball_Tracer_Drum),
-        QCLASS(75Rnd_762x39_EPR_Drum),
-        QCLASS(75Rnd_762x39_Ball_Drum_Metal),
-        QCLASS(75Rnd_762x39_Ball_Tracer_Drum_Metal),
-        QCLASS(75Rnd_762x39_EPR_Drum_Metal)
     };
 };
 
