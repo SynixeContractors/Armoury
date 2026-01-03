@@ -1,8 +1,17 @@
+class asdg_OpticRail1913 {class compatibleItems;};
+class asdg_OpticRail1913_long: asdg_OpticRail1913 {
+  class compatibleItems: compatibleItems {
+    optic_ico_01_f = 1;
+    optic_ico_01_camo_f = 1;
+    optic_ico_01_black_f = 1;
+    optic_ico_01_sand_f = 1;
+  };
+};
+
 class WeaponSlotsInfo;
 class asdg_FrontSideRail;
 class asdg_MuzzleSlot_556;
 class asdg_MuzzleSlot_65;
-class asdg_OpticRail1913;
 class asdg_UnderSlot;
 
 class CfgWeapons {
@@ -67,7 +76,7 @@ class CfgWeapons {
         iconPosition[] = {0,0.38};
         iconScale = 0.2;
       };
-      class CowsSlot: asdg_OpticRail1913 {
+      class CowsSlot: asdg_OpticRail1913_long {
         iconPosition[] = {0.37,0.24};
         iconScale = 0.2;
       };
@@ -84,7 +93,7 @@ class CfgWeapons {
         iconPosition[] = {0,0.38};
         iconScale = 0.2;
       };
-      class CowsSlot: asdg_OpticRail1913 {
+      class CowsSlot: asdg_OpticRail1913_long {
         iconPosition[] = {0.45,0.24};
         iconScale = 0.2;
       };
