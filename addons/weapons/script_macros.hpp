@@ -3,7 +3,7 @@
 
 #define MAGAZINE_G36 \
 DESCRIPTION_AR_556;\
-magazines[] = {};\
+magazines[] = {QCLASS(30Rnd_556x45_Ball_G36)};\
 magazineWell[] = {\
     "CBA_556x45_G36",\
 }
