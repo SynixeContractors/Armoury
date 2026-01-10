@@ -1,7 +1,7 @@
 class CfgMagazineWells {
     class Verona_Long {
         ADDON[] += {
-            QCLASS(Stinger_LOAL),
+            QCLASS(Stinger_LOAL_Metis),
         };
     };
     class CBA_Carl_Gustaf {
