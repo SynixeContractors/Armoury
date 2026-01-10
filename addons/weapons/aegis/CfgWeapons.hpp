@@ -1,3 +1,6 @@
+class Mode_FullAuto;
+
+
 class CfgWeapons {
     class Aegis_arifle_Velko_oak;
     class Aegis_arifle_Velko_sand;
@@ -7,4 +10,5 @@ class CfgWeapons {
 
     #include "CfgWeapons_Vektor762.hpp"
     #include "CfgWeapons_Vektor556.hpp"
+    #include "CfgWeapons_M16.hpp"
 };
