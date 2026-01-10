@@ -4,13 +4,21 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {};
-        weapons[] = {};
+        weapons[] = {
+            QCLASS(arifle_G36),
+            QCLASS(arifle_G36_sand),
+            QCLASS(arifle_G36C),
+            QCLASS(arifle_G36C_sand),
+            QCLASS(arifle_G36_GL),
+            QCLASS(arifle_G36_GL_sand),
+        };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "synixe_armoury_main",
             "A3_Aegis_Weapons_F_Aegis_Rifles_AK12",
             "A3_Weapons_F_Exp_Rifles_AK12",
-            "A3_Atlas_Weapons_F_Atlas_Rifles_NCAR15"
+            "A3_Atlas_Weapons_F_Atlas_Rifles_NCAR15",
+            "A3_Atlas_Weapons_F_Atlas_Rifles_G36",
         };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
