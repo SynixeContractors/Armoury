@@ -4,3 +4,4 @@
 #include "\s\synixe_armoury\addons\main\script_macros.hpp"
 
 #include "script_macros.hpp"
+#include "..\script_macros.hpp"

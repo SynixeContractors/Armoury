@@ -131,6 +131,16 @@ class CBA_556x45_STANAG_2D_XL {
     };
 };
 
+class CBA_556x45_G36 {
+    ADDON[] = {
+        QCLASS(AI_30Rnd_556x45_Ball_G36),
+        QCLASS(30Rnd_556x45_Ball_G36),
+        QCLASS(30Rnd_556x45_Ball_Tracer_G36),
+        QCLASS(30Rnd_556x45_EPR_G36),
+        QCLASS(30Rnd_556x45_AP_G36),
+    };
+};
+
 class CBA_556x45_MINIMI {
     ADDON[] = {
         QCLASS(200Rnd_556x45_Ball_Belt),
