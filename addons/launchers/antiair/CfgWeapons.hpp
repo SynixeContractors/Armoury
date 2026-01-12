@@ -23,6 +23,12 @@ class CfgWeapons {
       class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 50;
       };
+      //backblast from nlaw ("soft launch")
+      ace_overpressure_angle = 30;
+      ace_overpressure_damage = 0.6;
+      ace_overpressure_offset = 1.05;
+      ace_overpressure_priority = 1;
+      ace_overpressure_range = 2;
     };
     class CLASS(launch_NSAM_ready_F): CLASS(launch_NSAM_F) {
       scope = 1;

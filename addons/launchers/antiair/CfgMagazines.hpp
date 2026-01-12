@@ -1,7 +1,7 @@
 class CfgMagazines {
     class Vorona_HEAT;
     class CLASS(Stinger_LOAL): Vorona_HEAT {
-        ammo = QCLASS(M_Stinger_LOAL);
+        ammo = QCLASS(M_NSAM_LOAL);
         displayName = "NSAM LOAL (105mm)";
         displaynameshort = "MANPADS";
         descriptionShort = "Type: NSAM Missile<br />Rounds: 1<br />Used in: RPG32";
@@ -15,7 +15,7 @@ class CfgMagazines {
         descriptionShort = "Type: NSAM Missile<br />Rounds: 1<br />Used in: Metis";
     };
     class CLASS(Stinger_LOBL): CLASS(Stinger_LOAL) {
-        ammo = QCLASS(M_Stinger_LOBL);
+        ammo = QCLASS(M_NSAM_LOBL);
         displayName = "NSAM";
         descriptionShort = "Type: NSAM Missile<br />Rounds: 1<br />Used in: Titan MPRL";
     };
