@@ -6,7 +6,6 @@ class CLASS(missileguidance_type_NSAM_LOAL): ace_missileguidance_type_Stinger {
     defaultNavigationType = "ZeroEffortMiss";
     pitchRate = 90;
     yawRate = 90;
-    seekLastTargetPos = 1;
 };
 class CLASS(missileguidance_type_NSAM_LOBL): CLASS(missileguidance_type_NSAM_LOAL) {
     seekerLockModes[] = {"LOBL","LOAL"};
