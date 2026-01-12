@@ -4,7 +4,9 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {};
-        weapons[] = {};
+        weapons[] = {
+            QCLASS(launch_NSAM_F),
+        };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"ace_common"};
         author = ECSTRING(main,Author);

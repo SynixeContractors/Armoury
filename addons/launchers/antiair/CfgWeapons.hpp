@@ -10,7 +10,7 @@ class CfgWeapons {
       scopeArsenal = 2;
       baseWeapon = QCLASS(launch_NSAM_F);
       displayname = "NSAM";
-      descriptionShort = "Next Generation Surface to Air Missile";
+      descriptionShort = "Next Generation Surface to Air Missile Launcher";
       modes[] = {"Single"};
       magazineReloadTime = 0;
       //find a different model and/or retexture
@@ -23,6 +23,12 @@ class CfgWeapons {
       class WeaponSlotsInfo: WeaponSlotsInfo {
         mass = 50;
       };
+      //backblast from nlaw ("soft launch")
+      ace_overpressure_angle = 30;
+      ace_overpressure_damage = 0.6;
+      ace_overpressure_offset = 1.05;
+      ace_overpressure_priority = 1;
+      ace_overpressure_range = 2;
     };
     class CLASS(launch_NSAM_ready_F): CLASS(launch_NSAM_F) {
       scope = 1;
@@ -37,6 +43,8 @@ class CfgWeapons {
       scope = 1;
       scopeArsenal = 1;
       baseWeapon = QCLASS(launch_NSAM_used_F);
+      //cannot use IR imaging head to look through used one
+      modelOptics = "";
       displayName = "used NSAM";
       descriptionShort = "empty";
       weaponPoolAvailable = 0;
