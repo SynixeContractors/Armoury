@@ -14,5 +14,5 @@ magazines[] = {"30Rnd_762x39_AK12_Mag_F"};\
 magazineWell[] = {\
     "CBA_762x39_AK",\
     "CBA_762x39_RPK",\
-    "AK_76x39",\
+    "AK_762x39",\
 }
