@@ -7,3 +7,11 @@ magazines[] = {QCLASS(30Rnd_556x45_Ball_G36)};\
 magazineWell[] = {\
     "CBA_556x45_G36",\
 }
+
+#define MAGAZINE_AKM \
+DESCRIPTION_AR_762x39;\
+magazines[] = {"30Rnd_762x39_AK12_Mag_F"};\
+magazineWell[] = {\
+    "CBA_762x39_AK",\
+    "CBA_762x39_RPK",\
+}
