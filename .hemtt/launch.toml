@@ -52,3 +52,9 @@ extends = "default"
 workshop = [
     "3397288027" # JCA UMP45
 ]
+
+[uriki]
+extends = "default"
+workshop = [
+    "synixe:@urikimissionitems"
+]

@@ -8,15 +8,14 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "synixe_armoury_main",
-            "UMI_Inventory"
+            "A3_Missions_F_Oldman"
         };
-        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
-        authors[] = {"Mike", "Uriki"};
+        authors[] = {"Brett"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };
 
-#include "CfgVehicles.hpp"
-#include "CfgWeapons.hpp"
+#include "CfgEventHandlers.hpp"
+#include "CfgMagazines.hpp"
