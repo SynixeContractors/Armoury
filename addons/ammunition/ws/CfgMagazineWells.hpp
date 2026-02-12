@@ -5,6 +5,10 @@ class CfgMagazineWells {
             QCLASS(30Rnd_556x45_Ball_Tracer_Camo_Stanag),
             QCLASS(30Rnd_556x45_EPR_Camo_Stanag),
             QCLASS(30Rnd_556x45_AP_Camo_Stanag),
+        };
+    };
+    class CBA_556x45_STANAG_2D_XL {
+        ADDON[] = {
             QCLASS(75Rnd_556x45_Ball_Surefire),
             QCLASS(75Rnd_556x45_Tracer_Surefire),
             QCLASS(75Rnd_556x45_EPR_Surefire)

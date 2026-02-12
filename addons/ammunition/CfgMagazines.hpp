@@ -29,6 +29,7 @@ class CfgMagazines {
     class 150Rnd_93x64_Mag;
     class 5Rnd_127x108_Mag;
     class 10Rnd_93x64_DMR_05_Mag;
+    class 30Rnd_556x45_Stanag; //metal stanag
 
     // Handgun baseclasses
     class 16Rnd_9x21_Mag;

@@ -90,3 +90,32 @@ class CLASS(30Rnd_556x45_AP_G36): CLASS(30Rnd_556x45_EPR_G36) {
     displayNameShort = "AP";
     descriptionShort = "5.56x45mm AP Reload Tracer";
 };
+// 556x45mm (Metal)
+class CLASS(30Rnd_556x45_Ball_Metal): 30Rnd_556x45_Stanag {
+    MACRO_SCOPE;
+    ammo = QCLASS(556x45_Ball);
+    displayName = "5.56mm 30Rnd Metal (Ball)";
+    displayNameShort = "Ball";
+    descriptionShort = "5.56x45mm Ball Reload Tracer";
+    lastRoundsTracer = 4;
+    tracersEvery = 4;
+    mass = 8.5; // to match WS plastic ones since basegame was lighter
+};
+class CLASS(30Rnd_556x45_Ball_Tracer_Metal): CLASS(30Rnd_556x45_Ball_Metal) {
+    displayName = "5.56mm 30Rnd Metal [T] (Ball)";
+    displayNameShort = "Ball Tracer";
+    descriptionShort = "5.56x45mm Ball Tracer";
+    tracersEvery = 1;
+};
+class CLASS(30Rnd_556x45_EPR_Metal): CLASS(30Rnd_556x45_Ball_Metal) {
+    ammo = QCLASS(556x45_EPR);
+    displayName = "5.56mm 30Rnd Metal (EPR)";
+    displayNameShort = "EPR";
+    descriptionShort = "5.56x45mm EPR Reload Tracer";
+};
+class CLASS(30Rnd_556x45_AP_Metal): CLASS(30Rnd_556x45_EPR_Metal) {
+    ammo = QCLASS(556x45_AP);
+    displayName = "5.56mm 30Rnd Metal (AP)";
+    displayNameShort = "AP";
+    descriptionShort = "5.56x45mm AP Reload Tracer";
+};
