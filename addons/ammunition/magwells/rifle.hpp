@@ -131,6 +131,15 @@ class CBA_556x45_STANAG_2D_XL {
     };
 };
 
+class CBA_556x45_STANAG {
+    ADDON[] = {
+        QCLASS(30Rnd_556x45_Ball_Metal),
+        QCLASS(30Rnd_556x45_Ball_Tracer_Metal),
+        QCLASS(30Rnd_556x45_EPR_Metal),
+        QCLASS(30Rnd_556x45_AP_Metal)
+    };
+};
+
 class CBA_556x45_G36 {
     ADDON[] = {
         QCLASS(AI_30Rnd_556x45_Ball_G36),
