@@ -201,3 +201,32 @@ class CLASS(30Rnd_545x39_AP_Plum): CLASS(30Rnd_545x39_AP) {
     MACRO_AEGIS_AK12_MAGAZINE_PLUM;
     displayName = "5.45mm 30Rnd Plum (AP)";
 };
+
+//5.45x39 Metal
+class CLASS(30Rnd_545x39_Ball_Metal): 30Rnd_545x39_Steel_Mag_Green_F {
+    ammo = QCLASS(545x39_Ball);
+    displayName = "5.45mm 30Rnd Metal (TE4) Ball";
+    displayNameShort = "Ball TE4";
+    descriptionShort = "5.45x39mm Ball Tracer Every 4";
+    tracersEvery = 4;
+    mass = 20;
+};
+class CLASS(30Rnd_545x39_EPR_Metal): CLASS(30Rnd_545x39_Ball_Metal) {
+    ammo = QCLASS(545x39_EPR);
+    displayName = "5.45mm 30Rnd Metal (TE4) EPR";
+    displayNameShort = "EPR TE4";
+    descriptionShort = "5.45x39mm EPR Tracer every 4";
+};
+class CLASS(30Rnd_545x39_AP_Metal): CLASS(30Rnd_545x39_Ball_Metal) {
+    ammo = QCLASS(545x39_AP);
+    displayName = "5.45mm 30Rnd Metal (TE4) AP";
+    displayNameShort = "AP TE4";
+    descriptionShort = "5.45x39mm AP Tracer every 4";
+};
+
+class CLASS(30Rnd_545x39_Ball_Tracer_Metal): CLASS(30Rnd_545x39_Ball_Metal) {
+    displayName = "5.45mm 30Rnd Metal (T) Ball";
+    displayNameShort = "Ball Tracer";
+    descriptionShort = "5.45x39mm Ball Tracer";
+    tracersEvery = 1;
+};

@@ -25,6 +25,10 @@ class CfgMagazineWells {
             QCLASS(60Rnd_545x39_EPR_Aegis),
             QCLASS(60Rnd_545x39_AP_Aegis),
             QCLASS(60Rnd_545x39_Ball_Tracer_Aegis),
+            QCLASS(30Rnd_545x39_Ball_Metal),
+            QCLASS(30Rnd_545x39_Ball_Tracer_Metal),
+            QCLASS(30Rnd_545x39_EPR_Metal),
+            QCLASS(30Rnd_545x39_AP_Metal),
         };
     };
     class CBA_762x51_SCAR {
