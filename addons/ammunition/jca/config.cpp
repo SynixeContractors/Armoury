@@ -13,7 +13,7 @@ class CfgPatches {
         };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
-        authors[] = {"Philippe"};
+        authors[] = {"Philippe Connect"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
