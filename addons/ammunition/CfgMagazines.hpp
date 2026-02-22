@@ -10,6 +10,8 @@ class CfgMagazines {
     class 30Rnd_580x42_Mag_F;
     class 100Rnd_580x42_Mag_F;
     class 150Rnd_556x45_Drum_Mag_F;
+    class 150Rnd_556x45_Drum_Green_Mag_F;
+    class 150Rnd_556x45_Drum_Sand_Mag_F;
     class 200Rnd_556x45_Box_F;
     class 30Rnd_65x39_caseless_mag; // MX
     class 100Rnd_65x39_caseless_mag;

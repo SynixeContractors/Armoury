@@ -3,6 +3,10 @@ workshop = [
     "3499977893", # ADT
     "450814997", # CBA
     "463939057", # ACE3
+
+    "3333302397", # JCA Weapons
+    "3473383676", # JCA Equipment
+    # "3661907264", # JCA CERA
 ]
 
 [zen]
@@ -39,18 +43,6 @@ workshop = [
 extends = "default"
 workshop = [
     "2538339575", # Atlas - Development
-]
-
-[jca_mp5a5]
-extends = "default"
-workshop = [
-    "3302425224" # JCA MP5A5
-]
-
-[jca_ump45]
-extends = "default"
-workshop = [
-    "3397288027" # JCA UMP45
 ]
 
 [uriki]

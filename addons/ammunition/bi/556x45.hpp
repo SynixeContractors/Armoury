@@ -57,65 +57,59 @@ class CLASS(150Rnd_556x45_AP_Drum): CLASS(150Rnd_556x45_Ball_Drum) {
     descriptionShort = "5.56x45mm AP Tracer Every 4";
 };
 
-// 556x45mm (MSBS/G36)
-class CLASS(30Rnd_556x45_Ball_G36): 30Rnd_65x39_caseless_msbs_mag {
-    modelSpecial = "\a3\weapons_f_enoch\magazineproxies\mag_556x45_msbs_30rnd.p3d";
+// 5.56x45mm Drum Green 150
+class CLASS(150Rnd_556x45_Ball_Drum_Green): 150Rnd_556x45_Drum_Green_Mag_F {
     MACRO_SCOPE;
     ammo = QCLASS(556x45_Ball);
-    displayName = "5.56mm 30Rnd G36 (Ball)";
-    displayNameShort = "Ball";
-    descriptionShort = "5.56x45mm Ball Reload Tracer";
-    lastRoundsTracer = 4;
+    displayName = "5.56mm 150Rnd Drum Green [TE4] (Ball)";
+    displayNameShort = "Ball TE4";
+    descriptionShort = "5.56x45mm Ball Tracer Every 4";
     tracersEvery = 4;
+    mass = 35;
 };
-class CLASS(AI_30Rnd_556x45_Ball_G36): CLASS(30Rnd_556x45_Ball_G36) {
-    //replace this if we get ai mag macro to use
-    displayName = "[AI] 5.56mm 30Rnd G36 (Ball)";
-};
-class CLASS(30Rnd_556x45_Ball_Tracer_G36): CLASS(30Rnd_556x45_Ball_G36) {
-    displayName = "5.56mm 30Rnd G36 [T] (Ball)";
+class CLASS(150Rnd_556x45_Ball_Tracer_Drum_Green): CLASS(150Rnd_556x45_Ball_Drum_Green) {
+    displayName = "5.56mm 150Rnd Drum Green [T] (Ball)";
     displayNameShort = "Ball Tracer";
     descriptionShort = "5.56x45mm Ball Tracer";
     tracersEvery = 1;
 };
-class CLASS(30Rnd_556x45_EPR_G36): CLASS(30Rnd_556x45_Ball_G36) {
+class CLASS(150Rnd_556x45_EPR_Drum_Green): CLASS(150Rnd_556x45_Ball_Drum_Green) {
     ammo = QCLASS(556x45_EPR);
-    displayName = "5.56mm 30Rnd G36 (EPR)";
-    displayNameShort = "EPR";
-    descriptionShort = "5.56x45mm EPR Reload Tracer";
+    displayName = "5.56mm 150Rnd Drum Green [TE4] (EPR)";
+    displayNameShort = "EPR TE4";
+    descriptionShort = "5.56x45mm EPR Tracer Every 4";
 };
-class CLASS(30Rnd_556x45_AP_G36): CLASS(30Rnd_556x45_EPR_G36) {
+class CLASS(150Rnd_556x45_AP_Drum_Green): CLASS(150Rnd_556x45_Ball_Drum_Green) {
     ammo = QCLASS(556x45_AP);
-    displayName = "5.56mm 30Rnd G36 (AP)";
-    displayNameShort = "AP";
-    descriptionShort = "5.56x45mm AP Reload Tracer";
+    displayName = "5.56mm 150Rnd Drum Green [TE4] (AP)";
+    displayNameShort = "AP TE4";
+    descriptionShort = "5.56x45mm AP Tracer Every 4";
 };
-// 556x45mm (Metal)
-class CLASS(30Rnd_556x45_Ball_Metal): 30Rnd_556x45_Stanag {
+
+class CLASS(150Rnd_556x45_Ball_Drum_Sand): 150Rnd_556x45_Drum_Sand_Mag_F {
     MACRO_SCOPE;
     ammo = QCLASS(556x45_Ball);
-    displayName = "5.56mm 30Rnd Metal (Ball)";
-    displayNameShort = "Ball";
-    descriptionShort = "5.56x45mm Ball Reload Tracer";
-    lastRoundsTracer = 4;
+    displayName = "5.56mm 150Rnd Drum Sand [TE4] (Ball)";
+    displayNameShort = "Ball TE4";
+    descriptionShort = "5.56x45mm Ball Tracer Every 4";
     tracersEvery = 4;
-    mass = 8.5; // to match WS plastic ones since basegame was lighter
+    mass = 35;
 };
-class CLASS(30Rnd_556x45_Ball_Tracer_Metal): CLASS(30Rnd_556x45_Ball_Metal) {
-    displayName = "5.56mm 30Rnd Metal [T] (Ball)";
+class CLASS(150Rnd_556x45_Ball_Tracer_Drum_Sand): CLASS(150Rnd_556x45_Ball_Drum_Sand) {
+    displayName = "5.56mm 150Rnd Drum Sand [T] (Ball)";
     displayNameShort = "Ball Tracer";
     descriptionShort = "5.56x45mm Ball Tracer";
     tracersEvery = 1;
 };
-class CLASS(30Rnd_556x45_EPR_Metal): CLASS(30Rnd_556x45_Ball_Metal) {
+class CLASS(150Rnd_556x45_EPR_Drum_Sand): CLASS(150Rnd_556x45_Ball_Drum_Sand) {
     ammo = QCLASS(556x45_EPR);
-    displayName = "5.56mm 30Rnd Metal (EPR)";
-    displayNameShort = "EPR";
-    descriptionShort = "5.56x45mm EPR Reload Tracer";
+    displayName = "5.56mm 150Rnd Drum Sand [TE4] (EPR)";
+    displayNameShort = "EPR TE4";
+    descriptionShort = "5.56x45mm EPR Tracer Every 4";
 };
-class CLASS(30Rnd_556x45_AP_Metal): CLASS(30Rnd_556x45_EPR_Metal) {
+class CLASS(150Rnd_556x45_AP_Drum_Sand): CLASS(150Rnd_556x45_Ball_Drum_Sand) {
     ammo = QCLASS(556x45_AP);
-    displayName = "5.56mm 30Rnd Metal (AP)";
-    displayNameShort = "AP";
-    descriptionShort = "5.56x45mm AP Reload Tracer";
+    displayName = "5.56mm 150Rnd Drum Sand [TE4] (AP)";
+    displayNameShort = "AP TE4";
+    descriptionShort = "5.56x45mm AP Tracer Every 4";
 };
