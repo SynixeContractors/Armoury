@@ -9,7 +9,7 @@ class CfgPatches {
         requiredAddons[] = {
             "synixe_armoury_main",
             "synixe_armoury_ammunition",
-            "Weapons_F_JCA_UMP_SMGs_UMP"
+            "Weapons_F_JCA_IA_SMGs_MP5"
         };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
