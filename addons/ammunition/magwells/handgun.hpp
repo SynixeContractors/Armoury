@@ -36,6 +36,6 @@ class CBA_9x18_PM {
     ADDON[] = {
         QCLASS(10Rnd_9x18_Ball),
         QCLASS(10Rnd_9x18_EPR),
-        QCLASS(10Rnd_9x18_EPR),
+        QCLASS(10Rnd_9x18_AP),
     };
 };
