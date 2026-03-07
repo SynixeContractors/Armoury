@@ -1,10 +1,23 @@
 class CLASS(17Rnd_9x19mm_Walther_Ball): 16Rnd_9x21_Mag {
     MACRO_SCOPE;
     ammo = QCLASS(9x19_Ball);
-    descriptionShort = "9x19mm Ball Reload Tracer";
+    descriptionShort = "9x19mm (Ball) Reload Tracer";
     displayName = "9mm 17Rnd Walther (Ball)";
+    displayNameShort = "Ball";
     lastRoundsTracer = 2;
     tracersEvery = 4;
+};
+class CLASS(17Rnd_9x19mm_Walther_EPR): CLASS(17Rnd_9x19mm_Walther_Ball) {
+    ammo = QCLASS(9x19_EPR);
+    descriptionShort = "9x19mm (EPR)";
+    displayName = "9mm 17Rnd Walther (EPR)";
+    displayNameShort = "EPR";
+};
+class CLASS(17Rnd_9x19mm_Walther_AP): CLASS(17Rnd_9x19mm_Walther_Ball) {
+    ammo = QCLASS(9x19_AP);
+    descriptionShort = "9x19mm Ball (AP)";
+    displayName = "9mm 17Rnd Walther (AP)";
+    displayNameShort = "AP";
 };
 
 // 9x19mm

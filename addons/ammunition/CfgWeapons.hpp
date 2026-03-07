@@ -9,6 +9,9 @@ class CfgWeapons {
     class hgun_P07_F: Pistol_Base_F {
         magazineWell[] += {"CBA_9x19_Walther"};
     };
+    class hgun_Pistol_01_F: Pistol_Base_F {
+        magazineWell[] += {"CBA_9x18_PM"};
+    };
 
     class hgun_Pistol_heavy_01_F: Pistol_Base_F {
         magazineWell[] += {"CBA_45ACP_FNX45"};
