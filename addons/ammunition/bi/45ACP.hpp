@@ -7,6 +7,12 @@ class CLASS(15Rnd_45ACP_FNX45_Ball): 11Rnd_45ACP_Mag {
     lastRoundsTracer = 2;
     tracersEvery = 4;
 };
+class CLASS(15Rnd_45ACP_FNX45_EPR): CLASS(15Rnd_45ACP_FNX45_Ball) {
+    ammo = QCLASS(45ACP_EPR);
+    descriptionShort = ".45ACP EPR Reload Tracer";
+    displayName = ".45ACP 15Rnd FNX-45 (EPR)";
+    displayNameShort = "EPR";
+};
 
 // .45ACP C-1911
 class CLASS(8Rnd_45ACP_C1911_Ball): 9Rnd_45ACP_Mag {
@@ -16,6 +22,12 @@ class CLASS(8Rnd_45ACP_C1911_Ball): 9Rnd_45ACP_Mag {
     displayName = ".45ACP 8Rnd C-1911 (Ball)";
     lastRoundsTracer = 2;
     tracersEvery = 4;
+};
+class CLASS(8Rnd_45ACP_C1911_EPR):  CLASS(8Rnd_45ACP_C1911_Ball) {
+    ammo = QCLASS(45ACP_EPR);
+    descriptionShort = ".45ACP EPR Reload Tracer";
+    displayName = ".45ACP 8Rnd C-1911 (EPR)";
+    displayNameShort = "EPR";
 };
 
 // .45ACP SMG
