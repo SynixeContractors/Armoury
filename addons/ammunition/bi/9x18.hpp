@@ -16,7 +16,7 @@ class CLASS(10Rnd_9x18_EPR): CLASS(10Rnd_9x18_Ball) {
 };
 class CLASS(10Rnd_9x18_AP): CLASS(10Rnd_9x18_Ball) {
     ammo = QCLASS(9x18_AP);
-    descriptionShort = "9x18mm Ball Reload Tracer";
+    descriptionShort = "9x18mm AP Reload Tracer";
     displayName = "9mm 10Rnd Makarov (AP)";
     displayNameShort = "AP";
 };
