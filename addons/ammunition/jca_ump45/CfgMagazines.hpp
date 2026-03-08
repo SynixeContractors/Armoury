@@ -7,9 +7,9 @@ class CfgMagazines {
         displayName = ".45 ACP 25Rnd UMP (Ball)";
         lastRoundsTracer = 2;
     };
-    class CLASS(25Rnd_45ACP_EPR_UMP_JCA): JCA_25Rnd_45ACP_UMP_Mag {
+    class CLASS(25Rnd_45ACP_JHP_UMP_JCA): JCA_25Rnd_45ACP_UMP_Mag {
         MACRO_SCOPE;
-        ammo = QCLASS(45ACP_EPR);
+        ammo = QCLASS(45ACP_JHP);
         descriptionShort = ".45 ACP Ball EPR";
         displayName = ".45 ACP 25Rnd UMP (EPR)";
         lastRoundsTracer = 2;

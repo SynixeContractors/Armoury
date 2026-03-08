@@ -2,62 +2,50 @@
 class CLASS(15Rnd_45ACP_FNX45_Ball): 11Rnd_45ACP_Mag {
     MACRO_SCOPE;
     ammo = QCLASS(45ACP_Ball);
-    descriptionShort = ".45ACP Ball Reload Tracer";
-    displayName = ".45ACP 15Rnd FNX-45 (Ball)";
     lastRoundsTracer = 2;
     tracersEvery = 4;
+    AMMO_DESCRIPTION(.45ACP,Ball,15,Reload Tracer,FNX);
 };
-class CLASS(15Rnd_45ACP_FNX45_EPR): CLASS(15Rnd_45ACP_FNX45_Ball) {
-    ammo = QCLASS(45ACP_EPR);
-    descriptionShort = ".45ACP EPR Reload Tracer";
-    displayName = ".45ACP 15Rnd FNX-45 (EPR)";
-    displayNameShort = "EPR";
+class CLASS(15Rnd_45ACP_FNX45_JHP): CLASS(15Rnd_45ACP_FNX45_Ball) {
+    ammo = QCLASS(45ACP_JHP);
+    AMMO_DESCRIPTION(.45ACP,JHP,15,Reload Tracer,FNX);
 };
 
 // .45ACP C-1911
 class CLASS(8Rnd_45ACP_C1911_Ball): 9Rnd_45ACP_Mag {
     MACRO_SCOPE;
     ammo = QCLASS(45ACP_Ball);
-    descriptionShort = ".45ACP Ball Reload Tracer";
-    displayName = ".45ACP 8Rnd C-1911 (Ball)";
     lastRoundsTracer = 2;
     tracersEvery = 4;
+    AMMO_DESCRIPTION(.45ACP,Ball,8,Reload Tracer,1911);
 };
-class CLASS(8Rnd_45ACP_C1911_EPR):  CLASS(8Rnd_45ACP_C1911_Ball) {
-    ammo = QCLASS(45ACP_EPR);
-    descriptionShort = ".45ACP EPR Reload Tracer";
-    displayName = ".45ACP 8Rnd C-1911 (EPR)";
-    displayNameShort = "EPR";
+class CLASS(8Rnd_45ACP_C1911_JHP):  CLASS(8Rnd_45ACP_C1911_Ball) {
+    ammo = QCLASS(45ACP_JHP);
+    AMMO_DESCRIPTION(.45ACP,Ball,8,Reload Tracer,1911);
 };
 
 // .45ACP SMG
 class CLASS(25Rnd_45ACP_Ball): 30Rnd_45ACP_Mag_SMG_01 {
     MACRO_SCOPE;
     ammo = QCLASS(45ACP_Ball);
-    displayName = ".45ACP 25Rnd (Ball)";
-    displayNameShort = "Ball";
-    descriptionShort = ".45ACP Ball Reload Tracer";
     lastRoundsTracer = 4;
     tracersEvery = 4;
     mass = 9;
+    AMMO_DESCRIPTION(.45ACP,Ball,25,Reload Tracer,Vector);
 };
 class CLASS(25Rnd_45ACP_Ball_Tracer): CLASS(25Rnd_45ACP_Ball) {
-    displayName = ".45ACP 25Rnd [T] (Ball)";
-    displayNameShort = "Ball Tracer";
-    descriptionShort = ".45ACP Ball Tracer";
     tracersEvery = 1;
+    AMMO_DESCRIPTION(.45ACP,Ball [T],25,Tracer,Vector);
 };
-class CLASS(25Rnd_45ACP_EPR): CLASS(25Rnd_45ACP_Ball) {
-    ammo = QCLASS(45ACP_EPR);
-    displayName = ".45ACP 25Rnd (EPR)";
-    displayNameShort = "EPR";
-    descriptionShort = ".45ACP EPR Reload Tracer";
+class CLASS(25Rnd_45ACP_JHP): CLASS(25Rnd_45ACP_Ball) {
+    ammo = QCLASS(45ACP_JHP);
+    AMMO_DESCRIPTION(.45ACP,JHP,25,Reload Tracer,Vector);
 };
+//revolver
 class CLASS(6Rnd_45ACP_Ball_Cylinder): 6Rnd_45ACP_Cylinder {
     MACRO_SCOPE;
     ammo = QCLASS(45ACP_Ball);
-    descriptionShort = ".45ACP Ball";
-    displayName = ".45ACP 6Rnd Cylinder (Ball)";
     lastRoundsTracer = 2;
     tracersEvery = 4;
+    AMMO_DESCRIPTION(.45ACP,Ball,6,Reload Tracer,Cylinder);
 };

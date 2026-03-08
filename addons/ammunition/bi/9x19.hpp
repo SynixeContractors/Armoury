@@ -1,51 +1,37 @@
 class CLASS(17Rnd_9x19mm_Walther_Ball): 16Rnd_9x21_Mag {
     MACRO_SCOPE;
     ammo = QCLASS(9x19_Ball);
-    descriptionShort = "9x19mm Ball Reload Tracer";
-    displayName = "9mm 17Rnd Walther (Ball)";
-    displayNameShort = "Ball";
     lastRoundsTracer = 2;
     tracersEvery = 4;
+    AMMO_DESCRIPTION(9x19mm,Ball,17,Reload Tracer,Walther);
 };
-class CLASS(17Rnd_9x19mm_Walther_EPR): CLASS(17Rnd_9x19mm_Walther_Ball) {
+class CLASS(17Rnd_9x19mm_Walther_JHP): CLASS(17Rnd_9x19mm_Walther_Ball) {
     ammo = QCLASS(9x19_JHP);
-    descriptionShort = "9x19mm EPR Reload Tracer";
-    displayName = "9mm 17Rnd Walther (EPR)";
-    displayNameShort = "EPR";
+    AMMO_DESCRIPTION(9x19mm,JHP,17,Reload Tracer,Walther);
 };
 class CLASS(17Rnd_9x19mm_Walther_AP): CLASS(17Rnd_9x19mm_Walther_Ball) {
     ammo = QCLASS(9x19_AP);
-    descriptionShort = "9x19mm AP Reload Tracer";
-    displayName = "9mm 17Rnd Walther (AP)";
-    displayNameShort = "AP";
+    AMMO_DESCRIPTION(9x19mm,AP,17,Reload Tracer,Walther);
 };
 
 // 9x19mm
 class CLASS(30Rnd_9x19_Ball): 30Rnd_9x21_Mag {
     MACRO_SCOPE;
     ammo = QCLASS(9x19_Ball);
-    displayName = "9mm 30Rnd (Ball)";
-    displayNameShort = "Ball";
-    descriptionShort = "9x19mm Ball Reload Tracer";
     lastRoundsTracer = 4;
     tracersEvery = 4;
     mass = 9;
+    AMMO_DESCRIPTION(9x19mm,Ball,30,Reload Tracer,);
 };
 class CLASS(30Rnd_9x19_Ball_Tracer): CLASS(30Rnd_9x19_Ball) {
-    displayName = "9mm 30Rnd [T] (Ball)";
-    displayNameShort = "Ball Tracer";
-    descriptionShort = "9x19mm Ball Tracer";
     tracersEvery = 1;
+    AMMO_DESCRIPTION(9x19mm,Ball [T],30,Tracer,);
 };
 class CLASS(30Rnd_9x19_JHP): CLASS(30Rnd_9x19_Ball) {
     ammo = QCLASS(9x19_JHP);
-    displayName = "9mm 30Rnd (EPR)";
-    displayNameShort = "EPR";
-    descriptionShort = "9x19mm EPR Reload Tracer";
+    AMMO_DESCRIPTION(9x19mm,JHP,30,Reload Tracer,);
 };
 class CLASS(30Rnd_9x19_AP): CLASS(30Rnd_9x19_JHP) {
     ammo = QCLASS(9x19_AP);
-    displayName = "9mm 30Rnd (AP)";
-    displayNameShort = "AP";
-    descriptionShort = "9x19mm AP Reload Tracer";
+    AMMO_DESCRIPTION(9x19mm,AP,30,Reload Tracer,);
 };

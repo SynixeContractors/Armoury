@@ -7,21 +7,14 @@ class CfgMagazines {
         displayName = "9mm 17Rnd P320 (Ball)";
         lastRoundsTracer = 2;
     };
-    class CLASS(17Rnd_9x19_Ball_Tracer_P320_JCA): JCA_15Rnd_9x19_P320C_FMJ_Mag {
-        MACRO_SCOPE;
-        ammo = QCLASS(9x19_Ball);
-        descriptionShort = "9mm Ball Tracer";
-        displayName = "9mm 17Rnd P320 [T] (Ball)";
-        tracersEvery = 1;
-    };
-    class CLASS(17Rnd_9x19_JHP_P320_JCA): JCA_15Rnd_9x19_P320C_FMJ_Mag {
+    class CLASS(17Rnd_9x19_JHP_P320_JCA): CLASS(17Rnd_9x19_Ball_P320_JCA) {
         MACRO_SCOPE;
         ammo = QCLASS(9x19_JHP);
         descriptionShort = "9mm EPR";
         displayName = "9mm 17Rnd P320 (EPR)";
         lastRoundsTracer = 2;
     };
-    class CLASS(17Rnd_9x19_AP_P320_JCA): JCA_15Rnd_9x19_P320C_FMJ_Mag {
+    class CLASS(17Rnd_9x19_AP_P320_JCA): CLASS(17Rnd_9x19_Ball_P320_JCA) {
         MACRO_SCOPE;
         ammo = QCLASS(9x19_AP);
         descriptionShort = "9mm AP";

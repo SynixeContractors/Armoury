@@ -78,7 +78,6 @@ class CfgAmmo {
         MACRO_TRACERS;
     };
     class CLASS(9x19_JHP): CLASS(9x19_Ball) {
-        caliber = 0.1;
         hit = 12;
     };
     class CLASS(9x19_AP): CLASS(9x19_JHP) {
