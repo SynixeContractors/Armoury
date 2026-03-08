@@ -77,9 +77,9 @@ class CfgAmmo {
         hit = 8;
         MACRO_TRACERS;
     };
-    class CLASS(9x19_EPR): CLASS(9x19_Ball) {
-        caliber = 0.9;
-        hit = 9;
+    class CLASS(9x19_JHP): CLASS(9x19_Ball) {
+        caliber = 0.1;
+        hit = 12;
     };
     class CLASS(9x19_AP): CLASS(9x19_EPR) {
         caliber = 1.3;
@@ -88,14 +88,14 @@ class CfgAmmo {
 
     // 9x21mm about same as 9x19
     class CLASS(9x21_Ball): CLASS(9x19_Ball) {};
-    class CLASS(9x21_EPR): CLASS(9x19_EPR) {};
+    class CLASS(9x21_JHP): CLASS(9x19_JHP) {};
     class CLASS(9x21_AP): CLASS(9x19_AP) {};
 
     // 9x18mm (Makarov) weaker than 9x19
     class CLASS(9x18_Ball): CLASS(9x19_Ball) {
         hit = 7;
     };
-    class CLASS(9x18_EPR): CLASS(9x19_EPR) {
+    class CLASS(9x18_JHP): CLASS(9x19_JHP) {
         hit = 8;
     };
       class CLASS(9x18_AP): CLASS(9x19_AP) {
@@ -119,15 +119,15 @@ class CfgAmmo {
 
     // .45ACP
     class CLASS(45ACP_Ball): B_45ACP_Ball {
+        //FIXME: steal some kind of advanced ballistics from jca or ace?
         aiAmmoUsageFlags = 192;
         caliber = 0.15;
         cartridge = "FxCartridge_9mm";
         hit = 11;
         MACRO_TRACERS;
     };
-    class CLASS(45ACP_EPR): CLASS(45ACP_Ball) {
-        caliber = 0.85;
-        hit = 12;
+    class CLASS(45ACP_JHP): CLASS(45ACP_Ball) {
+        hit = 15;
     };
 
     // .357 Magnum
