@@ -14,9 +14,9 @@ class CfgMagazines {
         displayName = "9mm 15Rnd M9A1 [T] (Ball)";
         tracersEvery = 1;
     };
-    class CLASS(15Rnd_9x19_EPR_M9A1_JCA): JCA_15Rnd_9x19_M9A1_Yellow_Mag {
+    class CLASS(15Rnd_9x19_JHP_M9A1_JCA): JCA_15Rnd_9x19_M9A1_Yellow_Mag {
         MACRO_SCOPE;
-        ammo = QCLASS(9x19_EPR);
+        ammo = QCLASS(9x19_JHP);
         descriptionShort = "9mm Ball EPR";
         displayName = "9mm 15Rnd M9A1 (EPR)";
         lastRoundsTracer = 2;

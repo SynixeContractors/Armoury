@@ -74,19 +74,19 @@ class CfgMagazineWells {
     class Pistol_9x19_RF {
         ADDON[] = {
             QCLASS(17Rnd_9x19_Ball_Mag_RF),
-            QCLASS(17Rnd_9x19_EPR_Mag_RF),
+            QCLASS(17Rnd_9x19_JHP_Mag_RF),
             QCLASS(17Rnd_9x19_AP_Mag_RF),
             QCLASS(33Rnd_9x19_Ball_Mag_RF),
-            QCLASS(33Rnd_9x19_EPR_Mag_RF),
+            QCLASS(33Rnd_9x19_JHP_Mag_RF),
             QCLASS(33Rnd_9x19_AP_Mag_RF),
             QCLASS(33Rnd_9x19_Ball_Mag_khk_RF),
-            QCLASS(33Rnd_9x19_EPR_Mag_khk_RF),
+            QCLASS(33Rnd_9x19_JHP_Mag_khk_RF),
             QCLASS(33Rnd_9x19_AP_Mag_khk_RF),
             QCLASS(33Rnd_9x19_Ball_Mag_Tan_RF),
-            QCLASS(33Rnd_9x19_EPR_Mag_Tan_RF),
+            QCLASS(33Rnd_9x19_JHP_Mag_Tan_RF),
             QCLASS(33Rnd_9x19_AP_Mag_Tan_RF),
             QCLASS(65Rnd_9x19_Ball_Mag_RF),
-            QCLASS(65Rnd_9x19_EPR_Mag_RF),
+            QCLASS(65Rnd_9x19_JHP_Mag_RF),
             QCLASS(65Rnd_9x19_AP_Mag_RF),
         };
     };

@@ -81,7 +81,7 @@ class CfgAmmo {
         caliber = 0.1;
         hit = 12;
     };
-    class CLASS(9x19_AP): CLASS(9x19_EPR) {
+    class CLASS(9x19_AP): CLASS(9x19_JHP) {
         caliber = 1.3;
         hit = 9.5;
     };

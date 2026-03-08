@@ -14,9 +14,9 @@ class CfgMagazines {
         displayName = "9mm 30Rnd MP5 [T] (Ball)";
         tracersEvery = 1;
     };
-    class CLASS(30Rnd_9x19_EPR_MP5_JCA): JCA_30Rnd_9x21_MP5_Mag {
+    class CLASS(30Rnd_9x19_JHP_MP5_JCA): JCA_30Rnd_9x21_MP5_Mag {
         MACRO_SCOPE;
-        ammo = QCLASS(9x19_EPR);
+        ammo = QCLASS(9x19_JHP);
         descriptionShort = "9mm Ball EPR";
         displayName = "9mm 30Rnd MP5 (EPR)";
         lastRoundsTracer = 2;

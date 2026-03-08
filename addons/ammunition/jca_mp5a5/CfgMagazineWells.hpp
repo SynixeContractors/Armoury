@@ -3,7 +3,7 @@ class CfgMagazineWells {
         ADDON[] = {
             QCLASS(30Rnd_9x19_Ball_MP5_JCA),
             QCLASS(30Rnd_9x19_Ball_Tracer_MP5_JCA),
-            QCLASS(30Rnd_9x19_EPR_MP5_JCA),
+            QCLASS(30Rnd_9x19_JHP_MP5_JCA),
             QCLASS(30Rnd_9x19_AP_MP5_JCA)
         };
     };
