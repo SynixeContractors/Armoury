@@ -27,7 +27,6 @@ class CLASS(8Rnd_45ACP_C1911_JHP):  CLASS(8Rnd_45ACP_C1911_Ball) {
 // .45ACP SMG
 class CLASS(25Rnd_45ACP_Ball): 30Rnd_45ACP_Mag_SMG_01 {
     MACRO_SCOPE;
-    count = 25;
     ammo = QCLASS(45ACP_Ball);
     lastRoundsTracer = 4;
     tracersEvery = 4;
