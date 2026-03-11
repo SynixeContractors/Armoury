@@ -95,7 +95,7 @@ class CfgAmmo {
         hit = 7;
     };
     class CLASS(9x18_JHP): CLASS(9x19_JHP) {
-        hit = 8;
+        hit = 11;
     };
       class CLASS(9x18_AP): CLASS(9x19_AP) {
         hit = 9;
@@ -126,7 +126,7 @@ class CfgAmmo {
         MACRO_TRACERS;
     };
     class CLASS(45ACP_JHP): CLASS(45ACP_Ball) {
-        hit = 15;
+        hit = 14;
     };
 
     // .357 Magnum

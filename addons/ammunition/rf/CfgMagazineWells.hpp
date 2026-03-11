@@ -97,7 +97,8 @@ class CfgMagazineWells {
     };
     class Pistol_DEagle_RF {
         ADDON[] = {
-            QCLASS(7Rnd_50AE_Ball_Mag_RF)
+            QCLASS(7Rnd_50AE_Ball_Mag_RF),
+            QCLASS(7Rnd_50AE_JHP_Mag_RF),
         };
     };
     //FIXME: port the RF round fully into our ammo presets

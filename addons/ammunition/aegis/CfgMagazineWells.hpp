@@ -73,11 +73,11 @@ class CfgMagazineWells {
         ADDON[] = {
             QCLASS(20Rnd_9x21_Ball_PPL_Aegis),
             QCLASS(20Rnd_9x21_Ball_Tracer_PPL_Aegis),
-            QCLASS(20Rnd_9x21_EPR_PPL_Aegis),
+            QCLASS(20Rnd_9x21_JHP_PPL_Aegis),
             QCLASS(20Rnd_9x21_AP_PPL_Aegis),
             QCLASS(40Rnd_9x21_Ball_PPL_Aegis),
             QCLASS(40Rnd_9x21_Ball_Tracer_PPL_Aegis),
-            QCLASS(40Rnd_9x21_EPR_PPL_Aegis),
+            QCLASS(40Rnd_9x21_JHP_PPL_Aegis),
             QCLASS(40Rnd_9x21_AP_PPL_Aegis),
         };
     };

@@ -1,8 +1,11 @@
 class CLASS(7Rnd_50AE_Ball_Mag_RF): 7Rnd_50AE_Mag_RF {
     MACRO_SCOPE;
     ammo = QCLASS(50AE_Ball);
-    descriptionShort = ".50 AE Ball Reload Tracer";
-    displayName = ".50AE 7Rnd Desert Eagle (Ball)";
     lastRoundsTracer = 2;
     tracersEvery = 4;
+    AMMO_DESCRIPTION(50AE,Ball,7,Reload Tracer,Desert Eagle);
+};
+class CLASS(7Rnd_50AE_JHP_Mag_RF): CLASS(7Rnd_50AE_Ball_Mag_RF) {
+    ammo = QCLASS(50AE_Ball);
+    AMMO_DESCRIPTION(50AE,Ball,7,Reload Tracer,Desert Eagle);
 };

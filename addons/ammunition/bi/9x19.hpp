@@ -21,17 +21,17 @@ class CLASS(30Rnd_9x19_Ball): 30Rnd_9x21_Mag {
     lastRoundsTracer = 4;
     tracersEvery = 4;
     mass = 9;
-    AMMO_DESCRIPTION(9x19mm,Ball,30,Reload Tracer,);
+    AMMO_DESCRIPTION(9x19mm,Ball,30,Reload Tracer,CZ);
 };
 class CLASS(30Rnd_9x19_Ball_Tracer): CLASS(30Rnd_9x19_Ball) {
     tracersEvery = 1;
-    AMMO_DESCRIPTION(9x19mm,Ball [T],30,Tracer,);
+    AMMO_DESCRIPTION(9x19mm,Ball [T],30,Tracer,CZ);
 };
 class CLASS(30Rnd_9x19_JHP): CLASS(30Rnd_9x19_Ball) {
     ammo = QCLASS(9x19_JHP);
-    AMMO_DESCRIPTION(9x19mm,JHP,30,Reload Tracer,);
+    AMMO_DESCRIPTION(9x19mm,JHP,30,Reload Tracer,CZ);
 };
 class CLASS(30Rnd_9x19_AP): CLASS(30Rnd_9x19_JHP) {
     ammo = QCLASS(9x19_AP);
-    AMMO_DESCRIPTION(9x19mm,AP,30,Reload Tracer,);
+    AMMO_DESCRIPTION(9x19mm,AP,30,Reload Tracer,CZ);
 };

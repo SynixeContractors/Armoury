@@ -10,5 +10,13 @@ class CfgAmmo {
     class CLASS(50AE_Ball): B_50AE_Ball_RF {
         aiAmmoUsageFlags = 192;
         MACRO_TRACERS;
+        //its the same just copied for reference
+        caliber = 1.8;
+        hit = 10;
     };
+    class CLASS(50AE_JHP): CLASS(50AE_Ball) {
+        caliber = 1.0;
+        hit = 14;
+    };
+
 };

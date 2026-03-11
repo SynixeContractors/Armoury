@@ -3,29 +3,25 @@ class CfgMagazines {
     class CLASS(30Rnd_9x19_Ball_MP5_JCA): JCA_30Rnd_9x21_MP5_Mag {
         MACRO_SCOPE;
         ammo = QCLASS(9x19_Ball);
-        descriptionShort = "9mm Ball Reload Tracer";
-        displayName = "9mm 30Rnd MP5 (Ball)";
         lastRoundsTracer = 2;
+        AMMO_DESCRIPTION(9x19mm,Ball,30,Reload Tracer,MP5);
     };
     class CLASS(30Rnd_9x19_Ball_Tracer_MP5_JCA): JCA_30Rnd_9x21_MP5_Mag {
         MACRO_SCOPE;
         ammo = QCLASS(9x19_Ball);
-        descriptionShort = "9mm Ball Tracer";
-        displayName = "9mm 30Rnd MP5 [T] (Ball)";
         tracersEvery = 1;
+        AMMO_DESCRIPTION(9x19mm,Ball [T],30,Tracer,MP5);
     };
     class CLASS(30Rnd_9x19_JHP_MP5_JCA): JCA_30Rnd_9x21_MP5_Mag {
         MACRO_SCOPE;
         ammo = QCLASS(9x19_JHP);
-        descriptionShort = "9mm Ball EPR";
-        displayName = "9mm 30Rnd MP5 (EPR)";
         lastRoundsTracer = 2;
+        AMMO_DESCRIPTION(9x19mm,JHP,30,Reload Tracer,MP5);
     };
     class CLASS(30Rnd_9x19_AP_MP5_JCA): JCA_30Rnd_9x21_MP5_Mag {
         MACRO_SCOPE;
         ammo = QCLASS(9x19_AP);
-        descriptionShort = "9mm AP";
-        displayName = "9mm 30Rnd MP5 (AP)";
         lastRoundsTracer = 2;
+        AMMO_DESCRIPTION(9x19mm,AP,30,Reload Tracer,MP5);
     };
 };
