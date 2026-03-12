@@ -3,29 +3,32 @@ class CfgMagazines {
     class CLASS(15Rnd_9x19_Ball_M9A1_JCA): JCA_15Rnd_9x19_M9A1_Yellow_Mag {
         MACRO_SCOPE;
         ammo = QCLASS(9x19_Ball);
-        descriptionShort = "9mm Ball Reload Tracer";
-        displayName = "9mm 15Rnd M9A1 (Ball)";
         lastRoundsTracer = 2;
+        AMMO_DESCRIPTION(9x19mm,Ball,15,Reload Tracer,Beretta);
     };
-    class CLASS(15Rnd_9x19_Ball_Tracer_M9A1_JCA): JCA_15Rnd_9x19_M9A1_Yellow_Mag {
+    class CLASS(15Rnd_9x19_JHP_M9A1_JCA): CLASS(15Rnd_9x19_Ball_M9A1_JCA) {
         MACRO_SCOPE;
-        ammo = QCLASS(9x19_Ball);
-        descriptionShort = "9mm Ball Tracer";
-        displayName = "9mm 15Rnd M9A1 [T] (Ball)";
-        tracersEvery = 1;
-    };
-    class CLASS(15Rnd_9x19_EPR_M9A1_JCA): JCA_15Rnd_9x19_M9A1_Yellow_Mag {
-        MACRO_SCOPE;
-        ammo = QCLASS(9x19_EPR);
-        descriptionShort = "9mm Ball EPR";
-        displayName = "9mm 15Rnd M9A1 (EPR)";
+        ammo = QCLASS(9x19_JHP);
         lastRoundsTracer = 2;
+        AMMO_DESCRIPTION(9x19mm,JHP,15,Reload Tracer,Beretta);
     };
-    class CLASS(15Rnd_9x19_AP_M9A1_JCA): JCA_15Rnd_9x19_M9A1_Yellow_Mag {
+    class CLASS(15Rnd_9x19_AP_M9A1_JCA): CLASS(15Rnd_9x19_Ball_M9A1_JCA) {
         MACRO_SCOPE;
         ammo = QCLASS(9x19_AP);
-        descriptionShort = "9mm AP";
-        displayName = "9mm 15Rnd M9A1 (AP)";
         lastRoundsTracer = 2;
+        AMMO_DESCRIPTION(9x19mm,AP,15,Reload Tracer,Beretta);
+    };
+    //new flush 17Rnd still fit old beretta 92FS
+    class CLASS(17Rnd_9x19_Ball_M9A1_JCA): CLASS(15Rnd_9x19_Ball_M9A1_JCA) {
+        count = 17;
+        AMMO_DESCRIPTION(9x19mm,Ball,17,Reload Tracer,M9A3);
+    };
+    class CLASS(17Rnd_9x19_JHP_M9A1_JCA): CLASS(15Rnd_9x19_JHP_M9A1_JCA) {
+        count = 17;
+        AMMO_DESCRIPTION(9x19mm,JHP,17,Reload Tracer,M9A3);
+    };
+    class CLASS(17Rnd_9x19_AP_M9A1_JCA): CLASS(15Rnd_9x19_AP_M9A1_JCA) {
+        count = 17;
+        AMMO_DESCRIPTION(9x19mm,AP,17,Reload Tracer,M9A3);
     };
 };

@@ -48,7 +48,7 @@ class CBA_9x19_MP5 {
     ADDON[] = {
         QCLASS(30Rnd_9x19_Ball),
         QCLASS(30Rnd_9x19_Ball_Tracer),
-        QCLASS(30Rnd_9x19_EPR),
+        QCLASS(30Rnd_9x19_JHP),
         QCLASS(30Rnd_9x19_AP)
     };
 };
@@ -57,7 +57,7 @@ class CBA_9x19_ScorpionEvo3 {
     ADDON[] = {
         QCLASS(30Rnd_9x19_Ball),
         QCLASS(30Rnd_9x19_Ball_Tracer),
-        QCLASS(30Rnd_9x19_EPR),
+        QCLASS(30Rnd_9x19_JHP),
         QCLASS(30Rnd_9x19_AP)
     };
 };
@@ -79,7 +79,7 @@ class CBA_45ACP_Glock_Full {
     ADDON[] = {
         QCLASS(25Rnd_45ACP_Ball),
         QCLASS(25Rnd_45ACP_Ball_Tracer),
-        QCLASS(25Rnd_45ACP_EPR)
+        QCLASS(25Rnd_45ACP_JHP),
     };
 };
 

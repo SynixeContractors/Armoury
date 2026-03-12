@@ -34,3 +34,8 @@
     hiddenSelectionsMaterials[] = {"a3\Weapons_F_Enoch\Rifles\AK12\Data\AK12_F_2_camo.rvmat"}; \
     hiddenSelectionsTextures[] = {"a3\Weapons_F_Enoch\Rifles\AK12\Data\ak12_ak12_2_camo_co.paa"}; \
     picture = "\a3\Weapons_F_Enoch\MagazineProxies\data\UI\icon_30rnd_762x39_AK12_Arid_Mag_F_CA.paa"
+
+#define AMMO_DESCRIPTION(CALIBER, BULLET_TYPE, BULLET_COUNT, TRACER, MAG_TYPE)  \
+  displayName = QUOTE(##CALIBER## ##MAG_TYPE## ##BULLET_COUNT##Rnd (##BULLET_TYPE##)); \
+  displayNameShort = QUOTE(BULLET_TYPE); \
+  descriptionShort = QUOTE(##CALIBER## ##BULLET_TYPE## ##TRACER##)
