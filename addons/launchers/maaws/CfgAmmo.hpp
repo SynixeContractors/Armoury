@@ -6,6 +6,7 @@ class CfgAmmo {
         submunitionCount = 1;
         submunitionConeAngle = 0;
         triggerTime = 1;
+        triggerOnImpact = 1;
         class Eventhandlers {
             fired = QUOTE(call ace_missile_clgp_fnc_submunition_ammoFired);
         };
@@ -69,11 +70,11 @@ class CfgAmmo {
         submunitionParentSpeedCoef = 0;
         warheadName = "HEAT";
     };
+    //Smoke
     class CLASS(ammo_MAAWS_Smoke_launch): R_MRAAWS_HE_F {
         ace_frag_skip=1;
-        //lol
-        submunitionAmmo = QCLASS(ammo_MAAWS_Smoke);
-        hit = 30;
+        submunitionAmmo = QCLASS(ammo_launcher_smoke);
+        hit = -1;
         explosive = 0;
         caliber = 1;
         indirectHit = -1;
@@ -82,17 +83,26 @@ class CfgAmmo {
         submunitionConeAngleHorizontal = 0;
         triggerDistance = 5;
         triggerOnImpact = 1;
+        triggerTime = 1;
         ExplosionEffects = "";
         explosionEffectsDir = "";
         submunitionInitSpeed = 0;
     };
-    class Smoke_82mm_AMOS_White;
     class G_40mm_Smoke;
-    class CLASS(ammo_MAAWS_Smoke): Smoke_82mm_AMOS_White {
+    class CLASS(ammo_launcher_smoke): G_40mm_Smoke {
         model = "\A3\Weapons_F_Tank\Launchers\MRAWS\rocket_MRAWS_HE_F.p3d";
         thrust = 0;
         thrustTime = 0;
+        timeToLive = 120; // vs 45s of 40mm smoke
     };
-    class Flare_82mm_AMOS_White;
-    class CLASS(ammo_MAAWS_Flare): Flare_82mm_AMOS_White {};
+    //Flare
+    // class CLASS(ammo_MAAWS_Flare_launch): CLASS(ammo_MAAWS_Smoke_launch) {
+    //     submunitionAmmo = QCLASS(ammo_launcher_flare);
+    // };
+    // class ACE_40mm_Flare_white;
+    // class CLASS(ammo_launcher_flare): ACE_40mm_Flare_white {
+    //  timeToLive = 120;
+    //  flareSize = 24;
+    //  submunitionInitSpeed = 1;
+    // };
 };

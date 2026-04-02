@@ -33,12 +33,12 @@ class CfgMagazines {
         picture = QPATHTOF(maaws\data\smoke.paa);
         mass = 25;
     };
-    class CLASS(MAAWS_Flare): MRAWS_HE_F {
-        ammo = QCLASS(ammo_MAAWS_Flare);
-        displayNameShort = "Flare";
-        descriptionShort = "Type: Illumination Flare <br />Rounds: 1<br />Used in: MAAWS";
-        displayName = "MAAWS ILUM 545 Round";
-        picture = QPATHTOF(maaws\data\ilum.paa);
-        mass = 25;
-    };
+    // class CLASS(MAAWS_Flare): MRAWS_HE_F {
+    //     ammo = QCLASS(ammo_MAAWS_Flare_launch);
+    //     displayNameShort = "Flare";
+    //     descriptionShort = "Type: Illumination Flare <br />Rounds: 1<br />Used in: MAAWS";
+    //     displayName = "MAAWS ILUM 545 Round";
+    //     picture = QPATHTOF(maaws\data\ilum.paa);
+    //     mass = 25;
+    // };
 };
