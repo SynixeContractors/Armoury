@@ -96,13 +96,13 @@ class CfgAmmo {
         timeToLive = 120; // vs 45s of 40mm smoke
     };
     //Flare
-    // class CLASS(ammo_MAAWS_Flare_launch): CLASS(ammo_MAAWS_Smoke_launch) {
-    //     submunitionAmmo = QCLASS(ammo_launcher_flare);
-    // };
-    // class ACE_40mm_Flare_white;
-    // class CLASS(ammo_launcher_flare): ACE_40mm_Flare_white {
-    //  timeToLive = 120;
-    //  flareSize = 24;
-    //  submunitionInitSpeed = 1;
-    // };
+    class CLASS(ammo_MAAWS_Flare_launch): CLASS(ammo_MAAWS_Smoke_launch) {
+        submunitionAmmo = QCLASS(ammo_launcher_flare);
+    };
+    class ACE_40mm_Flare_white;
+    class CLASS(ammo_launcher_flare): ACE_40mm_Flare_white {
+       timeToLive = 120;
+       flareSize = 24;
+       submunitionInitSpeed = 1;
+    };
 };
