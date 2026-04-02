@@ -6,7 +6,7 @@ class CfgMagazines {
         displayNameShort = "SALH AT";
         descriptionShort = "Type: Guided Multi-purpose Missile<br />Rounds: 1<br />Used in: MAAWS";
         displayName = "MAAWS GMM AT Missile";
-        initSpeed = 25;
+        initSpeed = 75;
         mass = 150;
         picture = QPATHTOF(maaws\data\gmm.paa);
     };

@@ -24,6 +24,8 @@ class CfgAmmo {
         submunitionConeAngle = 0;
         triggerTime = 0.5;
         triggerOnImpact = 1;
+        thrust = 40;
+        thrustTime = 0.5;
         class Eventhandlers {
             fired = QUOTE(call ace_missile_clgp_fnc_submunition_ammoFired);
         };
@@ -33,10 +35,13 @@ class CfgAmmo {
     };
 
     //GMM actual hitting part
-    class ace_missile_clgp_pike_guidance;
+    class MissileBase;
+    class ace_missile_clgp_pike_guidance: MissileBase {
+        class ace_missileguidance;
+    };
     class CLASS(ammo_GMM_Guidance): ace_missile_clgp_pike_guidance {
         maxSpeed = 600;
-        thrust = 2;
+        thrust = 40;
         thrustTime = 40;
         initTime = 0;
         maxControlRange = 2500;
@@ -46,6 +51,11 @@ class CfgAmmo {
         // visuals
         effectsMissile = "missile3";
         model = "\A3\Weapons_F_beta\Launchers\titan\titan_missile_at_fly";
+        class ace_missileguidance: ace_missileguidance {
+            pitchRate = 30;
+            yawRate = 25;
+            seekLastTargetPos = 1; //has inertial guidance
+        };
     };
     class CLASS(ammo_GMM_Guidance_HE): CLASS(ammo_GMM_Guidance) {
         ace_frag_skip = 0;
