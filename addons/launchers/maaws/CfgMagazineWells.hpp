@@ -8,8 +8,4 @@ class CfgMagazineWells {
             QCLASS(MAAWS_Flare),
         };
     };
-    class RPG32 {
-        ADDON[] += {
-        };
-    };
 };
