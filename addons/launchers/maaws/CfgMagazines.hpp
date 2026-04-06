@@ -22,7 +22,7 @@ class CfgMagazines {
         descriptionShort = "Type: High Explosive Dual Purpose<br />Rounds: 1<br />Used in: MAAWS";
         displayName = "MAAWS HEDP 502 Round";
         picture = QPATHTOF(maaws\data\hedp.paa);
-        //HEAT75 mass
+        // HEAT75 mass
         mass = 60;
     };
     class CLASS(MAAWS_Smoke): MRAWS_HE_F {

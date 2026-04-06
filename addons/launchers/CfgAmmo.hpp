@@ -1,5 +1,5 @@
 class CfgAmmo {
-    //Smoke
+    // Smoke
     class G_40mm_Smoke;
     class CLASS(ammo_launcher_smoke): G_40mm_Smoke {
         model = "\A3\Weapons_F_Tank\Launchers\MRAWS\rocket_MRAWS_HE_F.p3d";
@@ -8,14 +8,14 @@ class CfgAmmo {
         timeToLive = 120; // vs 45s of 40mm smoke
     };
 
-    //Flare
+    // Flare
     class ACE_40mm_Flare_white;
     class CLASS(ammo_launcher_flare): ACE_40mm_Flare_white {
         flareSize = 24;
         submunitionInitSpeed = 1;
     };
 
-    //GMM Ejection Charge
+    // GMM Ejection Charge
     class RocketBase;
     class CLASS(ammo_GMM_launch_HEAT): RocketBase {
         model = "\A3\Weapons_F\Ammo\Rocket_01_fly_F";
@@ -34,7 +34,7 @@ class CfgAmmo {
         submunitionAmmo = QCLASS(ammo_GMM_Guidance_HE);
     };
 
-    //GMM actual hitting part
+    // GMM actual hitting part
     class MissileBase;
     class ace_missile_clgp_pike_guidance: MissileBase {
         class ace_missileguidance;
@@ -54,12 +54,12 @@ class CfgAmmo {
         class ace_missileguidance: ace_missileguidance {
             pitchRate = 30;
             yawRate = 25;
-            seekLastTargetPos = 1; //has inertial guidance
+            seekLastTargetPos = 1; // has inertial guidance
         };
     };
     class CLASS(ammo_GMM_Guidance_HE): CLASS(ammo_GMM_Guidance) {
         ace_frag_skip = 0;
-        //from Metis HE
+        // from Metis HE
         ace_frag_charge = 4950;
         ace_frag_classes[] = {"ace_frag_tiny"};
         ace_frag_gurney_c = 2800;
@@ -77,7 +77,7 @@ class CfgAmmo {
     };
     class CLASS(ammo_GMM_Guidance_HEAT): CLASS(ammo_GMM_Guidance) {
         ace_frag_skip = 1;
-        //warhead from Metis HEAT
+        // warhead from Metis HEAT
         submunitionAmmo = "ammo_Penetrator_Vorona";
         submunitionDirectionType = "SubmunitionModelDirection";
         submunitionInitialOffset[] = {0,0,-0.2};

@@ -1,8 +1,8 @@
 class CfgAmmo {
-    //HEDP
+    // HEDP
     class R_MRAAWS_HE_F;
     class CLASS(ammo_MAAWS_HEDP): R_MRAAWS_HE_F {
-        //HE55 penetrator on HE44
+        // HE55 penetrator on HE44
         triggerOnImpact = 1;
         submunitionAmmo = "ammo_Penetrator_MRAAWS_HEAT55";
         submunitionDirectionType = "SubmunitionModelDirection";
@@ -11,7 +11,7 @@ class CfgAmmo {
         submunitionParentSpeedCoef = 0;
         warheadName = "HEAT";
     };
-    //Smoke
+    // Smoke
     class CLASS(ammo_MAAWS_Smoke_launch): R_MRAAWS_HE_F {
         ace_frag_skip=1;
         submunitionAmmo = QCLASS(ammo_launcher_smoke);
@@ -29,7 +29,7 @@ class CfgAmmo {
         explosionEffectsDir = "";
         submunitionInitSpeed = 0;
     };
-    //Flare
+    // Flare
     class CLASS(ammo_MAAWS_Flare_launch): CLASS(ammo_MAAWS_Smoke_launch) {
         submunitionAmmo = QCLASS(ammo_launcher_flare);
     };

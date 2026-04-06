@@ -16,7 +16,7 @@ class CfgPatches {
     };
 };
 class CBA_DisposableLaunchers {
-  CLASS(launch_NSAM_ready_F)[] = {QCLASS(launch_NSAM_F),QCLASS(launch_NSAM_used_F)};
+    CLASS(launch_NSAM_ready_F)[] = {QCLASS(launch_NSAM_F), QCLASS(launch_NSAM_used_F)};
 };
 
 
