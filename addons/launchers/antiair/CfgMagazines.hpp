@@ -20,7 +20,7 @@ class CfgMagazines {
         descriptionShort = "Type: NSAM Missile<br />Rounds: 1<br />Used in: Titan MPRL";
     };
     class CLASS(NSAM_LOAL): CLASS(Stinger_LOAL) {
-        //just for shop difference
+        // just for shop difference
         modelSpecial = "\A3\weapons_f\launchers\nlaw\nlaw_loaded_F";
         displayName = "NSAM LOAL (Prepacked)";
         descriptionShort = "";
@@ -28,7 +28,7 @@ class CfgMagazines {
         scopeArsenal = 1;
     };
     class CLASS(NSAM_LOBL): CLASS(Stinger_LOBL) {
-        //just for shop difference
+        // just for shop difference
         modelSpecial = "\A3\weapons_f\launchers\nlaw\nlaw_loaded_F";
         displayName = "NSAM (Prepacked)";
         descriptionShort = "";

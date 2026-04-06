@@ -2,7 +2,7 @@ class ace_missileguidance_type_Stinger;
 class CLASS(missileguidance_type_NSAM_LOAL): ace_missileguidance_type_Stinger {
     seekerLockModes[] = {"LOAL"};
     defaultSeekerLockMode = "LOAL";
-    navigationTypes[] = {"ZeroEffortMiss"}; //seems to work better then prop with limited acq time
+    navigationTypes[] = {"ZeroEffortMiss"}; // seems to work better then prop with limited acq time
     defaultNavigationType = "ZeroEffortMiss";
     pitchRate = 90;
     yawRate = 90;

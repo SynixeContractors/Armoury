@@ -6,10 +6,15 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ace_common"};
+        requiredAddons[] = {
+            "ace_common",
+            "ace_missile_clgp"
+        };
         author = ECSTRING(main,Author);
         authors[] = {"Philippe Connect"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };
+
+#include "CfgAmmo.hpp"
