@@ -9,10 +9,11 @@ class CfgWeapons {
         scope = 2;
         scopeArsenal = 2;
         baseWeapon = QCLASS(launch_NSAM_F);
-        displayName = "NSAM";
+        displayname = "NSAM";
         descriptionShort = "Next Generation Surface to Air Missile Launcher";
         modes[] = {"Single"};
         magazineReloadTime = 0;
+        handAnim[] = {"OFP2_ManSkeleton","\A3\Weapons_F\Launchers\NLAW\Data\Anim\NLAW.rtm"};
         // find a different model and/or retexture
         modelOptics = "\z\ace\addons\javelin\data\reticle_titan.p3d";
         model = "\A3\weapons_F\launchers\nlaw\nlaw_F.p3d";
