@@ -9,7 +9,6 @@ class CfgAmmo {
         submunitionInitialOffset[] = {0,0,-0.2};
         submunitionInitSpeed = 1000;
         submunitionParentSpeedCoef = 0;
-        warheadName = "HEAT";
     };
     // Smoke
     class CLASS(ammo_MAAWS_Smoke_launch): R_MRAAWS_HE_F {
