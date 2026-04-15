@@ -26,6 +26,12 @@ class CfgAmmo {
         triggerOnImpact = 1;
         thrust = 40;
         thrustTime = 0.5;
+        // backblast from nlaw (soft launch)
+        ace_overpressure_priority = 2;
+        ace_overpressure_range = 2;
+        ace_overpressure_offset = 1.05;
+        ace_overpressure_angle = 30;
+        ace_overpressure_backblastRange = 1;
         class Eventhandlers {
             fired = QUOTE(call ace_missile_clgp_fnc_submunition_ammoFired);
         };

@@ -17,6 +17,12 @@ class CfgAmmo {
         thrust = 190; // half thrust so it doesnt go crazy with LOAL
         thrustTime = 4.5; // twice the time to match
         deflecting = 1; // thrust vectoring so LOAL doesnt make it miss _all_the_time_
+        // soft launch from nlaw
+        ace_overpressure_priority = 2;
+        ace_overpressure_range = 2;
+        ace_overpressure_offset = 1.05;
+        ace_overpressure_angle = 30;
+        ace_overpressure_backblastRange = 1;
         class ace_missileguidance: CLASS(missileguidance_type_NSAM_LOAL) {
             enabled = 1;
         };
