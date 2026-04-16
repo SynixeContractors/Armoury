@@ -21,7 +21,7 @@ class CLASS(8Rnd_45ACP_C1911_Ball): 9Rnd_45ACP_Mag {
 };
 class CLASS(8Rnd_45ACP_C1911_JHP):  CLASS(8Rnd_45ACP_C1911_Ball) {
     ammo = QCLASS(45ACP_JHP);
-    AMMO_DESCRIPTION(.45ACP,Ball,8,Reload Tracer,1911);
+    AMMO_DESCRIPTION(.45ACP,JHP,8,Reload Tracer,1911);
 };
 
 // .45ACP SMG
