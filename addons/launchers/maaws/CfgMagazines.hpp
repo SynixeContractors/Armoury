@@ -25,6 +25,19 @@ class CfgMagazines {
         // HEAT75 mass
         mass = 60;
     };
+    class MRAWS_HEAT55_F;
+    class CLASS(MAAWS_HEAT_CS): MRAWS_HEAT55_F {
+        descriptionShort = "Type: High Explosive Anti Tank (Confined Space)<br />Rounds: 1<br />Used in: MAAWS";
+        displayName = "MAAWS HEAT 65 (CS) Round";
+        // countermass for increased mass
+        ace_overpressure_priority = 2;
+        ace_overpressure_range = 2;
+        ace_overpressure_offset = 1.05;
+        ace_overpressure_angle = 30;
+        ace_overpressure_backblastRange = 1;
+        // HEAT75 mass
+        mass = 60;
+    };
     class CLASS(MAAWS_Smoke): MRAWS_HE_F {
         ammo = QCLASS(ammo_MAAWS_Smoke_launch);
         displayNameShort = "Smoke";
