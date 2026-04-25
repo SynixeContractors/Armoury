@@ -191,14 +191,24 @@ class CfgAmmo {
         MACRO_TRACERS;
     };
     class CLASS(65x39_EPR): CLASS(65x39_Ball) {
+        // using the light 7g bullet: 108gr GB464 OTM Lapua
+        // https://web.archive.org/web/20160108160632/http://www.lapua.com/en/products/reloading/bullets/centerfire-rifle-bullets/8
         caliber = 1.6;
         hit = 11.8;
-        ACE_muzzleVelocities[] = {750, 820, 840, 852, 860};
-        ACE_barrelLengths[] = {254.0, 406.4, 508.0, 609.6, 660.4};
+        ACE_bulletLength = 33;
+        ACE_bulletMass = 7;
+        ACE_ballisticCoefficients[] = {0.228};
+        // https://web.archive.org/web/20070928055532/http://www.65grendel.com/65GrendelReloadingData.pdf
+        // length                14.5    16     19.5   24     28
+        ACE_muzzleVelocities[] = {774.2, 791.5, 844.3, 856.4, 868.7};
+        ACE_barrelLengths[]    = {368.3, 406.4, 495.3, 609.6, 711.2};
     };
-    class CLASS(65x39_AP): CLASS(65x39_EPR) {
+    class CLASS(65x39_AP): CLASS(65x39_Ball) {
         hit = 12.3;
         caliber = 2;
+        // length                10      16     20     24     26
+        ACE_muzzleVelocities[] = {750.0, 820.0, 840.0, 852.0, 860.0};
+        ACE_barrelLengths[]    = {254.0, 406.4, 508.0, 609.6, 660.4};
     };
 
     // 6.8x43mm
