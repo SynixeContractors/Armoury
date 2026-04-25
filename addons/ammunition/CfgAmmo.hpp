@@ -195,9 +195,9 @@ class CfgAmmo {
         // https://web.archive.org/web/20160108160632/http://www.lapua.com/en/products/reloading/bullets/centerfire-rifle-bullets/8
         caliber = 1.6;
         hit = 11.8;
-        ACE_bulletLength=33;
-        ACE_bulletMass=7;
-        ACE_ballisticCoefficients[]={0.228};
+        ACE_bulletLength = 33;
+        ACE_bulletMass = 7;
+        ACE_ballisticCoefficients[] = {0.228};
         // https://web.archive.org/web/20070928055532/http://www.65grendel.com/65GrendelReloadingData.pdf
         // length                14.5    16     19.5   24     28
         ACE_muzzleVelocities[] = {774.2, 791.5, 844.3, 856.4, 868.7};
