@@ -39,7 +39,7 @@ class CfgMagazines {
         // half of heat55 being projectile half being charge,
         // countermass should be around projectile mass
         mass = 75;
-        initSpeed = 325;
+        initSpeed = 250;
     };
     class CLASS(MAAWS_Smoke): MRAWS_HE_F {
         ammo = QCLASS(ammo_MAAWS_Smoke_launch);
