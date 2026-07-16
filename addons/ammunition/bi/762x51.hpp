@@ -16,7 +16,6 @@ class CLASS(20Rnd_762x51_EPR): CLASS(20Rnd_762x51_Ball) {
     AMMO_DESCRIPTION(7.62mm,EPR,20,Reload Tracer,Metal);
 };
 class CLASS(20Rnd_762x51_EPR_Tracer): CLASS(20Rnd_762x51_EPR) {
-    ammo = QCLASS(762x51_EPR);
     tracersEvery = 1;
     AMMO_DESCRIPTION(7.62mm,EPR [T],20,Tracer,Metal);
 };
