@@ -247,6 +247,7 @@ class CBA_762x51_AR10 {
         QCLASS(20Rnd_762x51_Ball),
         QCLASS(20Rnd_762x51_Ball_Tracer),
         QCLASS(20Rnd_762x51_EPR),
+        QCLASS(20Rnd_762x51_EPR_Tracer),
         QCLASS(20Rnd_762x51_AP)
     };
 };
@@ -256,6 +257,7 @@ class CBA_762x51_G3 {
         QCLASS(20Rnd_762x51_Ball),
         QCLASS(20Rnd_762x51_Ball_Tracer),
         QCLASS(20Rnd_762x51_EPR),
+        QCLASS(20Rnd_762x51_EPR_Tracer),
         QCLASS(20Rnd_762x51_AP)
     };
 };
@@ -265,6 +267,7 @@ class CBA_762x51_HK417 {
         QCLASS(20Rnd_762x51_Ball),
         QCLASS(20Rnd_762x51_Ball_Tracer),
         QCLASS(20Rnd_762x51_EPR),
+        QCLASS(20Rnd_762x51_EPR_Tracer),
         QCLASS(20Rnd_762x51_AP)
     };
 };
@@ -274,6 +277,7 @@ class CBA_762x51_M14 {
         QCLASS(20Rnd_762x51_Ball),
         QCLASS(20Rnd_762x51_Ball_Tracer),
         QCLASS(20Rnd_762x51_EPR),
+        QCLASS(20Rnd_762x51_EPR_Tracer),
         QCLASS(20Rnd_762x51_AP)
     };
 };
@@ -283,6 +287,7 @@ class CBA_762x51_SR25 {
         QCLASS(20Rnd_762x51_Ball),
         QCLASS(20Rnd_762x51_Ball_Tracer),
         QCLASS(20Rnd_762x51_EPR),
+        QCLASS(20Rnd_762x51_EPR_Tracer),
         QCLASS(20Rnd_762x51_AP)
     };
 };
