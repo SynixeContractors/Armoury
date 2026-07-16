@@ -2,28 +2,25 @@
 class CLASS(20Rnd_762x51_Ball): 20Rnd_762x51_Mag {
     MACRO_SCOPE;
     ammo = QCLASS(762x51_Ball);
-    displayName = "7.62mm 20Rnd (Ball)";
-    displayNameShort = "Ball";
-    descriptionShort = "7.62x51mm Ball Reload Tracer";
     lastRoundsTracer = 2;
     tracersEvery = 4;
     mass = 11;
+    AMMO_DESCRIPTION(7.62mm,Ball,20,Reload Tracer,Metal);
 };
 class CLASS(20Rnd_762x51_Ball_Tracer): CLASS(20Rnd_762x51_Ball) {
-    displayName = "7.62mm 20Rnd [T] (Ball)";
-    displayNameShort = "Ball Tracer";
-    descriptionShort = "7.62x51mm Ball Tracer";
     tracersEvery = 1;
+    AMMO_DESCRIPTION(7.62mm,Ball [T],20,Tracer,Metal);
 };
 class CLASS(20Rnd_762x51_EPR): CLASS(20Rnd_762x51_Ball) {
     ammo = QCLASS(762x51_EPR);
-    displayName = "7.62mm 20Rnd (EPR)";
-    displayNameShort = "EPR";
-    descriptionShort = "7.62x51mm EPR Reload Tracer";
+    AMMO_DESCRIPTION(7.62mm,EPR,20,Reload Tracer,Metal);
+};
+class CLASS(20Rnd_762x51_EPR_Tracer): CLASS(20Rnd_762x51_EPR) {
+    ammo = QCLASS(762x51_EPR);
+    tracersEvery = 1;
+    AMMO_DESCRIPTION(7.62mm,EPR [T],20,Tracer,Metal);
 };
 class CLASS(20Rnd_762x51_AP): CLASS(20Rnd_762x51_Ball) {
     ammo = QCLASS(762x51_AP);
-    displayName = "7.62mm 20Rnd (AP)";
-    displayNameShort = "AP";
-    descriptionShort = "7.62x51mm AP Reload Tracer";
+    AMMO_DESCRIPTION(7.62mm,AP,20,Reload Tracer,Metal);
 };
