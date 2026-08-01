@@ -18,6 +18,7 @@ class CBA_45ACP_FNX45 {
     ADDON[] = {
       QCLASS(15Rnd_45ACP_FNX45_Ball),
       QCLASS(15Rnd_45ACP_FNX45_JHP),
+      QCLASS(15Rnd_45ACP_FNX45_Ball_P),
     };
 };
 

@@ -10,4 +10,8 @@ class CfgMagazines {
         ammo = QCLASS(45ACP_JHP);
         AMMO_DESCRIPTION(45ACP,JHP,25,Reload Tracer,UMP);
     };
+    class CLASS(25Rnd_45ACP_Ball_P_UMP_JCA): CLASS(25Rnd_45ACP_Ball_UMP_JCA) {
+        ammo = QCLASS(45ACP_Ball_P);
+        AMMO_DESCRIPTION(45ACP,Ball +P,25,Reload Tracer,UMP);
+    };
 };

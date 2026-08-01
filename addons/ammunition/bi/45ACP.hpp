@@ -10,6 +10,10 @@ class CLASS(15Rnd_45ACP_FNX45_JHP): CLASS(15Rnd_45ACP_FNX45_Ball) {
     ammo = QCLASS(45ACP_JHP);
     AMMO_DESCRIPTION(.45ACP,JHP,15,Reload Tracer,FNX);
 };
+class CLASS(15Rnd_45ACP_FNX45_Ball_P): CLASS(15Rnd_45ACP_FNX45_Ball) {
+    ammo = QCLASS(45ACP_Ball_P);
+    AMMO_DESCRIPTION(.45ACP,Ball +P,15,Reload Tracer,FNX);
+};
 
 // .45ACP C-1911
 class CLASS(8Rnd_45ACP_C1911_Ball): 9Rnd_45ACP_Mag {
