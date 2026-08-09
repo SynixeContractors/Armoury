@@ -45,6 +45,11 @@ class CLASS(25Rnd_45ACP_JHP): CLASS(25Rnd_45ACP_Ball) {
     ammo = QCLASS(45ACP_JHP);
     AMMO_DESCRIPTION(.45ACP,JHP,25,Reload Tracer,Glock);
 };
+class CLASS(25Rnd_45ACP_Ball_P): CLASS(25Rnd_45ACP_Ball) {
+    ammo = QCLASS(45ACP_Ball_P);
+    AMMO_DESCRIPTION(.45ACP,Ball +P,25,Reload Tracer,Glock);
+};
+
 //revolver
 class CLASS(6Rnd_45ACP_Ball_Cylinder): 6Rnd_45ACP_Cylinder {
     MACRO_SCOPE;
