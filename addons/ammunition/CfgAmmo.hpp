@@ -76,7 +76,7 @@ class CfgAmmo {
         cartridge = "FxCartridge_9mm";
         hit = 8;
         MACRO_TRACERS;
-        //copied from ace
+        //copied from ace 9x19 instead of 9x21 ace profile in base class
         airFriction=-0.00201185;
         ACE_caliber=9.017;
         ACE_bulletLength=15.494;
@@ -91,10 +91,21 @@ class CfgAmmo {
     };
     class CLASS(9x19_JHP): CLASS(9x19_Ball) {
         hit = 12;
+        // Federal124 gr.Hydra-ShokJHP
+        ACE_bulletMass=8;
+        //                        3"     5"     16"
+        ACE_barrelLengths[]    = {76.20, 127.0, 406.4};
+        ACE_muzzleVelocities[] = {326.4, 357.5, 387.1};
+
     };
     class CLASS(9x19_AP): CLASS(9x19_Ball) {
         caliber = 1.3;
         hit = 9.5;
+        // 9x19 Czech armour piercing
+        ACE_bulletMass=7.1;
+        //                        5"     200mm
+        ACE_barrelLengths[]    = {127.0, 200.0};
+        ACE_muzzleVelocities[] = {404.0, 420.0,};
     };
 
     // 9x21mm about same as 9x19
