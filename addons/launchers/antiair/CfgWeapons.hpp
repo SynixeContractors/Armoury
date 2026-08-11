@@ -22,7 +22,7 @@ class CfgWeapons {
         magazines[] = {};
         magazineWell[] = {};
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 50;
+            mass = 150;
         };
         // backblast from nlaw ("soft launch")
         ace_overpressure_angle = 30;
@@ -39,6 +39,9 @@ class CfgWeapons {
         class EventHandlers {
             fired = "call CBA_fnc_firedDisposable";
         };
+        class WeaponSlotsInfo: WeaponSlotsInfo {
+            mass = 50;
+        };
     };
     class CLASS(launch_NSAM_used_F): CLASS(launch_NSAM_F) {
         scope = 1;
@@ -50,7 +53,7 @@ class CfgWeapons {
         descriptionShort = "empty";
         weaponPoolAvailable = 0;
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 45;
+            mass = 50;
         };
     };
 };
