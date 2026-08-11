@@ -124,13 +124,11 @@ class CfgAmmo {
         cartridge = "FxCartridge_9mm";
         hit = 11;
         MACRO_TRACERS;
-        // Federal230 gr.Hydra-ShokJHP
-        //                        3.75"   4.5"  16.6"
-        ACE_barrelLengths[]    = {95.25, 114.3, 421.6};
-        ACE_muzzleVelocities[] = {243.8, 268.2, 308.7};
     };
     class CLASS(45ACP_JHP): CLASS(45ACP_Ball) {
         hit = 14;
+        ACE_ballisticCoefficients[] = {0.227};
+        ACE_bulletMass = 14.9;
         // Federal230 gr.Hydra-ShokJHP
         //                        3.75"   4.5"  16.6"
         ACE_barrelLengths[]    = {95.25, 114.3, 421.6};
@@ -141,6 +139,7 @@ class CfgAmmo {
         // more barrier penetration and more speed from +P
         // Not for 1911 as its not strong enough
         caliber = 0.2;
+        ACE_ballisticCoefficients[] = {0.196};
         // Buffalo 45ACP +P FMJ-FN
         //                       3.0"    5.0"   16.0"
         ACE_barrelLengths[]    = {76.20, 127.3, 406.4};
