@@ -77,6 +77,7 @@ class CBA_545x39_AK {
 
 class CBA_45ACP_Glock_Full {
     ADDON[] = {
+        QCLASS(25Rnd_45ACP_Ball_P),
         QCLASS(25Rnd_45ACP_Ball),
         QCLASS(25Rnd_45ACP_Ball_Tracer),
         QCLASS(25Rnd_45ACP_JHP),
