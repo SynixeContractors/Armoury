@@ -76,11 +76,23 @@ class CfgAmmo {
         cartridge = "FxCartridge_9mm";
         hit = 8;
         MACRO_TRACERS;
+        //copied from ace
+        airFriction=-0.00201185;
+        ACE_caliber=9.017;
+        ACE_bulletLength=15.494;
+        ACE_bulletMass=8.0352;
+        ACE_ammoTempMuzzleVelocityShifts[]={-2.655, -2.547, -2.285, -2.012, -1.698, -1.280, -0.764, -0.153, 0.596, 1.517, 2.619};
+        ACE_ballisticCoefficients[]={0.165};
+        ACE_velocityBoundaries[]={};
+        ACE_standardAtmosphere="ASM";
+        ACE_dragModel=1;
+        ACE_muzzleVelocities[]={340, 370, 400};
+        ACE_barrelLengths[]={101.6, 127.0, 228.6};
     };
     class CLASS(9x19_JHP): CLASS(9x19_Ball) {
         hit = 12;
     };
-    class CLASS(9x19_AP): CLASS(9x19_JHP) {
+    class CLASS(9x19_AP): CLASS(9x19_Ball) {
         caliber = 1.3;
         hit = 9.5;
     };
