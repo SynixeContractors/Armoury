@@ -127,14 +127,26 @@ class CfgAmmo {
 
     // 9x18mm (Makarov) weaker than 9x19
     class CLASS(9x18_Ball): CLASS(9x19_Ball) {
-        hit = 7;
+        // 57-N-1815
+        ACE_caliber = 9.27;
+        ACE_bulletLength = 10;
+        ACE_bulletMass = 6;
+        ACE_barrelLengths[]    = {93.5};
+        ACE_muzzleVelocities[] = {298};
     };
     class CLASS(9x18_JHP): CLASS(9x19_JHP) {
-        hit = 11;
+        // PRVI Partizan
+        ACE_bulletMass = 6.15;
+        ACE_barrelLengths[]    = {93.5};
+        ACE_muzzleVelocities[] = {309.37};
     };
-      class CLASS(9x18_AP): CLASS(9x19_AP) {
-        hit = 9;
+    class CLASS(9x18_AP): CLASS(9x19_AP) {
+        // RG028 - the non +P AP bullet
+        ACE_bulletMass = 6;
+        ACE_barrelLengths[]    = {93.5};
+        ACE_muzzleVelocities[] = {325};
     };
+
     // 5.45x39mm
     class CLASS(545x39_Ball): B_545x39_Ball_F {
         aiAmmoUsageFlags = 192;
