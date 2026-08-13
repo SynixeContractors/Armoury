@@ -109,9 +109,21 @@ class CfgAmmo {
     };
 
     // 9x21mm about same as 9x19
-    class CLASS(9x21_Ball): CLASS(9x19_Ball) {};
-    class CLASS(9x21_JHP): CLASS(9x19_JHP) {};
-    class CLASS(9x21_AP): CLASS(9x19_AP) {};
+    // uses aces 9x21 ballistics
+    class CLASS(9x21_Ball): B_9x21_Ball_Tracer_Yellow {
+        aiAmmoUsageFlags = 192;
+        caliber = 0.1;
+        cartridge = "FxCartridge_9mm";
+        hit = 8;
+        MACRO_TRACERS;
+    };
+    class CLASS(9x21_JHP): CLASS(9x21_Ball) {
+        hit = 12;
+    };
+    class CLASS(9x21_AP): CLASS(9x21_Ball) {
+        hit = 9.5;
+        caliber = 1.3;
+    };
 
     // 9x18mm (Makarov) weaker than 9x19
     class CLASS(9x18_Ball): CLASS(9x19_Ball) {
