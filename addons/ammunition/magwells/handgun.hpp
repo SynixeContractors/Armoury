@@ -40,3 +40,10 @@ class CBA_9x18_PM {
         QCLASS(10Rnd_9x18_AP),
     };
 };
+class CBA_9x18_PMM {
+    ADDON[] = {
+        QCLASS(12Rnd_9x18_Ball),
+        QCLASS(12Rnd_9x18_JHP),
+        QCLASS(12Rnd_9x18_AP),
+    };
+};
