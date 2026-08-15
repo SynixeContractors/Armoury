@@ -4,13 +4,27 @@ class CLASS(10Rnd_9x18_Ball): 10Rnd_9x21_Mag {
     ammo = QCLASS(9x18_Ball);
     lastRoundsTracer = 2;
     tracersEvery = 4;
-    AMMO_DESCRIPTION(9x18mm,Ball,10,Reload Tracer,PM);
+    AMMO_DESCRIPTION(9x18mm,Ball,10,Reload Tracer,PMM);
 };
 class CLASS(10Rnd_9x18_JHP): CLASS(10Rnd_9x18_Ball) {
     ammo = QCLASS(9x18_JHP);
-    AMMO_DESCRIPTION(9x18mm,JHP,10,Reload Tracer,PM);
+    AMMO_DESCRIPTION(9x18mm,JHP,10,Reload Tracer,PMM);
 };
 class CLASS(10Rnd_9x18_AP): CLASS(10Rnd_9x18_Ball) {
     ammo = QCLASS(9x18_AP);
-    AMMO_DESCRIPTION(9x18mm,AP,10,Reload Tracer,PM);
+    AMMO_DESCRIPTION(9x18mm,AP,10,Reload Tracer,PMM);
+};
+
+// 12 round mag is the unrestricted full length magazine - 10 round is US commercial limited one
+class CLASS(12Rnd_9x18_Ball): CLASS(10Rnd_9x18_Ball) {
+    count = 12;
+    AMMO_DESCRIPTION(9x18mm,Ball,12,Reload Tracer,PMM);
+};
+class CLASS(12Rnd_9x18_JHP): CLASS(10Rnd_9x18_JHP) {
+    count = 12;
+    AMMO_DESCRIPTION(9x18mm,JHP,12,Reload Tracer,PMM);
+};
+class CLASS(12Rnd_9x18_AP): CLASS(10Rnd_9x18_AP) {
+    count = 12;
+    AMMO_DESCRIPTION(9x18mm,AP,12,Reload Tracer,PMM);
 };

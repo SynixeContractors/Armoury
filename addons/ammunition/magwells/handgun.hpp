@@ -38,5 +38,8 @@ class CBA_9x18_PM {
         QCLASS(10Rnd_9x18_Ball),
         QCLASS(10Rnd_9x18_JHP),
         QCLASS(10Rnd_9x18_AP),
+        QCLASS(12Rnd_9x18_Ball),
+        QCLASS(12Rnd_9x18_JHP),
+        QCLASS(12Rnd_9x18_AP),
     };
 };

@@ -76,30 +76,77 @@ class CfgAmmo {
         cartridge = "FxCartridge_9mm";
         hit = 8;
         MACRO_TRACERS;
+        //copied from ace 9x19 instead of 9x21 ace profile in base class
+        airFriction=-0.00201185;
+        ACE_caliber=9.017;
+        ACE_bulletLength=15.494;
+        ACE_bulletMass=8.0352;
+        ACE_ammoTempMuzzleVelocityShifts[]={-2.655, -2.547, -2.285, -2.012, -1.698, -1.280, -0.764, -0.153, 0.596, 1.517, 2.619};
+        ACE_ballisticCoefficients[]={0.165};
+        ACE_velocityBoundaries[]={};
+        ACE_standardAtmosphere="ASM";
+        ACE_dragModel=1;
+        ACE_muzzleVelocities[]={340, 370, 400};
+        ACE_barrelLengths[]={101.6, 127.0, 228.6};
     };
     class CLASS(9x19_JHP): CLASS(9x19_Ball) {
         hit = 12;
+        // Federal124 gr.Hydra-ShokJHP
+        ACE_bulletMass=8;
+        //                        3"     5"     16"
+        ACE_barrelLengths[]    = {76.20, 127.0, 406.4};
+        ACE_muzzleVelocities[] = {326.4, 357.5, 387.1};
+
     };
-    class CLASS(9x19_AP): CLASS(9x19_JHP) {
+    class CLASS(9x19_AP): CLASS(9x19_Ball) {
         caliber = 1.3;
         hit = 9.5;
+        // 9x19 Czech armour piercing
+        ACE_bulletMass=7.1;
+        //                        5"     200mm
+        ACE_barrelLengths[]    = {127.0, 200.0};
+        ACE_muzzleVelocities[] = {404.0, 420.0,};
     };
 
     // 9x21mm about same as 9x19
-    class CLASS(9x21_Ball): CLASS(9x19_Ball) {};
-    class CLASS(9x21_JHP): CLASS(9x19_JHP) {};
-    class CLASS(9x21_AP): CLASS(9x19_AP) {};
+    // uses aces 9x21 ballistics
+    class CLASS(9x21_Ball): B_9x21_Ball_Tracer_Yellow {
+        aiAmmoUsageFlags = 192;
+        caliber = 0.1;
+        cartridge = "FxCartridge_9mm";
+        hit = 8;
+        MACRO_TRACERS;
+    };
+    class CLASS(9x21_JHP): CLASS(9x21_Ball) {
+        hit = 12;
+    };
+    class CLASS(9x21_AP): CLASS(9x21_Ball) {
+        hit = 9.5;
+        caliber = 1.3;
+    };
 
     // 9x18mm (Makarov) weaker than 9x19
     class CLASS(9x18_Ball): CLASS(9x19_Ball) {
-        hit = 7;
+        // 57-N-1815
+        ACE_caliber = 9.27;
+        ACE_bulletLength = 10;
+        ACE_bulletMass = 6;
+        ACE_barrelLengths[]    = {93.5};
+        ACE_muzzleVelocities[] = {298};
     };
     class CLASS(9x18_JHP): CLASS(9x19_JHP) {
-        hit = 11;
+        // PRVI Partizan
+        ACE_bulletMass = 6.15;
+        ACE_barrelLengths[]    = {93.5};
+        ACE_muzzleVelocities[] = {309.37};
     };
-      class CLASS(9x18_AP): CLASS(9x19_AP) {
-        hit = 9;
+    class CLASS(9x18_AP): CLASS(9x19_AP) {
+        // RG028 - the non +P AP bullet
+        ACE_bulletMass = 6;
+        ACE_barrelLengths[]    = {93.5};
+        ACE_muzzleVelocities[] = {325};
     };
+
     // 5.45x39mm
     class CLASS(545x39_Ball): B_545x39_Ball_F {
         aiAmmoUsageFlags = 192;
