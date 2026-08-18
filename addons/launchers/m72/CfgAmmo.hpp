@@ -24,6 +24,8 @@ class CfgAmmo {
         hit = 95;
         indirectHit = 10;
         indirectHitRange = 2;
+        craterEffects = "GrenadeCrater";
+        explosionEffects = "GrenadeExplosion";
     };
     class CLASS(M_M72_HE): JCA_R_M72_HEAT_F {
         scope = 1;

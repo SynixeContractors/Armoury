@@ -16,7 +16,7 @@ class CfgWeapons {
         magazines[] = {};
         magazineWell[] = {};
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 150;
+            mass = 20;
         };
     };
     class CLASS(launch_M72_HEAT_ready_F): CLASS(launch_M72_HEAT_F) {
@@ -28,7 +28,7 @@ class CfgWeapons {
             fired = "call CBA_fnc_firedDisposable";
         };
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 50;
+            mass = 40;
         };
     };
     class CLASS(launch_M72_HEAT_used_F): CLASS(launch_M72_HEAT_F) {
@@ -40,7 +40,7 @@ class CfgWeapons {
         weaponPoolAvailable = 0;
         model = "weapons_f_JCA_IA\Launchers\M72\launch_M72_expended_F.p3d";
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 50;
+            mass = 20;
         };
     };
     class CLASS(launch_M72_HE_F): CLASS(launch_M72_HEAT_F) {
@@ -58,7 +58,7 @@ class CfgWeapons {
             fired = "call CBA_fnc_firedDisposable";
         };
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 50;
+            mass = 40;
         };
     };
     class CLASS(launch_M72_HE_used_F): CLASS(launch_M72_HE_F) {
@@ -70,7 +70,7 @@ class CfgWeapons {
         weaponPoolAvailable = 0;
         model = "weapons_f_JCA_IA\Launchers\M72\launch_M72_expended_F.p3d";
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 50;
+            mass = 20;
         };
     };
 };
