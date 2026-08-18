@@ -45,6 +45,8 @@ class CfgAmmo {
     class CLASS(penetrator_m72_HEDP): ammo_Penetrator_PG7 {
         // weaker penetrator for HEDP version
         // claims 150mm of penetration vs 260mm of RPG7
-        hit = 170;
+        caliber = 15;
+        hit = 250;
+        allowAgainstInfantry = 1;
     };
 };
