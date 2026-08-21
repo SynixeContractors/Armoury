@@ -11,7 +11,7 @@ class CfgWeapons {
         displayname = "M72A5 (Olive)";
         descriptionShort = "Rocket Launcher<br />Ammo: M72 HEAT";
         hiddenSelectionsTextures[] = {QPATHTOF(m72\data\m72_olive_orange.paa)};
-        picture = "\weapons_f_JCA_IA\Launchers\M72\data\UI\Icon_launch_LAW_olive_F_CA.paa";
+        picture = QPATHTOF(m72\data\icon_m72_olive_orange.paa);
         magazineReloadTime = 0.1;
         magazines[] = {};
         magazineWell[] = {};
@@ -47,6 +47,7 @@ class CfgWeapons {
         displayname = "M72A9 (Olive)";
         descriptionShort = "Rocket Launcher<br />Ammo: M72 HE";
         hiddenSelectionsTextures[] = {QPATHTOF(m72\data\m72_olive_blue.paa)};
+        picture = QPATHTOF(m72\data\icon_m72_olive_blue.paa);
         baseWeapon = QCLASS(launch_M72_HE_F);
     };
     class CLASS(launch_M72_HE_ready_F): CLASS(launch_M72_HE_F) {
