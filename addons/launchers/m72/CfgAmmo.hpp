@@ -47,6 +47,5 @@ class CfgAmmo {
         // claims 150mm of penetration vs 260mm of RPG7
         caliber = 15;
         hit = 250;
-        allowAgainstInfantry = 1;
     };
 };
