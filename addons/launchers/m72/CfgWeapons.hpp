@@ -16,7 +16,7 @@ class CfgWeapons {
         magazines[] = {};
         magazineWell[] = {};
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 20;
+            mass = 40;
         };
     };
     class CLASS(launch_M72_HEAT_ready_F): CLASS(launch_M72_HEAT_F) {
@@ -28,7 +28,7 @@ class CfgWeapons {
             fired = "call CBA_fnc_firedDisposable";
         };
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 40;
+            mass = 20;
         };
     };
     class CLASS(launch_M72_HEAT_used_F): CLASS(launch_M72_HEAT_F) {
@@ -59,7 +59,7 @@ class CfgWeapons {
             fired = "call CBA_fnc_firedDisposable";
         };
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 40;
+            mass = 20;
         };
     };
     class CLASS(launch_M72_HE_used_F): CLASS(launch_M72_HE_F) {
