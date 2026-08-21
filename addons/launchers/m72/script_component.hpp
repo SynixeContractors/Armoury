@@ -1,4 +1,3 @@
-#define COMPONENT launchers
-#define COMPONENT_BEAUTIFIED Launchers M72
-#include "\s\synixe_armoury\addons\main\script_mod.hpp"
-#include "\s\synixe_armoury\addons\main\script_macros.hpp"
+#define SUBCOMPONENT m72
+
+#include "..\script_component.hpp"
