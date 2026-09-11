@@ -8,7 +8,7 @@ class CfgWeapons {
         scope = 2;
         scopeArsenal = 2;
         baseWeapon = QCLASS(launch_M72_HEAT_F);
-        displayname = "M72A5 (Olive)";
+        displayname = "M72A5 [HEAT] (Olive)";
         descriptionShort = "Rocket Launcher<br />Ammo: M72 HEAT";
         hiddenSelectionsTextures[] = {QPATHTOF(m72\data\m72_olive_orange.paa)};
         picture = QPATHTOF(m72\data\icon_m72_olive_orange.paa);
@@ -44,7 +44,7 @@ class CfgWeapons {
         };
     };
     class CLASS(launch_M72_HE_F): CLASS(launch_M72_HEAT_F) {
-        displayname = "M72A9 (Olive)";
+        displayname = "M72A9 [HE] (Olive)";
         descriptionShort = "Rocket Launcher<br />Ammo: M72 HE";
         hiddenSelectionsTextures[] = {QPATHTOF(m72\data\m72_olive_blue.paa)};
         picture = QPATHTOF(m72\data\icon_m72_olive_blue.paa);
