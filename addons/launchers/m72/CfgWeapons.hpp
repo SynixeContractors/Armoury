@@ -74,4 +74,13 @@ class CfgWeapons {
             mass = 20;
         };
     };
+    class JCA_launch_M72_black_F: JCA_launch_M72_base_F {
+        displayname = "M72A7 [HEDP] (Black)";
+    };
+    class JCA_launch_M72_olive_F: JCA_launch_M72_base_F {
+        displayname = "M72A7 [HEDP] (Olive)";
+    };
+    class JCA_launch_M72_sand_F: JCA_launch_M72_base_F {
+        displayname = "M72A7 [HEDP] (Sand)";
+    };
 };
