@@ -15,26 +15,8 @@ workshop = [
     "1779063631", # Zeus Enhanced
 ]
 
-[ws]
-extends = "default"
-dlc = [
-    "ws",
-]
-
-[rf]
-extends = "default"
-dlc = [
-    "rf",
-]
-
-[ef]
-extends = "default"
-dlc = [
-    "ef",
-]
-
 [aegis]
-extends = "ws"
+dlc = ["ws"]
 workshop = [
     "2538332070", # Aegis - Development
 ]

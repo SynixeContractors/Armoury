@@ -32,7 +32,7 @@ class CfgAmmo {
         ace_overpressure_offset = 1.05;
         ace_overpressure_angle = 30;
         ace_overpressure_backblastRange = 1;
-        class Eventhandlers {
+        class EventHandlers {
             fired = QUOTE(call ace_missile_clgp_fnc_submunition_ammoFired);
         };
     };

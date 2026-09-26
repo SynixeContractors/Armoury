@@ -58,6 +58,7 @@ hemtt
 hemtt.exe
 .hemtt/local
 .hemttout
+.hemttprivatekey
 
 # Swap
 *.swp

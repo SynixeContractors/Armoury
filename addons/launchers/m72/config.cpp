@@ -5,8 +5,8 @@ class CfgPatches {
         name = QUOTE(DOUBLES(COMPONENT,SUBCOMPONENT));
         units[] = {};
         weapons[] = {
-            QCLASS(launch_M72_HEAT_F),
-            QCLASS(launch_M72_HE_F),
+            QCLASS(launch_M72_HEAT_olive_F),
+            QCLASS(launch_M72_HE_olive_F),
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {

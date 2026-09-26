@@ -5,7 +5,6 @@ FUNC(handleFired) = {
     if !(local _unit) exitWith {};
     if (_ammo != QCLASS(G_40mm_Stun)) exitWith {};
 
-    private _config = configFile >> "CfgAmmo" >> _ammo;
     private _fuzeTime = 0.8 + random [-0.05, 0, 0.05];
 
     [{ call ace_grenades_fnc_flashbangThrownFuze}, _projectile, _fuzeTime] call CBA_fnc_waitAndExecute;
