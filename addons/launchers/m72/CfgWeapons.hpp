@@ -91,7 +91,7 @@ class CfgWeapons {
     };
     class CLASS(launch_M72_HEAT_black_used_F): CLASS(launch_M72_HEAT_olive_used_F) {
         baseWeapon = QCLASS(launch_M72_HEAT_black_used_F);
-        displayName = "M72A5 (black) [Expended]";
+        displayName = "M72A5 (Black) [Expended]";
         M72_HEAT_BLACK;
     };
     //HE warhead
@@ -152,7 +152,7 @@ class CfgWeapons {
     };
     class CLASS(launch_M72_HE_black_used_F): CLASS(launch_M72_HE_olive_used_F) {
         baseWeapon = QCLASS(launch_M72_HE_black_used_F);
-        displayName = "M72A9 (black) [Expended]";
+        displayName = "M72A9 (Black) [Expended]";
         M72_HE_BLACK;
     };
     // rename base JCA ones
