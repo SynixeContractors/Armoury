@@ -5,7 +5,11 @@ class CfgPatches {
         name = QUOTE(DOUBLES(COMPONENT,SUBCOMPONENT));
         units[] = {};
         weapons[] = {
+            QCLASS(launch_M72_HEAT_black_F),
+            QCLASS(launch_M72_HEAT_sand_F),
             QCLASS(launch_M72_HEAT_olive_F),
+            QCLASS(launch_M72_HE_black_F),
+            QCLASS(launch_M72_HE_sand_F),
             QCLASS(launch_M72_HE_olive_F),
         };
         requiredVersion = REQUIRED_VERSION;
@@ -20,8 +24,12 @@ class CfgPatches {
     };
 };
 class CBA_DisposableLaunchers {
-    CLASS(launch_M72_HEAT_ready_F)[] = {QCLASS(launch_M72_HEAT_F), QCLASS(launch_M72_HEAT_used_F)};
-    CLASS(launch_M72_HE_ready_F)[] = {QCLASS(launch_M72_HE_F), QCLASS(launch_M72_HE_used_F)};
+    CLASS(launch_M72_HEAT_black_ready_F)[] = {QCLASS(launch_M72_HEAT_black_F), QCLASS(launch_M72_HEAT_black_used_F)};
+    CLASS(launch_M72_HEAT_olive_ready_F)[] = {QCLASS(launch_M72_HEAT_olive_F), QCLASS(launch_M72_HEAT_olive_used_F)};
+    CLASS(launch_M72_HEAT_sand_ready_F)[] = {QCLASS(launch_M72_HEAT_sand_F), QCLASS(launch_M72_HEAT_sand_used_F)};
+    CLASS(launch_M72_HE_black_ready_F)[] = {QCLASS(launch_M72_HE_black_F), QCLASS(launch_M72_HE_black_used_F)};
+    CLASS(launch_M72_HE_olive_ready_F)[] = {QCLASS(launch_M72_HE_olive_F), QCLASS(launch_M72_HE_olive_used_F)};
+    CLASS(launch_M72_HE_sand_ready_F)[] = {QCLASS(launch_M72_HE_sand_F), QCLASS(launch_M72_HE_sand_used_F)};
 };
 
 
