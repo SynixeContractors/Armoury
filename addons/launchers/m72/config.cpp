@@ -5,7 +5,11 @@ class CfgPatches {
         name = QUOTE(DOUBLES(COMPONENT,SUBCOMPONENT));
         units[] = {};
         weapons[] = {
+            QCLASS(launch_M72_HEAT_black_F),
+            QCLASS(launch_M72_HEAT_sand_F),
             QCLASS(launch_M72_HEAT_olive_F),
+            QCLASS(launch_M72_HE_black_F),
+            QCLASS(launch_M72_HE_sand_F),
             QCLASS(launch_M72_HE_olive_F),
         };
         requiredVersion = REQUIRED_VERSION;
