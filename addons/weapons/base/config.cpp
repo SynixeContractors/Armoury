@@ -12,6 +12,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "synixe_armoury_main",
+            "cba_jr",
         };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
