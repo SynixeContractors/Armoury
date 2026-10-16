@@ -9,3 +9,12 @@ magazineWell[] = {\
     "CBA_762x39_RPK",\
     "AK_762x39",\
 }
+
+#define MAGAZINE_STANAG \
+DESCRIPTION_AR_556;\
+magazines[] = {"30Rnd_556x45_Stanag"};\
+magazineWell[] = {\
+    "CBA_556x45_STANAG",\
+    "CBA_556x45_STANAG_L",\
+    "CBA_556x45_STANAG_XL"\
+}
