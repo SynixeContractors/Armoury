@@ -5,5 +5,6 @@ class asdg_OpticRail1913: asdg_OpticRail {
         CLASS(optic_DMS) = 1;
         CLASS(optic_DMS_ghex) = 1;
         CLASS(optic_DMS_weathered) = 1;
+        CLASS(optic_DMR) = 1;
     };
 };
