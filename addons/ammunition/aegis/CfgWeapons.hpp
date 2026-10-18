@@ -46,7 +46,7 @@ class CfgWeapons {
     // G17
     class Pistol_Base_F;
     class hgun_G17_F: Pistol_Base_F {
-        magazineWell[] += {"CBA_9x21_G17"};
+        magazineWell[] += {"CBA_9x19_Glock_Flush","JCA_G17_9x19"};
     };
 
     // P320

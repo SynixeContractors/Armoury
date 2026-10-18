@@ -71,7 +71,7 @@ class CfgMagazineWells {
             QCLASS(20Rnd_127x55_AP_Mag_wood_RF)
         };
     };
-    class Pistol_9x19_RF {
+    class CBA_9x19_Glock_Full {
         ADDON[] = {
             QCLASS(17Rnd_9x19_Ball_Mag_RF),
             QCLASS(17Rnd_9x19_JHP_Mag_RF),
@@ -90,9 +90,11 @@ class CfgMagazineWells {
             QCLASS(65Rnd_9x19_AP_Mag_RF),
         };
     };
-    class CBA_9x21_G17 {
+    class CBA_9x19_Glock_Flush {
         ADDON[] = {
             QCLASS(17Rnd_9x19_Ball_Mag_RF),
+            QCLASS(17Rnd_9x19_JHP_Mag_RF),
+            QCLASS(17Rnd_9x19_AP_Mag_RF),
         };
     };
     class Pistol_DEagle_RF {
