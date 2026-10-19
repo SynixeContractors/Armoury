@@ -427,27 +427,23 @@ class CfgAmmo {
 
     // 5.7x28mm
     class CLASS(57x28_AP): B_570x28_Ball {
-        aiAmmoUsageFlags = 192;
         caliber = 1.5;
         hit = 9;
         MACRO_TRACERS;
-        ACE_caliber = 5.7;
-        ACE_bulletLength = 21.6;
-        ACE_bulletMass = 2;
-        ACE_muzzleVelocities[] = {716, 776};
-        ACE_barrelLengths[] = {264, 407};
     };
 
     // 4.6x30mm (Comparable to 5.7 with same base penetration but weaker damage)
     class CLASS(46x30_AP): CLASS(57x28_AP) {
-        ACE_caliber = 4.6;
         caliber = 1.5;
         hit = 8;
         // no tracers
         model = "";
         // DM11 "Ultimate Combat"
+        ACE_caliber = 4.6;
+        // https://www.thefirearmblog.com/blog/2016/10/24/modern-personal-defense-weapon-calibers-4-6x30mm-hk/
+        ACE_ballisticCoefficients[] = {0.141};
         ACE_standardAtmosphere = "ICAO";
-        ACE_ballisticCoefficients[] = {0.15};
+        ACE_dragModel = 1;
 
         ACE_bulletLength = 15.3;
         ACE_bulletMass = 2;
