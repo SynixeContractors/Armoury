@@ -449,7 +449,7 @@ class CfgAmmo {
         ACE_standardAtmosphere = "ICAO";
         ACE_ballisticCoefficients[] = {0.15};
 
-        ACE_bulletLength = 21.6;
+        ACE_bulletLength = 15.3;
         ACE_bulletMass = 2;
         ACE_muzzleVelocities[] = {720};
         ACE_barrelLengths[] = {180};
