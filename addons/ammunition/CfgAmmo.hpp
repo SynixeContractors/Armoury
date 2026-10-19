@@ -429,7 +429,7 @@ class CfgAmmo {
     class CLASS(57x28_AP): B_570x28_Ball {
         aiAmmoUsageFlags = 192;
         caliber = 1.5;
-        hit = 12;
+        hit = 9;
         MACRO_TRACERS;
         ACE_caliber = 5.7;
         ACE_bulletLength = 21.6;
@@ -442,7 +442,7 @@ class CfgAmmo {
     class CLASS(46x30_AP): CLASS(57x28_AP) {
         ACE_caliber = 4.6;
         caliber = 1.5;
-        hit = 9.5;
+        hit = 8;
         // no tracers
         model = "";
         // DM11 "Ultimate Combat"
