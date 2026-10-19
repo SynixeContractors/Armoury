@@ -4,6 +4,6 @@ class CfgWeapons {
         ACE_barrelLength = 180;
         ACE_barrelTwist = 160;
         ACE_twistDirection = 1;
-        magazineWell[] += {"CBA_46x30_MP7"};
+        magazineWell[] += {"CBA_46x30_MP7","SMG_04_460x30"};
     };
 };
