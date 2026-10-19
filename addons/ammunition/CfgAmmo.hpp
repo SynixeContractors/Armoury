@@ -426,7 +426,7 @@ class CfgAmmo {
     };
 
     // 5.7x28mm
-    class CLASS(57x28_Ball): B_570x28_Ball {
+    class CLASS(57x28_AP): B_570x28_Ball {
         aiAmmoUsageFlags = 192;
         caliber = 1.5;
         hit = 12;
@@ -438,18 +438,20 @@ class CfgAmmo {
         ACE_barrelLengths[] = {264, 407};
     };
 
-    // 4.6x30mm (Comparable to 5.7x28mm but slightly worse performing penetration.)
-    class CLASS(46x30_Ball): CLASS(57x28_Ball) {
-        caliber = 0.15;
-        cartridge = "FxCartridge_9mm";
-        hit = 8;
-    };
-    class CLASS(46x30_EPR): CLASS(46x30_Ball) {
-        caliber = 0.75;
-        hit = 9;
-    };
-    class CLASS(46x30_AP): CLASS(46x30_EPR) {
-        caliber = 1.25;
+    // 4.6x30mm (Comparable to 5.7 with same base penetration but weaker damage)
+    class CLASS(46x30_AP): CLASS(57x28_AP) {
+        ACE_caliber = 4.6;
+        caliber = 1.5;
         hit = 9.5;
+        // no tracers
+        model = "";
+        // DM11 "Ultimate Combat"
+        ACE_standardAtmosphere = "ICAO";
+        ACE_ballisticCoefficients[] = {0.15};
+
+        ACE_bulletLength = 21.6;
+        ACE_bulletMass = 2;
+        ACE_muzzleVelocities[] = {720};
+        ACE_barrelLengths[] = {180};
     };
 };
