@@ -39,7 +39,7 @@ class CfgMagazineWells {
             QCLASS(20Rnd_762x51_AP_SCAR_Aegis),
         };
     };
-    class CBA_9x21_G17 {
+    class CBA_9x19_Glock_Flush {
         ADDON[] = {
             QCLASS(17Rnd_9x21_Ball_G17_Aegis)
         };
