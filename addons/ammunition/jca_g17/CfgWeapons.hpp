@@ -4,6 +4,6 @@ class CfgWeapons {
         ACE_barrelLength = 114;
         ACE_barrelTwist = 254;
         ACE_twistDirection = 1;
-        magazineWell[] += {"CBA_9x19_Glock_Flush"};
+        magazineWell[] += {"CBA_9x19_Glock_Flush", "G17_9x21"};
     };
 };

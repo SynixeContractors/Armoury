@@ -5,6 +5,6 @@ class CfgWeapons {
         magazineWell[] += {"CBA_556x45_STANAG"};
     };
     class hgun_Glock19_RF: Pistol_Base_F {
-        magazineWell[] += {"CBA_9x19_Glock_Full","CBA_9x19_Glock_Flush"};
+        magazineWell[] += {"CBA_9x19_Glock_Full","CBA_9x19_Glock_Flush","G17_9x21"};
     };
 };
