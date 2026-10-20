@@ -4,18 +4,14 @@ class Aegis_20Rnd_570x28_RP57_Mag;
 class CLASS(10Rnd_57x28_Ball): Aegis_10Rnd_570x28_RP57_Mag {
     MACRO_SCOPE;
     ammo = QCLASS(57x28_AP);
-    displayName = "5.7mm 10Rnd RP57 (AP)";
-    displayNameShort = "AP";
-    descriptionShort = "5.7x28mm AP Reload Tracer";
     lastRoundsTracer = 2;
     mass = 3;
+    AMMO_DESCRIPTION(5.7mm,AP,10,Reload Tracer,RP57);
 };
 class CLASS(20Rnd_57x28_Ball): Aegis_20Rnd_570x28_RP57_Mag {
     MACRO_SCOPE;
     ammo = QCLASS(57x28_AP);
-    displayName = "5.7mm 20Rnd RP57 (AP)";
-    displayNameShort = "AP";
-    descriptionShort = "5.7x28mm AP Reload Tracer";
-    lastRoundsTracer = 2;
+    lastRoundsTracer = 4;
+    AMMO_DESCRIPTION(5.7mm,AP,20,Reload Tracer,RP57);
     mass = 6;
 };
