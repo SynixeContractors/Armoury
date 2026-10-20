@@ -21,6 +21,7 @@ class CfgWeapons {
         class ItemInfo: InventoryOpticsItem_Base_F {
           class OpticsModes {
                 class ARCO2scope;
+                class ARCO2collimator;
             };
         };
     };
@@ -39,6 +40,7 @@ class CfgWeapons {
                     opticsZoomInit = 0.25/6;
                     opticsZoomMax = 0.25/6;
                 };
+                class ARCO2collimator: ARCO2collimator {};
             };
         };
     };
