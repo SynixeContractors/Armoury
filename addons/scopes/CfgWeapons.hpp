@@ -1,18 +1,26 @@
 class CfgWeapons {
     class InventoryOpticsItem_Base_F;
-    class optic_DMS;
+    class ItemCore;
+    class optic_DMS: ItemCore {
+        class ItemInfo: InventoryOpticsItem_Base_F {
+            class OpticsModes {
+                class Snip;
+                class Iron;
+            };
+        };
+    };
 
     class CLASS(optic_DMS): optic_DMS {
         displayName = "Burris XTR III";
         MACRO_NULL_SCOPE;
-        class ItemInfo: InventoryOpticsItem_Base_F {
+        class ItemInfo: ItemInfo {
             //unfortunatelly ace destroys this, so we have to restore it manually
             mass = 12;
             opticType = 2;
             optics = 1;
             modelOptics = "\A3\Weapons_f\acc\reticle_marksman_F";
-            class OpticsModes {
-                class Snip {
+            class OpticsModes: OpticsModes {
+                class Snip: Snip {
                     opticsID = 1;
                     useModelOptics = 1;
                     opticsPPEffects[] = {"OpticsCHAbera2","OpticsBlur3"};
@@ -32,6 +40,7 @@ class CfgWeapons {
                     opticsDisablePeripherialVision = 1;
                     cameraDir = "";
                 };
+                class Iron: Iron {};
             };
         };
     };
