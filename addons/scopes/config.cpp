@@ -8,7 +8,8 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "synixe_armoury_main",
-            "cba_jr"
+            "cba_jr",
+            "ace_scopes",
         };
         author = ECSTRING(main,Author);
         authors[] = {"Philippe Connect"};
