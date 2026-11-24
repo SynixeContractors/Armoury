@@ -4,5 +4,6 @@ class CfgMagazines {
         MACRO_SCOPE;
         ammo = QCLASS(46x30_AP);
         AMMO_DESCRIPTION(4.6mm,AP,40,Reload Tracer,MP7A2);
+        mass = 9;
     };
 };
