@@ -4,6 +4,7 @@ class CLASS(17Rnd_9x19mm_Walther_Ball): 16Rnd_9x21_Mag {
     lastRoundsTracer = 2;
     tracersEvery = 4;
     AMMO_DESCRIPTION(9x19mm,Ball,17,Reload Tracer,Walther);
+    mass = 5;
 };
 class CLASS(17Rnd_9x19mm_Walther_JHP): CLASS(17Rnd_9x19mm_Walther_Ball) {
     ammo = QCLASS(9x19_JHP);
@@ -20,7 +21,7 @@ class CLASS(30Rnd_9x19_Ball): 30Rnd_9x21_Mag {
     ammo = QCLASS(9x19_Ball);
     lastRoundsTracer = 4;
     tracersEvery = 4;
-    mass = 9;
+    mass = 8;
     AMMO_DESCRIPTION(9x19mm,Ball,30,Reload Tracer,CZ);
 };
 class CLASS(30Rnd_9x19_Ball_Tracer): CLASS(30Rnd_9x19_Ball) {

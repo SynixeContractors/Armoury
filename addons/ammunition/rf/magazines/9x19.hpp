@@ -5,6 +5,7 @@ class CLASS(17Rnd_9x19_Ball_Mag_RF): 17Rnd_9x19_Mag_RF {
     lastRoundsTracer = 2;
     tracersEvery = 4;
     AMMO_DESCRIPTION(9x19mm,Ball,17,Reload Tracer,G19);
+    mass = 5;
 };
 class CLASS(17Rnd_9x19_JHP_Mag_RF): CLASS(17Rnd_9x19_Ball_Mag_RF) {
     ammo = QCLASS(9x19_JHP);
@@ -22,6 +23,7 @@ class CLASS(33Rnd_9x19_Ball_Mag_RF): 33Rnd_9x19_Mag_RF {
     lastRoundsTracer = 4;
     tracersEvery = 4;
     AMMO_DESCRIPTION(9x19mm,Ball,33,Reload Tracer,G19);
+    mass = 8;
 };
 class CLASS(33Rnd_9x19_JHP_Mag_RF): CLASS(33Rnd_9x19_Ball_Mag_RF) {
     ammo = QCLASS(9x19_JHP);
@@ -39,6 +41,7 @@ class CLASS(33Rnd_9x19_Ball_Mag_khk_RF): 33Rnd_9x19_Mag_khk_RF {
     lastRoundsTracer = 4;
     tracersEvery = 4;
     AMMO_DESCRIPTION(9x19mm,Ball,33,Reload Tracer,G19 Olive);
+    mass = 8;
 };
 class CLASS(33Rnd_9x19_JHP_Mag_khk_RF): CLASS(33Rnd_9x19_Ball_Mag_khk_RF) {
     ammo = QCLASS(9x19_JHP);
@@ -56,6 +59,7 @@ class CLASS(33Rnd_9x19_Ball_Mag_Tan_RF): 33Rnd_9x19_Mag_Tan_RF {
     lastRoundsTracer = 4;
     tracersEvery = 4;
     AMMO_DESCRIPTION(9x19mm,Ball,33,Reload Tracer,G19 Tan);
+    mass = 8;
 };
 class CLASS(33Rnd_9x19_JHP_Mag_Tan_RF): CLASS(33Rnd_9x19_Ball_Mag_Tan_RF) {
     ammo = QCLASS(9x19_JHP);
@@ -73,6 +77,7 @@ class CLASS(65Rnd_9x19_Ball_Mag_RF): 65Rnd_9x19_Mag_RF {
     lastRoundsTracer = 4;
     tracersEvery = 4;
     AMMO_DESCRIPTION(9x19mm,Ball,65,Reload Tracer,G19);
+    mass = 20; //its awkward AF
 };
 class CLASS(65Rnd_9x19_JHP_Mag_RF): CLASS(65Rnd_9x19_Ball_Mag_RF) {
     ammo = QCLASS(9x19_JHP);

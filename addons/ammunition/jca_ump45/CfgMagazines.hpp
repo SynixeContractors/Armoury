@@ -5,6 +5,7 @@ class CfgMagazines {
         ammo = QCLASS(45ACP_Ball);
         lastRoundsTracer = 2;
         AMMO_DESCRIPTION(45ACP,Ball,25,Reload Tracer,UMP);
+        mass = 8;
     };
     class CLASS(25Rnd_45ACP_JHP_UMP_JCA): CLASS(25Rnd_45ACP_Ball_UMP_JCA) {
         ammo = QCLASS(45ACP_JHP);

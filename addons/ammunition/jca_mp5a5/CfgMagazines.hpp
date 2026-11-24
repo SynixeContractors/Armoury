@@ -5,6 +5,7 @@ class CfgMagazines {
         ammo = QCLASS(9x19_Ball);
         lastRoundsTracer = 2;
         AMMO_DESCRIPTION(9x19mm,Ball,30,Reload Tracer,MP5);
+        mass = 8;
     };
     class CLASS(30Rnd_9x19_Ball_Tracer_MP5_JCA): JCA_30Rnd_9x19_MP5_Mag {
         MACRO_SCOPE;

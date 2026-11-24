@@ -4,6 +4,7 @@ class CLASS(7Rnd_50AE_Ball_Mag_RF): 7Rnd_50AE_Mag_RF {
     lastRoundsTracer = 2;
     tracersEvery = 4;
     AMMO_DESCRIPTION(50AE,Ball,7,Reload Tracer,Desert Eagle);
+    mass = 6;
 };
 class CLASS(7Rnd_50AE_JHP_Mag_RF): CLASS(7Rnd_50AE_Ball_Mag_RF) {
     ammo = QCLASS(50AE_JHP);
