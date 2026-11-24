@@ -18,7 +18,7 @@ class CfgMagazines {
     };
 
     class ATMine_Range_Mag;
-    class CLASS(ATMine_Range_Training): ATMine_Range_Mag {
+    class CLASS(ATMine_Range_Training_Mag): ATMine_Range_Mag {
         displayName = "AT Mine (Training)";
         ammo = QCLASS(ATMine_Range_Training_Ammo);
     };
@@ -97,7 +97,7 @@ class CfgMagazines {
     class CLASS(1Rnd_Smoke_Grenade_shell_Training): 1Rnd_Smoke_Grenade_shell {
         displayName = "M715T Smoke (White)";
         displayNameShort = "White (Training)";
-        ammo = QCLASS(SmokeShell_Training);
+        ammo = QCLASS(G_40mm_Smoke_Training);
     };
 
     class 1Rnd_SmokeGreen_Grenade_shell: 1Rnd_Smoke_Grenade_shell {

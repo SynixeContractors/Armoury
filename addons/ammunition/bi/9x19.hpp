@@ -1,6 +1,7 @@
 class CLASS(17Rnd_9x19mm_Walther_Ball): 16Rnd_9x21_Mag {
     MACRO_SCOPE;
     ammo = QCLASS(9x19_Ball);
+    count = 17;
     lastRoundsTracer = 2;
     tracersEvery = 4;
     AMMO_DESCRIPTION(9x19mm,Ball,17,Reload Tracer,Walther);

@@ -11,7 +11,7 @@ class CfgWeapons {
     };
     class CLASS(EODHeavyVest_Gry): CLASS(EODHeavyVest_Blk) {
         author = "GilleeDoo, Mike";
-        displayName = "EOD Heavy Vest (Grijs)";
+        displayName = "EOD Heavy Vest (Grey)";
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\equip_ia_vest01_gry_co.paa),
             QPATHTOF(data\ga_carrier_gl_rig_gry_co.paa)

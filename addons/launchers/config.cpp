@@ -7,6 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
+            "synixe_armoury_main",
             "ace_common",
             "ace_missile_clgp"
         };

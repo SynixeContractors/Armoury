@@ -2,7 +2,7 @@
 
 class CfgPatches {
     class ADDON {
-        name = QUOTE(COMPONENT);
+        name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {
             QCLASS(hidden_ballistic_vest_01),
@@ -13,7 +13,9 @@ class CfgPatches {
         requiredAddons[] = {
             "synixe_armoury_main"
         };
-        author = "Brett";
+        author = ECSTRING(main,Author);
+        authors[] = {"Brett"};
+        url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };

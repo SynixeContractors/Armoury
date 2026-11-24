@@ -2,6 +2,7 @@
 class CLASS(15Rnd_45ACP_FNX45_Ball): 11Rnd_45ACP_Mag {
     MACRO_SCOPE;
     ammo = QCLASS(45ACP_Ball);
+    count = 15;
     lastRoundsTracer = 2;
     tracersEvery = 4;
     AMMO_DESCRIPTION(.45ACP,Ball,15,Reload Tracer,FNX);
@@ -19,6 +20,7 @@ class CLASS(15Rnd_45ACP_FNX45_Ball_P): CLASS(15Rnd_45ACP_FNX45_Ball) {
 class CLASS(8Rnd_45ACP_C1911_Ball): 9Rnd_45ACP_Mag {
     MACRO_SCOPE;
     ammo = QCLASS(45ACP_Ball);
+    count = 8;
     lastRoundsTracer = 2;
     tracersEvery = 4;
     AMMO_DESCRIPTION(.45ACP,Ball,8,Reload Tracer,1911);
@@ -32,6 +34,7 @@ class CLASS(8Rnd_45ACP_C1911_JHP):  CLASS(8Rnd_45ACP_C1911_Ball) {
 class CLASS(25Rnd_45ACP_Ball): 30Rnd_45ACP_Mag_SMG_01 {
     MACRO_SCOPE;
     ammo = QCLASS(45ACP_Ball);
+    count = 25;
     lastRoundsTracer = 4;
     tracersEvery = 4;
     mass = 9;
