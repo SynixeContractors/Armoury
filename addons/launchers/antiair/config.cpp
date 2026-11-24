@@ -8,7 +8,7 @@ class CfgPatches {
             QCLASS(launch_NSAM_F),
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ace_common"};
+        requiredAddons[] = {QCLASS(launchers), "ace_missileguidance", "ace_missile_manpad"};
         author = ECSTRING(main,Author);
         authors[] = {"Philippe Connect"};
         url = ECSTRING(main,URL);

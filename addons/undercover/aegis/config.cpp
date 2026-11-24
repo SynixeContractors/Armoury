@@ -2,7 +2,7 @@
 
 class CfgPatches {
     class ADDON {
-        name = QUOTE(COMPONENT);
+        name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {
             QCLASS(aegis_v_carrierrigkbt_01_holster_black_f_heavy),
@@ -43,6 +43,9 @@ class CfgPatches {
             "A3_Aegis_Characters_F_Aegis_Vests"
         };
         skipWhenMissingDependencies = 1;
+        author = ECSTRING(main,Author);
+        authors[] = {"Brett"};
+        url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };

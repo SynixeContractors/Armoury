@@ -16,6 +16,7 @@ class CfgPatches {
         requiredAddons[] = {
             "synixe_armoury_main",
             "Weapons_F_lxWS_Rifles",
+            "A3_Aegis_Weapons_F_Aegis_Rifles_M16",
         };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);

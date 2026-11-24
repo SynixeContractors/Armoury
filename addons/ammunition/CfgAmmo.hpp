@@ -221,7 +221,8 @@ class CfgAmmo {
         ACE_barrelLengths[] = {640};
     };
     class CLASS(58x42_AP): CLASS(58x42_EPR) {
-        caliber = 11;
+        caliber = 1.65;
+        hit = 11;
     };
 
     // 5.56x45mm

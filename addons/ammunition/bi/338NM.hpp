@@ -25,5 +25,5 @@ class CLASS(130Rnd_338NM_AP): CLASS(130Rnd_338NM_EPR) {
     ammo = QCLASS(338NM_AP);
     displayName = ".338NM 130Rnd Belt (TE4) (AP)";
     displayNameShort = "AP TE4";
-    descriptionShort = ".338NM EPR Tracer Every 4";
+    descriptionShort = ".338NM AP Tracer Every 4";
 };

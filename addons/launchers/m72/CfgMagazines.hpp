@@ -7,7 +7,7 @@ class CfgMagazines {
     };
     class CLASS(M72_HEAT): JCA_M72_HEAT_F {
         ammo = QCLASS(M_M72_HEAT);
-        descriptionShort = "Type: M72A7 HEAT Rocket<br />Rounds: 1<br />Used in: M72A5";
+        descriptionShort = "Type: M72A5 HEAT Rocket<br />Rounds: 1<br />Used in: M72A5";
         displayName = "M72A5 HEAT Round";
         displayNameShort = "HEAT";
     };

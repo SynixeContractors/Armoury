@@ -33,10 +33,14 @@ class CLASS(4Rnd_P_000): CLASS(2Rnd_P_000) {
 
 class CLASS(4Rnd_S_AP20): CLASS(2Rnd_S_AP20) {
     displayName = "4Rnd (Slug)";
+    count = 4;
+    mass = 4;
 };
 
 class CLASS(4Rnd_Smoke): CLASS(2Rnd_Smoke) {
     displayName = "4Rnd (Smoke)";
+    count = 4;
+    mass = 4;
 };
 
 // 6Rnd
@@ -46,7 +50,7 @@ class CLASS(6Rnd_P_000): CLASS(4Rnd_P_000) {
     mass = 6;
 };
 
-class CLASS(6Rnd_S_AP20): CLASS(4Rnd_P_000) {
+class CLASS(6Rnd_S_AP20): CLASS(4Rnd_S_AP20) {
     displayName = "6Rnd (Slug)";
     count = 6;
     mass = 6;

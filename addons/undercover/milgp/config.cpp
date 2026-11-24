@@ -2,7 +2,7 @@
 
 class CfgPatches {
     class ADDON {
-        name = QUOTE(COMPONENT);
+        name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {
             QCLASS(synixe_mgp_vest_battle_belt_assaulter_aor1_heavy),
@@ -60,6 +60,9 @@ class CfgPatches {
             "synixe_milgp_vests",
         };
         skipWhenMissingDependencies = 1;
+        author = ECSTRING(main,Author);
+        authors[] = {"Brett"};
+        url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };

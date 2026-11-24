@@ -6,7 +6,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {QCLASS(launchers)};
+        requiredAddons[] = {QCLASS(launchers), QCLASS(launchers_maaws)};
         author = ECSTRING(main,Author);
         authors[] = {"Philippe Connect"};
         url = ECSTRING(main,URL);

@@ -96,7 +96,7 @@ class CLASS(45Rnd_545x39_AP_Aegis): CLASS(45Rnd_545x39_Ball_Aegis) {
 class CLASS(45Rnd_545x39_Ball_Tracer_Aegis): CLASS(45Rnd_545x39_Ball_Aegis) {
     displayName = "5.45mm 45Rnd (T) Ball";
     displayNameShort = "Ball TE1";
-    descriptionShort = "5.45x39mm EPR Tracer every 4";
+    descriptionShort = "5.45x39mm Ball Tracer";
     tracersEvery = 1;
 };
 

@@ -128,7 +128,15 @@ class CBA_556x45_STANAG_2D_XL {
         QCLASS(150Rnd_556x45_Ball_Drum),
         QCLASS(150Rnd_556x45_Ball_Tracer_Drum),
         QCLASS(150Rnd_556x45_EPR_Drum),
-        QCLASS(150Rnd_556x45_AP_Drum)
+        QCLASS(150Rnd_556x45_AP_Drum),
+        QCLASS(150Rnd_556x45_Ball_Drum_Green),
+        QCLASS(150Rnd_556x45_Ball_Tracer_Drum_Green),
+        QCLASS(150Rnd_556x45_EPR_Drum_Green),
+        QCLASS(150Rnd_556x45_AP_Drum_Green),
+        QCLASS(150Rnd_556x45_Ball_Drum_Sand),
+        QCLASS(150Rnd_556x45_Ball_Tracer_Drum_Sand),
+        QCLASS(150Rnd_556x45_EPR_Drum_Sand),
+        QCLASS(150Rnd_556x45_AP_Drum_Sand)
     };
 };
 
@@ -306,7 +314,8 @@ class CBA_762x54R_LINKS {
     ADDON[] = {
         QCLASS(150Rnd_762x54r_Ball_Belt),
         QCLASS(150Rnd_762x54r_Ball_Tracer_Belt),
-        QCLASS(150Rnd_762x54r_EPR_Belt)
+        QCLASS(150Rnd_762x54r_EPR_Belt),
+        QCLASS(150Rnd_762x54r_AP_Belt)
     };
 };
 class CBA_338NM_LINKS {
