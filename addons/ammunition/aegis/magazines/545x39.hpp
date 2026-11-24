@@ -209,7 +209,7 @@ class CLASS(30Rnd_545x39_Ball_Metal): 30Rnd_545x39_Steel_Mag_Green_F {
     displayNameShort = "Ball TE4";
     descriptionShort = "5.45x39mm Ball Tracer Every 4";
     tracersEvery = 4;
-    mass = 20;
+    mass = 10;
 };
 class CLASS(30Rnd_545x39_EPR_Metal): CLASS(30Rnd_545x39_Ball_Metal) {
     ammo = QCLASS(545x39_EPR);
