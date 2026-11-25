@@ -26,9 +26,11 @@ class CfgMagazines {
         mass = 5;
     };
     class CLASS(17Rnd_9x19_JHP_M9A1_JCA): CLASS(17Rnd_9x19_Ball_M9A1_JCA) {
+        ammo = QCLASS(9x19_JHP);
         AMMO_DESCRIPTION(9x19mm,JHP,17,Reload Tracer,M9A3);
     };
-    class CLASS(17Rnd_9x19_AP_M9A1_JCA): CLASS(17Rnd_9x19_JHP_M9A1_JCA) {
+    class CLASS(17Rnd_9x19_AP_M9A1_JCA): CLASS(17Rnd_9x19_Ball_M9A1_JCA) {
+        ammo = QCLASS(9x19_AP);
         AMMO_DESCRIPTION(9x19mm,AP,17,Reload Tracer,M9A3);
     };
 };
