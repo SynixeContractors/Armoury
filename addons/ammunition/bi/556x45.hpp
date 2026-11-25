@@ -66,7 +66,7 @@ class CLASS(30Rnd_556x45_Ball_Metal): 30Rnd_556x45_Stanag {
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
     tracersEvery = 4;
-    mass = 8.5; // to match WS plastic ones since basegame was lighter
+    mass = 10;
 };
 class CLASS(30Rnd_556x45_Ball_Tracer_Metal): CLASS(30Rnd_556x45_Ball_Metal) {
     displayName = "5.56mm 30Rnd Metal [T] (Ball)";

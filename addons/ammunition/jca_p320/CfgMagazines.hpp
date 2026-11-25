@@ -6,6 +6,7 @@ class CfgMagazines {
         lastRoundsTracer = 2;
         count = 17; //even compact fits the flush army 17Rnd
         AMMO_DESCRIPTION(9x19mm,Ball,17,Reload Tracer,P320);
+        mass = 5;
     };
     class CLASS(17Rnd_9x19_JHP_P320_JCA): CLASS(17Rnd_9x19_Ball_P320_JCA) {
         ammo = QCLASS(9x19_JHP);

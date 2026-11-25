@@ -5,5 +5,5 @@ class CLASS(50Rnd_57x28_Ball): 50Rnd_570x28_SMG_03 {
     AMMO_DESCRIPTION(5.7mm,AP,50,Reload Tracer,P90);
     lastRoundsTracer = 4;
     tracersEvery = 4;
-    mass = 12;
+    mass = 11;
 };

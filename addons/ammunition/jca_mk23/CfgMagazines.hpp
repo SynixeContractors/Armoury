@@ -6,6 +6,7 @@ class CfgMagazines {
         lastRoundsTracer = 2;
         tracersEvery = 4;
         AMMO_DESCRIPTION(45ACP,Ball,12,Reload Tracer,Mk23);
+        mass = 4.5;
     };
     class CLASS(12Rnd_45ACP_Ball_P_Mk23_JCA): CLASS(12Rnd_45ACP_Ball_Mk23_JCA) {
         MACRO_SCOPE;

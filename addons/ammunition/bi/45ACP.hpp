@@ -6,6 +6,7 @@ class CLASS(15Rnd_45ACP_FNX45_Ball): 11Rnd_45ACP_Mag {
     lastRoundsTracer = 2;
     tracersEvery = 4;
     AMMO_DESCRIPTION(.45ACP,Ball,15,Reload Tracer,FNX);
+    mass = 5;
 };
 class CLASS(15Rnd_45ACP_FNX45_JHP): CLASS(15Rnd_45ACP_FNX45_Ball) {
     ammo = QCLASS(45ACP_JHP);
@@ -24,6 +25,7 @@ class CLASS(8Rnd_45ACP_C1911_Ball): 9Rnd_45ACP_Mag {
     lastRoundsTracer = 2;
     tracersEvery = 4;
     AMMO_DESCRIPTION(.45ACP,Ball,8,Reload Tracer,1911);
+    mass = 4;
 };
 class CLASS(8Rnd_45ACP_C1911_JHP):  CLASS(8Rnd_45ACP_C1911_Ball) {
     ammo = QCLASS(45ACP_JHP);
@@ -37,7 +39,7 @@ class CLASS(25Rnd_45ACP_Ball): 30Rnd_45ACP_Mag_SMG_01 {
     count = 25;
     lastRoundsTracer = 4;
     tracersEvery = 4;
-    mass = 9;
+    mass = 8;
     AMMO_DESCRIPTION(.45ACP,Ball,25,Reload Tracer,Glock);
 };
 class CLASS(25Rnd_45ACP_Ball_Tracer): CLASS(25Rnd_45ACP_Ball) {
@@ -60,4 +62,5 @@ class CLASS(6Rnd_45ACP_Ball_Cylinder): 6Rnd_45ACP_Cylinder {
     lastRoundsTracer = 2;
     tracersEvery = 4;
     AMMO_DESCRIPTION(.45ACP,Ball,6,Reload Tracer,Cylinder);
+    mass = 4;
 };

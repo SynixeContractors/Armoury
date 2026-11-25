@@ -177,6 +177,7 @@ class CLASS(30Rnd_556x45_Ball_Stanag_RF): 30Rnd_556x45_AP_Stanag_RF {
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
     tracersEvery = 4;
+    mass = 10;
 };
 class CLASS(30Rnd_556x45_Ball_Tracer_Stanag_RF): CLASS(30Rnd_556x45_Ball_Stanag_RF) {
     displayName = "5.56mm 30Rnd Plastic [T] (Ball)";
@@ -205,6 +206,7 @@ class CLASS(30Rnd_556x45_Ball_Stanag_Tan_RF): 30Rnd_556x45_AP_Stanag_Tan_RF {
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
     tracersEvery = 4;
+    mass = 10;
 };
 class CLASS(30Rnd_556x45_Ball_Tracer_Stanag_Tan_RF): CLASS(30Rnd_556x45_Ball_Stanag_Tan_RF) {
     displayName = "5.56mm 30Rnd Plastic Tan [T] (Ball)";
@@ -233,6 +235,7 @@ class CLASS(30Rnd_556x45_Ball_Stanag_khk_RF): 30Rnd_556x45_AP_Stanag_khk_RF {
     descriptionShort = "5.56x45mm Ball Reload Tracer";
     lastRoundsTracer = 4;
     tracersEvery = 4;
+    mass = 10;
 };
 class CLASS(30Rnd_556x45_Ball_Tracer_Stanag_khk_RF): CLASS(30Rnd_556x45_Ball_Stanag_khk_RF) {
     displayName = "5.56mm 30Rnd Plastic Olive [T] (Ball)";
